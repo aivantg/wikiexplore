@@ -2,7 +2,7 @@ import wikipedia
 import requests
 import json
 import time
-import urllib.parse
+import urllib
 
 start_term = "Albert Einstein"
 
@@ -37,19 +37,12 @@ def get_second_degree(title):
 def get_people_referenced(title):
     start = time.time()
     page = wikipedia.page(title)
-    print("Loaded Page in", time.time() - start, "seconds")
+    #print("Loaded Page in", time.time() - start, "seconds")
     start = time.time()
     referenced = []
-    print(title, "has", len(page.links), "links")
+    #print(title, "has", len(page.links), "links")
     for link in page.links:
         if link in humans:
             referenced.append(link)
-    print("Took", time.time() - start, "seconds to get", len(referenced), "referenced people.")
+    #print("Took", time.time() - start, "seconds to get", len(referenced), "referenced people.")
     return referenced
-
-
-get_second_degree("Abigail Adams")
-get_second_degree("Stephen Hawking")
-get_second_degree("Mao Zedong")
-get_second_degree("Donald Trump")
-get_second_degree("Barack Obama")
