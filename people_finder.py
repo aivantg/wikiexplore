@@ -1,4 +1,4 @@
-import wikipedia
+import wikirequests
 import requests
 import json
 import time
@@ -36,13 +36,13 @@ def get_second_degree(title):
 
 def get_people_referenced(title):
     start = time.time()
-    page = wikipedia.page(title)
-    #print("Loaded Page in", time.time() - start, "seconds")
+    page_links, links_here = wikirequests.get(title)
+    print("Loaded Page in", time.time() - start, "seconds")
     start = time.time()
     referenced = []
-    #print(title, "has", len(page.links), "links")
-    for link in page.links:
+    print(title, "has", len(page_links), "links")
+    for link in page_links:
         if link in humans:
             referenced.append(link)
-    #print("Took", time.time() - start, "seconds to get", len(referenced), "referenced people.")
-    return referenced
+    print("Took", time.time() - start, "seconds to get", len(referenced), "referenced people.")
+    return referenced, len(links_here)
