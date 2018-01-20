@@ -45,4 +45,4 @@ def get_people_referenced(title):
         if link in humans:
             referenced.append(link)
     print("Took", time.time() - start, "seconds to get", len(referenced), "referenced people.")
-    return referenced, len(links_here)
+    return referenced
