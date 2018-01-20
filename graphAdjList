@@ -1,0 +1,6430 @@
+#wikiGraph.py
+# GMT Sat Jan 20 18:24:57 2018
+# 
+Henrik Ibsen 0
+Francis Galton 0
+George Papandreou 0
+Claude Lévi-Strauss 0
+Emily Dickinson 0
+Houston Stewart Chamberlain 0
+Barbara Sukowa 0
+Gopal Ganesh Agarkar 0
+Sewall Wright 0
+Plato 0
+Niels Kaj Jerne 0
+Karl Polanyi 0
+Oprah Winfrey 0
+Hugh Hefner 0
+Robert Solow 0
+Bill Walton 0
+G. K. Chesterton 0
+Linus Pauling 0
+David D. Friedman 0
+Matthew Arnold 0
+Valerian Kuybyshev 0
+Algirdas Julien Greimas 0
+Charles Kingsley 0
+Sandra Oh 0
+Benjamin Constant 0
+Ivo Andrić 0
+Carl Jung 0
+Salvador Allende 0
+Ignacio Ramírez 0
+Raymond Cattell 0
+Jacques Maritain 0
+Johann Heinrich Pestalozzi 0
+Sacagawea 0
+Jean-François Lyotard 0
+Mozi 0
+Henrik Pontoppidan 0
+John Howard 0
+Heraclitus 0
+Umberto I of Italy 0
+Hugo Kołłątaj 0
+Milton H. Erickson 0
+Georges Cuvier 0
+Nikolay Ogarev 0
+Sarvepalli Radhakrishnan 0
+Jacques Ellul 0
+Rosa Parks 0
+Britta Böhler 0
+Harriet Williams Russell Strong 0
+Siegfried Kracauer 0
+Martin Buber 0
+Albert Hofmann 0
+Albert Soboul 0
+Albert Ellis 0
+Leonard Trelawny Hobhouse 0
+Étienne Bonnot de Condillac 0
+Jean Baudrillard 0
+Lupe Fiasco 0
+Adamantios Androutsopoulos 0
+G. E. M. Anscombe 0
+Marco Pannella 0
+Georg Cantor 0
+Konstantin Chernenko 0
+Rudolf Clausius 0
+Clara Zetkin 0
+Max Wertheimer 0
+Ruth Benedict 0
+Henry David Thoreau 0
+Frans Eemil Sillanpää 0
+Derek Walcott 0
+Charles Stewart Parnell 0
+Nicolas Malebranche 0
+J. M. G. Le Clézio 0
+Milly Witkop 0
+James Halliwell-Phillipps 0
+Heinrich Böll 0
+Peter Benenson 0
+Selma Lagerlöf 0
+John Bellamy Foster 0
+Donna de Varona 0
+Stephen Born 0
+Thomas Moore 0
+Erich Mühsam 0
+Cesare Beccaria 0
+Charles Wheatstone 0
+Honoré de Balzac 0
+Dennis Kucinich 0
+Alberto Giacometti 0
+Eyvind Johnson 0
+Benjamin Disraeli 0
+Dušan Makavejev 0
+Parmenides 0
+Bram Stoker 0
+Friedrich Nietzsche 0
+Irvin D. Yalom 0
+Alan Paton 0
+Zeth Höglund 0
+John William Waterhouse 0
+Georges Duby 0
+Joan Robinson 0
+Hans Magnus Enzensberger 0
+Konstantinos Tsatsos 0
+Nikita Khrushchev 0
+Friedrich Engels 195
+Jeremy Bentham {}
+Isaiah Berlin {}
+Martin Heidegger {}
+Jacob Marschak {}
+Mahatma Gandhi {}
+Georgi Plekhanov {}
+Nikolay Chernyshevsky {}
+Ludwig Feuerbach {}
+Thomas More {}
+Laozi {}
+Baruch Spinoza {}
+Ernst Thälmann {}
+Niccolò Machiavelli {}
+Max Horkheimer {}
+Peter Nothjung {}
+Thomas Jefferson {}
+Karl Polanyi {}
+Josip Broz Tito {}
+Benjamin Franklin {}
+Nelson Mandela {}
+Robert Solow {}
+Reinhold Niebuhr {}
+Alfred Marshall {}
+Leo Strauss {}
+Tommaso Campanella {}
+Paul Samuelson {}
+Ho Chi Minh {}
+Bruno Bauer {}
+Montesquieu {}
+Heinrich Heine {}
+Justus Möser {}
+Socrates {}
+Immanuel Kant {}
+Gary Becker {}
+Joseph Weydemeyer {}
+Søren Kierkegaard {}
+Ferdinand Freiligrath {}
+Luce Irigaray {}
+Zygmunt Bauman {}
+Sun Tzu {}
+Mencius {}
+Guy Debord {}
+Jean-Jacques Rousseau {}
+Fidel Castro {}
+Muhammad {}
+John Locke {}
+Michael Walzer {}
+Friedrich Hayek {}
+Aristotle {}
+Salvador Allende {}
+Robert Owen {}
+Milton Friedman {}
+Jacques Maritain {}
+Vladimir Lenin {}
+Mozi {}
+György Lukács {}
+Judith Butler {}
+Max Stirner {}
+Heraclitus {}
+Giovanni Gentile {}
+Karl Popper {}
+Hugo Grotius {}
+Sarvepalli Radhakrishnan {}
+Eugen Dühring {}
+Carl Schmitt {}
+Slavoj Žižek {}
+Bertrand Russell {}
+Ernest Renan {}
+Walter Benjamin {}
+Ragnar Frisch {}
+Hippolyte Taine {}
+Antonie Pannekoek {}
+Mao Zedong {}
+Erich Fromm {}
+Enver Hoxha {}
+Joseph Schumpeter {}
+Émile Durkheim {}
+Raymond Aron {}
+Arnold Ruge {}
+Amartya Sen {}
+Joseph de Maistre {}
+Karl Kautsky {}
+Jean Baudrillard {}
+Thomas Sankara {}
+Eduard Bernstein {}
+Kenneth Arrow {}
+David Hume {}
+C. Wright Mills {}
+Al-Ghazali {}
+Napoleon III {}
+Georg Weerth {}
+Ernst Dronke {}
+James Connolly {}
+Marsilius of Padua {}
+Thomas Paine {}
+Tjalling Koopmans {}
+John Maynard Keynes {}
+Mikhail Bakunin {}
+Clara Zetkin {}
+Plato {}
+Augustine of Hippo {}
+John Searle {}
+Lewis H. Morgan {}
+Henry David Thoreau {}
+Voltaire {}
+Averroes {}
+Nicolas Malebranche {}
+Adam Smith {}
+B. R. Ambedkar {}
+Howard Zinn {}
+Michel Foucault {}
+Wilhelm Reich {}
+Auguste Comte {}
+Gustave Le Bon {}
+David Strauss {}
+Robert Nozick {}
+Thomas Hobbes {}
+Rosa Luxemburg {}
+George Santayana {}
+Eric Hobsbawm {}
+Marquis de Sade {}
+Stephen Born {}
+Werner Sombart {}
+Charles Fourier {}
+John Rawls {}
+Confucius {}
+Ralph Waldo Emerson {}
+Karl Marx {}
+Kim Il-sung {}
+Joseph Stalin {}
+Francis Ysidro Edgeworth {}
+Karl Liebknecht {}
+Chanakya {}
+Russell Kirk {}
+Robert Michels {}
+Othmar Spann {}
+Noam Chomsky {}
+José Ortega y Gasset {}
+Friedrich Nietzsche {}
+Karl Schapper {}
+Herbert A. Simon {}
+Louis Althusser {}
+Herbert Spencer {}
+Alain Badiou {}
+Paul Krugman {}
+Jürgen Habermas {}
+Ludwig von Mises {}
+Léon Walras {}
+Moses Hess {}
+David Ricardo {}
+Alexandra Kollontai {}
+Antonio Negri {}
+Che Guevara {}
+Louis Auguste Blanqui {}
+Edmund Burke {}
+Antonio Gramsci {}
+Vilfredo Pareto {}
+Martin Luther {}
+Jean-Paul Sartre {}
+Shang Yang {}
+Peter Kropotkin {}
+Georg Herwegh {}
+Thucydides {}
+August Willich {}
+John Plamenatz {}
+Max Weber {}
+Simone de Beauvoir {}
+Leon Trotsky {}
+Prabhat Ranjan Sarkar {}
+Gottfried Wilhelm Leibniz {}
+Cicero {}
+Georg Wilhelm Friedrich Hegel {}
+Ayn Rand {}
+Swami Vivekananda {}
+Louis Gabriel Ambroise de Bonald {}
+Murray Rothbard {}
+Bertolt Brecht {}
+Albert Camus {}
+François-Noël Babeuf {}
+Wilhelm Wolff {}
+Nikolai Bukharin {}
+Thomas Aquinas {}
+Alexis de Tocqueville {}
+Herbert Marcuse {}
+Hannah Arendt {}
+Sun Yat-sen {}
+Hal Draper {}
+Arnold Gehlen {}
+John Stuart Mill {}
+Wilhelm Weitling {}
+Raya Dunayevskaya {}
+August Bebel {}
+John von Neumann {}
+Theodor W. Adorno {}
+Ferdinand Wolf {}
+Jean-Baptiste Say 0
+Jaak Panksepp 0
+Maria Zambaco 0
+Roman Ingarden 0
+George H. Smith 0
+Medea Benjamin 0
+Joseph B. Soloveitchik 0
+Jón Sigurðsson 0
+Cicero 0
+Irene Khan 0
+Swami Vivekananda 0
+Ernst Troeltsch 0
+Ivan Pavlov 0
+Adolf Hitler 0
+Naomi Klein 0
+Stanislao Cannizzaro 0
+Viktor Zubkov 0
+Nikita Trubetskoy 0
+Yakov Sverdlov 0
+Pancho Villa 0
+Karl Gegenbaur 0
+Ernst Simmel 0
+Saul Alinsky 0
+Ida B. Wells 0
+Ludwig Feuerbach 0
+Boris Savinkov 0
+Gertrude Ederle 0
+Richard Nixon 0
+Giuseppe Mazzini 0
+Judy Collins 0
+George Bernard Shaw 0
+Michel Chasles 0
+Patton Oswalt 0
+Gavril Myasnikov 12
+Jan Appel {}
+Guy Debord {}
+Grand Duke Michael Alexandrovich of Russia {}
+Cornelius Castoriadis {}
+Friedrich Engels {}
+Herman Gorter {}
+Otto Rühle {}
+Paul Mattick {}
+Rosa Luxemburg {}
+Karl Marx {}
+Sylvia Pankhurst {}
+Antonie Pannekoek {}
+Galileo Galilei 0
+Max Eitingon 0
+Roy Bourgeois 0
+Charles de Foucauld 0
+Joe Hill 0
+Andrey Osterman 0
+Wilhelm Weitling 0
+Bal Gangadhar Tilak 0
+Bobby Sands 0
+William Faulkner 0
+Stéphane Mallarmé 0
+Rachel Carson 0
+Max Stirner 0
+Marcel Mauss 0
+Donna Shalala 0
+Charles III of Spain 0
+Frances Perkins 0
+Adela Pankhurst 0
+Pierre Duhem 0
+Giovanni Passannante 0
+Napoleon 0
+Ursula K. Le Guin 0
+Raymond Aron 0
+Joseph de Maistre 0
+Johannes Peter Müller 0
+Edward Frankland 0
+Judith Rich Harris 0
+Ahad Ha'am 0
+Samuel Beckett 0
+Pol Pot 0
+Karl Korsch 52
+Clara Zetkin {}
+Vladimir Lenin {}
+Grigory Zinoviev {}
+Friedrich Engels {}
+Georgi Plekhanov {}
+Alexandra Kollontai {}
+Slavoj Žižek {}
+Ho Chi Minh {}
+Arthur Rosenberg {}
+Howard Zinn {}
+Antonio Gramsci {}
+Guy Debord {}
+Jean-Paul Sartre {}
+Wilhelm Reich {}
+Josip Broz Tito {}
+Walter Benjamin {}
+Nelson Mandela {}
+Paul Mattick {}
+Zygmunt Bauman {}
+Eric Hobsbawm {}
+Antonie Pannekoek {}
+Mao Zedong {}
+Erich Fromm {}
+Simone de Beauvoir {}
+Che Guevara {}
+Enver Hoxha {}
+Georg Wilhelm Friedrich Hegel {}
+Thomas Sankara {}
+Karl Kautsky {}
+Rosa Luxemburg {}
+Immanuel Kant {}
+György Lukács {}
+Joseph Stalin {}
+Bertolt Brecht {}
+Karl Marx {}
+Max Horkheimer {}
+Eduard Bernstein {}
+Karl Liebknecht {}
+Nikolai Bukharin {}
+Kim Il-sung {}
+C. Wright Mills {}
+Herbert Marcuse {}
+Fidel Castro {}
+Hedwig Dohm {}
+James Connolly {}
+Leon Trotsky {}
+Raya Dunayevskaya {}
+August Bebel {}
+Theodor W. Adorno {}
+Salvador Allende {}
+Louis Althusser {}
+Mikhail Bakunin {}
+Michael Dummett 0
+Nelson Goodman 0
+Francesco Cossiga 0
+Timothy Leary 0
+Julius Caesar 0
+Lewis H. Morgan 0
+Alice Waters 0
+William of Ockham 0
+Karen Horney 0
+Geraldine Ferraro 0
+Joseph Plunkett 0
+Howard Zinn 34
+Mitch Daniels {}
+Upton Sinclair {}
+Henry David Thoreau {}
+Emma Goldman {}
+Bruce Springsteen {}
+Norman Mailer {}
+Matt Damon {}
+J. Edgar Hoover {}
+J. D. Salinger {}
+Paul Revere {}
+Danny Glover {}
+Buckethead {}
+Eddie Vedder {}
+Morgan Freeman {}
+Alice Walker {}
+Alexander Berkman {}
+Daniel Ellsberg {}
+Bob Dylan {}
+Robert F. Kennedy {}
+John F. Kennedy {}
+Eugene V. Debs {}
+Josh Brolin {}
+Barack Obama {}
+Jack London {}
+Lupe Fiasco {}
+Don Cheadle {}
+Sandra Oh {}
+Miguel d'Escoto Brockmann {}
+Charles Dickens {}
+Noam Chomsky {}
+Marisa Tomei {}
+Mike Gravel {}
+Viggo Mortensen {}
+Mary Harris Jones {}
+Leo Jogiches 0
+Helen Hayes 0
+Ralf Dahrendorf 0
+Imre Kertész 0
+John Dewey 0
+Gavrila Derzhavin 0
+Attila Kotányi 0
+Monika Harms 0
+Francisco Ferrer Guardia 55
+Herbert Marcuse {}
+Ivan Illich {}
+Arthur Conan Doyle {}
+Leon Czolgosz {}
+Henry David Thoreau {}
+Alfredo M. Bonanno {}
+Errico Malatesta {}
+Johann Most {}
+Franz Kafka {}
+Max Stirner {}
+Gustav Landauer {}
+Antonio Negri {}
+Ricardo Flores Magón {}
+Sylvia Pankhurst {}
+Howard Zinn {}
+Kurt Vonnegut {}
+Murray Rothbard {}
+Jacques Ellul {}
+Banksy {}
+George Bernard Shaw {}
+Peter Kropotkin {}
+Wilhelm Reich {}
+H. G. Wells {}
+Max Nettlau {}
+Otto Rühle {}
+Giovanni Passannante {}
+Paul Mattick {}
+Murray Bookchin {}
+Alexander Berkman {}
+Antonie Pannekoek {}
+Nestor Makhno {}
+Emma Goldman {}
+William Morris {}
+Charles Fourier {}
+Erich Mühsam {}
+Francisco Ferrer Guardia {}
+Léo Ferré {}
+Thomas Müntzer {}
+Pierre-Joseph Proudhon {}
+Albert Camus {}
+Louise Michel {}
+Mahatma Gandhi {}
+Leo Tolstoy {}
+Rudolf Rocker {}
+Guy Debord {}
+Jean-Jacques Rousseau {}
+Cornelius Castoriadis {}
+Élisée Reclus {}
+Noam Chomsky {}
+Abbie Hoffman {}
+Oscar Wilde {}
+Buenaventura Durruti {}
+Dorothy Day {}
+Mikhail Bakunin {}
+William Godwin {}
+Zeev Sternhell 0
+Charles Stanhope, 3rd Earl Stanhope 0
+Francis Ysidro Edgeworth 0
+Henry James 0
+Maimonides 0
+Wendy McElroy 0
+George Fox 0
+Russell Kirk 0
+Herbert Marcuse 69
+Martin Heidegger {}
+Jürgen Habermas {}
+Edmund Husserl {}
+Gustav Landauer {}
+Alfredo M. Bonanno {}
+Errico Malatesta {}
+Leszek Kołakowski {}
+Friedrich Pollock {}
+Raya Dunayevskaya {}
+Rudolf Bahro {}
+Barrington Moore, Jr. {}
+Marinus van der Lubbe {}
+Leo Löwenthal {}
+Antonio Negri {}
+Angela Davis {}
+Kathy Acker {}
+Ricardo Flores Magón {}
+André Gorz {}
+Sylvia Pankhurst {}
+Howard Zinn {}
+Wilhelm Reich {}
+Karl Marx {}
+Max Horkheimer {}
+Siegfried Kracauer {}
+Jean-Paul Sartre {}
+Axel Honneth {}
+Leon Czolgosz {}
+Peter Kropotkin {}
+Karl Korsch {}
+Walter Benjamin {}
+Otto Rühle {}
+Rosa Luxemburg {}
+Paul Mattick {}
+Murray Bookchin {}
+Alexander Berkman {}
+Antonie Pannekoek {}
+Nestor Makhno {}
+Erich Fromm {}
+Emma Goldman {}
+Alasdair MacIntyre {}
+Charles Fourier {}
+Rudi Dutschke {}
+William Morris {}
+Francisco Ferrer Guardia {}
+Immanuel Kant {}
+Pierre-Joseph Proudhon {}
+Albert Camus {}
+Louise Michel {}
+Theodor W. Adorno {}
+Karl Liebknecht {}
+Rudolf Rocker {}
+Abdullah Öcalan {}
+Leo Tolstoy {}
+C. Wright Mills {}
+Félix Guattari {}
+Guy Debord {}
+Yanis Varoufakis {}
+Cornelius Castoriadis {}
+Franz Leopold Neumann {}
+Otto Kirchheimer {}
+Noam Chomsky {}
+Friedrich Nietzsche {}
+Abbie Hoffman {}
+Oscar Wilde {}
+Buenaventura Durruti {}
+Dorothy Day {}
+Sigmund Freud {}
+Mikhail Bakunin {}
+William Godwin {}
+José Ortega y Gasset 0
+Süleyman Demirel 0
+Alain Badiou 0
+Allen Ginsberg 0
+Ada Leverson 0
+Bessie Smith 0
+Raniero Panzieri 0
+Vilfredo Pareto 0
+Pavel Florensky 0
+Democritus 0
+Giorgio Agamben 0
+Hugh of Saint Victor 0
+Patrick Pearse 0
+Daniel Ellsberg 0
+Tibor R. Machan 0
+Jerome Bruner 0
+Béla Kun 0
+Oliver Goldsmith 0
+J. Edgar Hoover 0
+Amelia Bloomer 0
+Jacques Lacan 0
+Rudolf Virchow 0
+Henryk Grossman 0
+Ferdinand Wolf 0
+Piero Sraffa 0
+Friedrich Ebert 0
+Gerty Cori 0
+Helen Keller 0
+Sarah Winnemucca 0
+Arthur Cayley 0
+Georgy Lvov 0
+Mike Nichols 0
+J.B.S. Haldane 0
+Benjamin Spock 0
+Buckethead 0
+Dadabhai Naoroji 0
+Fritz Perls 0
+Leo Strauss 0
+Beatrice Portinari 0
+John Henry Mackay 0
+Marshall McLuhan 0
+Vilém Flusser 0
+Justus Möser 0
+Götz Werner 0
+Joseph Weydemeyer 0
+Carl Gustav Hempel 0
+Muhammad Yunus 0
+Francisco Suárez 0
+Abdullah Öcalan 49
+Leon Czolgosz {}
+Alfredo M. Bonanno {}
+Fernand Braudel {}
+Louise Michel {}
+Raya Dunayevskaya {}
+Gustav Landauer {}
+Marinus van der Lubbe {}
+Antonio Negri {}
+Ricardo Flores Magón {}
+André Gorz {}
+Howard Zinn {}
+Karl Marx {}
+Britta Böhler {}
+Guy Debord {}
+Jean-Paul Sartre {}
+Wilhelm Reich {}
+Sylvia Pankhurst {}
+Peter Kropotkin {}
+Karl Korsch {}
+Otto Rühle {}
+Rosa Luxemburg {}
+Paul Mattick {}
+Murray Bookchin {}
+Alexander Berkman {}
+Antonie Pannekoek {}
+Nestor Makhno {}
+Emma Goldman {}
+Charles Fourier {}
+Errico Malatesta {}
+William Morris {}
+Francisco Ferrer Guardia {}
+Yanis Varoufakis {}
+Pierre-Joseph Proudhon {}
+Albert Camus {}
+Karl Liebknecht {}
+Rudolf Rocker {}
+Leo Tolstoy {}
+Félix Guattari {}
+Herbert Marcuse {}
+Cornelius Castoriadis {}
+Süleyman Demirel {}
+Noam Chomsky {}
+Friedrich Nietzsche {}
+Abbie Hoffman {}
+Oscar Wilde {}
+Buenaventura Durruti {}
+Dorothy Day {}
+Mikhail Bakunin {}
+William Godwin {}
+Paul Lafargue 0
+Barbara Mikulski 0
+Ivan Goremykin 0
+George Orwell 0
+Sigmund Freud 0
+Jean Piaget 0
+Moritz Schlick 0
+Vladimir Nabokov 0
+Maximilian I of Mexico 0
+Claude Lefort 0
+John Lubbock, 1st Baron Avebury 0
+Tom Stoppard 0
+Ragnar Frisch 0
+Nettie Stevens 0
+Denise Levertov 0
+John Everett Millais 0
+Alexander Berkman 54
+Ivan Turgenev {}
+Upton Sinclair {}
+Henry David Thoreau {}
+Alfredo M. Bonanno {}
+Errico Malatesta {}
+Johann Most {}
+Bayard Rustin {}
+Mahatma Gandhi {}
+Pierre-Joseph Proudhon {}
+Max Stirner {}
+Gustav Landauer {}
+Angela Davis {}
+Ricardo Flores Magón {}
+Huey P. Newton {}
+Howard Zinn {}
+Murray Rothbard {}
+J. Edgar Hoover {}
+Émile Armand {}
+Max Baginski {}
+Peter Kropotkin {}
+Étienne Cabet {}
+Max Nettlau {}
+Bernie Sanders {}
+Henry Clay Frick {}
+Murray Bookchin {}
+Nestor Makhno {}
+Voltairine de Cleyre {}
+Emma Goldman {}
+Joe Hill {}
+Leon Trotsky {}
+David D. Friedman {}
+Alexander III of Russia {}
+Eugene V. Debs {}
+Martin Luther King, Jr. {}
+Phil Ochs {}
+Margaret Sanger {}
+Woodrow Wilson {}
+Louise Michel {}
+Alexander II of Russia {}
+Leo Tolstoy {}
+Vladimir Lenin {}
+Rudolf Rocker {}
+Michael Harrington {}
+Norman Thomas {}
+Nikolay Chernyshevsky {}
+Noam Chomsky {}
+Abbie Hoffman {}
+Josef Peukert {}
+Mikhail Bakunin {}
+Buenaventura Durruti {}
+Robert Owen {}
+Dorothy Day {}
+Albert Einstein {}
+William Godwin {}
+Antonie Pannekoek 53
+Leon Czolgosz {}
+Alfredo M. Bonanno {}
+Errico Malatesta {}
+Louise Michel {}
+Friedrich Engels {}
+Raya Dunayevskaya {}
+Gustav Landauer {}
+Marinus van der Lubbe {}
+Charles Darwin {}
+Antonio Negri {}
+Ricardo Flores Magón {}
+André Gorz {}
+Howard Zinn {}
+Karl Marx {}
+Guy Debord {}
+Jean-Paul Sartre {}
+Wilhelm Reich {}
+Sylvia Pankhurst {}
+Peter Kropotkin {}
+Karl Korsch {}
+Otto Rühle {}
+Gavril Myasnikov {}
+Paul Mattick {}
+Murray Bookchin {}
+Alexander Berkman {}
+Rosa Luxemburg {}
+Nestor Makhno {}
+Emma Goldman {}
+Jan Appel {}
+Charles Fourier {}
+William Morris {}
+Francisco Ferrer Guardia {}
+Joseph Dietzgen {}
+Herman Gorter {}
+Yanis Varoufakis {}
+Pierre-Joseph Proudhon {}
+Albert Camus {}
+Karl Liebknecht {}
+Rudolf Rocker {}
+Abdullah Öcalan {}
+Leo Tolstoy {}
+Vladimir Lenin {}
+Félix Guattari {}
+Herbert Marcuse {}
+Cornelius Castoriadis {}
+Noam Chomsky {}
+Abbie Hoffman {}
+Oscar Wilde {}
+Buenaventura Durruti {}
+Dorothy Day {}
+Herbert Spencer {}
+Mikhail Bakunin {}
+William Godwin {}
+Dmitry Mikhailovich Golitsyn 0
+Claude Bernard 0
+Harold Pinter 0
+Tom Hayden 0
+Thomas Müntzer 0
+Friedrich Schiller 0
+Thomas Henry Huxley 0
+Andrei Gromyko 0
+Gustav Noske 0
+Felix Dzerzhinsky 0
+Aubrey Beardsley 0
+Alexander Kolchak 0
+János Kádár 0
+Billie Holiday 0
+William Holman Hunt 0
+Sylvia Pankhurst 17
+Keir Hardie {}
+Jan Appel {}
+Vladimir Lenin {}
+Guy Debord {}
+Cornelius Castoriadis {}
+Christabel Pankhurst {}
+Friedrich Engels {}
+Herman Gorter {}
+Alexander Kerensky {}
+Otto Rühle {}
+Gavril Myasnikov {}
+Rosa Luxemburg {}
+Karl Marx {}
+Emmeline Pankhurst {}
+Paul Mattick {}
+Adela Pankhurst {}
+Antonie Pannekoek {}
+Plutarco Elías Calles 0
+Marcel Proust 0
+Pablo Neruda 0
+Leo Löwenthal 0
+Horace Greeley 0
+Francis Bacon 0
+E. P. Thompson 0
+Eric Hobsbawm 0
+Frantz Fanon 0
+Octavio Paz 0
+Juliet Rhys-Williams 0
+Hillary Clinton 0
+Sylvia Earle 0
+William Wollaston 0
+Elizabeth Blackwell 0
+Saint Sebastian 0
+William Godwin 99
+Ivan Illich {}
+Friedrich Heinrich Jacobi {}
+Robert Boyle {}
+Samuel Johnson {}
+Jeremy Bentham {}
+Alfredo M. Bonanno {}
+Claire Tomalin {}
+Friedrich Schiller {}
+Thomas Jefferson {}
+Benjamin Franklin {}
+Emma Goldman {}
+David Hume {}
+Montesquieu {}
+Rigas Feraios {}
+Johann Wolfgang von Goethe {}
+Léo Ferré {}
+Immanuel Kant {}
+Fanny Imlay {}
+Jean-Jacques Rousseau {}
+John Locke {}
+Henry Fuseli {}
+Percy Bysshe Shelley {}
+Leon Czolgosz {}
+Max Stirner {}
+Johann Gottfried Herder {}
+Hugo Kołłątaj {}
+William Pitt the Younger {}
+Murray Rothbard {}
+Jacques Ellul {}
+Banksy {}
+Charles III of Spain {}
+Moses Mendelssohn {}
+Kurt Vonnegut {}
+Giovanni Passannante {}
+Alexander Berkman {}
+Nestor Makhno {}
+Étienne Bonnot de Condillac {}
+Mary Wollstonecraft {}
+James Boswell {}
+Leo Tolstoy {}
+Ricardo Flores Magón {}
+John Milton {}
+Thomas Paine {}
+Mikhail Bakunin {}
+Robert Hooke {}
+Henry David Thoreau {}
+Benito Jerónimo Feijóo y Montenegro {}
+Voltaire {}
+Claude Adrien Helvétius {}
+Gustav Landauer {}
+Stanisław August Poniatowski {}
+Howard Zinn {}
+Thomas Reid {}
+Charles Lamb {}
+Adam Smith {}
+Max Nettlau {}
+Louise Michel {}
+Johann Georg Hamann {}
+Erich Mühsam {}
+Cesare Beccaria {}
+Francisco Ferrer Guardia {}
+Hazael {}
+Pierre-Joseph Proudhon {}
+Charles Stanhope, 3rd Earl Stanhope {}
+Mary Shelley {}
+Wendy McElroy {}
+John Horne Tooke {}
+Georges-Louis Leclerc, Comte de Buffon {}
+Maximilian I of Mexico {}
+Noam Chomsky {}
+Gotthold Ephraim Lessing {}
+Buenaventura Durruti {}
+Adamantios Korais {}
+Francis Bacon {}
+Errico Malatesta {}
+Franz Kafka {}
+Abbie Hoffman {}
+François Quesnay {}
+Thomas Robert Malthus {}
+James Madison {}
+Edmund Burke {}
+Ignacy Krasicki {}
+Lord Byron {}
+Peter Kropotkin {}
+Józef Wybicki {}
+Baron d'Holbach {}
+Joseph Black {}
+Murray Bookchin {}
+Sebastião José de Carvalho e Melo, 1st Marquis of Pombal {}
+Johann Most {}
+Marquis de Sade {}
+Mary Lamb {}
+Albert Camus {}
+Isaac Newton {}
+Rudolf Rocker {}
+Élisée Reclus {}
+Edward Gibbon {}
+Adam Ferguson {}
+Denis Diderot {}
+Julia Kristeva 0
+Léon Walras 0
+Plutarch 0
+Adolphe Thiers 0
+José Saramago 0
+Charles Darwin 104
+Albert von Kölliker {}
+Karl Gegenbaur {}
+Sir George Stokes, 1st Baronet {}
+John Edmonstone {}
+Francis Galton {}
+Étienne Geoffroy Saint-Hilaire {}
+Heini Hediger {}
+Michel Eugène Chevreul {}
+Richard Owen {}
+Arthur Cayley {}
+J.B.S. Haldane {}
+Sewall Wright {}
+Theodosius Dobzhansky {}
+Michel Chasles {}
+Patrick Bateson {}
+Paul Rozin {}
+August Wilhelm von Hofmann {}
+Adolphe Quetelet {}
+Karl von Frisch {}
+Carel van Schaik {}
+Paul Ekman {}
+Johann Wolfgang von Goethe {}
+Charles Lyell {}
+Charles Babbage {}
+Ronald Fisher {}
+Charles Kingsley {}
+Joseph Dalton Hooker {}
+Carl Linnaeus {}
+William Huggins {}
+John Lubbock, 1st Baron Avebury {}
+Dian Fossey {}
+Georges Cuvier {}
+John William Strutt, 3rd Baron Rayleigh {}
+Jemmy Button {}
+Simon Newcomb {}
+Julius Plücker {}
+Wolfgang Wickler {}
+Claude Bernard {}
+Johannes Peter Müller {}
+Edward Frankland {}
+Dan Sperber {}
+Thomas Henry Huxley {}
+Judith Rich Harris {}
+Léon Foucault {}
+Heinrich Wilhelm Dove {}
+Jane Goodall {}
+Carl Ludwig {}
+Rudolf Clausius {}
+Louis Pasteur {}
+William Whewell {}
+Julian Huxley {}
+Louis Agassiz {}
+Alfred Russel Wallace {}
+William Darwin Fox {}
+Friedrich Wöhler {}
+James Prescott Joule {}
+James Halliwell-Phillipps {}
+Desmond Morris {}
+Donald Symons {}
+Irenäus Eibl-Eibesfeldt {}
+Leonard Darwin {}
+Robert Bunsen {}
+H. G. Wells {}
+James Dwight Dana {}
+William Thomson, 1st Baron Kelvin {}
+Emma Darwin {}
+Richard Dawkins {}
+Julius von Mayer {}
+Ernst Haeckel {}
+Charles Wheatstone {}
+Franz Ernst Neumann {}
+Karl Ernst von Baer {}
+Daniel Dennett {}
+Elizabeth Cotton, Lady Hope {}
+William Paley {}
+Robert Darwin {}
+Herbert Spencer {}
+Ernst Fehr {}
+Harriet Martineau {}
+James Joseph Sylvester {}
+Adam Sedgwick {}
+Jaak Panksepp {}
+Alexander von Humboldt {}
+Josiah Wedgwood {}
+W. D. Hamilton {}
+Hermann von Helmholtz {}
+Peter Kropotkin {}
+Erasmus Darwin {}
+Asa Gray {}
+Gerd Gigerenzer {}
+Henri Victor Regnault {}
+Henry Walter Bates {}
+William Sharpey {}
+Jean-Henri Fabre {}
+Julia Margaret Cameron {}
+Isaac Newton {}
+Jared Diamond {}
+Wilhelm Eduard Weber {}
+Robert FitzRoy {}
+Stanislao Cannizzaro {}
+John Gould {}
+Marcellin Berthelot {}
+Rudolf Virchow {}
+Steven Pinker {}
+Louis Auguste Blanqui 0
+Jeannette Rankin 0
+Thomas Hardy 0
+Ronald Coase 0
+Murray Bookchin 61
+Nestor Makhno {}
+Hannah Arendt {}
+Rudolf Rocker {}
+Leon Czolgosz {}
+Henry David Thoreau {}
+Alfredo M. Bonanno {}
+Errico Malatesta {}
+Louise Michel {}
+Rachel Carson {}
+Gustav Landauer {}
+Marinus van der Lubbe {}
+Antonio Negri {}
+Noam Chomsky {}
+André Gorz {}
+Howard Zinn {}
+Wilhelm Reich {}
+Karl Marx {}
+Jacques Ellul {}
+Herbert Marcuse {}
+Jane Jacobs {}
+Jean-Paul Sartre {}
+Karl Polanyi {}
+Sylvia Pankhurst {}
+Peter Kropotkin {}
+Karl Korsch {}
+Leopold Kohr {}
+Rosa Luxemburg {}
+Paul Mattick {}
+Alexander Berkman {}
+Antonie Pannekoek {}
+Felix Morrow {}
+David Harvey {}
+Emma Goldman {}
+William Morris {}
+Ursula K. Le Guin {}
+Oscar Wilde {}
+Charles Fourier {}
+Otto Rühle {}
+Georg Wilhelm Friedrich Hegel {}
+Francisco Ferrer Guardia {}
+Yanis Varoufakis {}
+Hans Jonas {}
+Pierre-Joseph Proudhon {}
+Albert Camus {}
+Karl Liebknecht {}
+Ricardo Flores Magón {}
+Abdullah Öcalan {}
+Leo Tolstoy {}
+Félix Guattari {}
+Guy Debord {}
+Cornelius Castoriadis {}
+Élisée Reclus {}
+Ernst Bloch {}
+Abbie Hoffman {}
+Raya Dunayevskaya {}
+Aristotle {}
+Buenaventura Durruti {}
+Dorothy Day {}
+Sigmund Freud {}
+Mikhail Bakunin {}
+William Godwin {}
+Ella Fitzgerald 0
+William Burges 0
+Wilhelm Röpke 0
+Hernando de Soto 0
+Charles Sanders Peirce 0
+Umberto Eco 0
+Franz Leopold Neumann 0
+Auguste Comte 0
+Joan of Arc 0
+Jacob Marschak 0
+Rosalynn Carter 0
+Nikolay Chernyshevsky 0
+Otto Reche 0
+William Allingham 0
+Richard Lazarus 0
+Jean-Jacques Servan-Schreiber 0
+Mary Lyon 0
+Paul Rozin 0
+Voltairine de Cleyre 0
+Aeneas Coffey 0
+Hans F. K. Günther 0
+Bruno Bauer 0
+Maurice Blanchot 0
+Fritz Lenz 0
+Kenneth Arrow 0
+Jimmy Carter 0
+Carl Linnaeus 0
+Mary Robinson 0
+Jean-Jacques Lebel 0
+Wole Soyinka 0
+George Frederic Watts 0
+Aristotle 0
+Erwin Baur 0
+Paul Broca 0
+Grand Duke Michael Alexandrovich of Russia 0
+Martin Sheen 0
+Lavrentiy Beria 0
+Karl Popper 0
+J. L. Austin 0
+Xanana Gusmão 0
+Ernest Renan 0
+Óscar Romero 0
+Otto Rühle 53
+Alfred Adler {}
+Leon Czolgosz {}
+Alfredo M. Bonanno {}
+Errico Malatesta {}
+Louise Michel {}
+Friedrich Engels {}
+Raya Dunayevskaya {}
+Abbie Hoffman {}
+Marinus van der Lubbe {}
+Rosa Luxemburg {}
+Antonio Negri {}
+Leon Trotsky {}
+Ricardo Flores Magón {}
+André Gorz {}
+Howard Zinn {}
+Karl Marx {}
+Herbert Marcuse {}
+Jean-Paul Sartre {}
+Wilhelm Reich {}
+Sylvia Pankhurst {}
+Peter Kropotkin {}
+Karl Korsch {}
+Gavril Myasnikov {}
+Paul Mattick {}
+Murray Bookchin {}
+Alexander Berkman {}
+Antonie Pannekoek {}
+Nestor Makhno {}
+Emma Goldman {}
+William Morris {}
+Jan Appel {}
+Charles Fourier {}
+Alice Rühle-Gerstel {}
+Francisco Ferrer Guardia {}
+Herman Gorter {}
+Yanis Varoufakis {}
+Pierre-Joseph Proudhon {}
+Albert Camus {}
+Karl Liebknecht {}
+Rudolf Rocker {}
+Abdullah Öcalan {}
+Leo Tolstoy {}
+Félix Guattari {}
+Guy Debord {}
+Cornelius Castoriadis {}
+Franz Mehring {}
+Noam Chomsky {}
+Gustav Landauer {}
+Oscar Wilde {}
+Buenaventura Durruti {}
+Dorothy Day {}
+Mikhail Bakunin {}
+William Godwin {}
+Vyacheslav Molotov 0
+Georgi Dimitrov 0
+Arnold Ruge 0
+P. F. Strawson 0
+Paul Grice 0
+William Alston 0
+David Lloyd George 0
+Peter III of Russia 0
+Vasily II of Moscow 0
+Julian Assange 0
+Symon Petliura 0
+Karl Schapper 0
+Hans Joas 0
+James Connolly 0
+Henri Poincaré 0
+Alexei Kosygin 0
+Petrus Camper 0
+V. S. Naipaul 0
+Thomas More 0
+Mary Lamb 0
+A. J. Ayer 0
+George Eliot 0
+George McGovern 0
+Marinus van der Lubbe 6
+Monika Harms {}
+Georgi Dimitrov {}
+W. H. Auden {}
+Jack Dempsey {}
+Ernst Torgler {}
+Ian Kershaw {}
+Angela Davis 0
+Carleton S. Coon 0
+Stanisław August Poniatowski 0
+Henry Fuseli 0
+Kurt Vonnegut 0
+Angelica Balabanoff 0
+Michel Onfray 0
+Adolph Stöhr 0
+Emma Darwin 0
+Fredric Jameson 0
+Ludwig I of Bavaria 0
+Otto Rank 0
+Rebecca West 0
+Avicenna 0
+Susanne Wiest 0
+Friedrich Hecker 0
+John Ruskin 0
+Hazael 0
+Stanley Schachter 0
+Joseph Stalin 0
+Norman Finkelstein 0
+Hans Eysenck 0
+John Horne Tooke 0
+Nellie Bly 0
+Charles Frederick, Duke of Holstein-Gottorp 0
+Buenaventura Durruti 58
+Johann Most {}
+Émile Armand {}
+Hans Magnus Enzensberger {}
+Leon Czolgosz {}
+Henry David Thoreau {}
+Alfredo M. Bonanno {}
+Errico Malatesta {}
+Francisco Franco {}
+Mahatma Gandhi {}
+Raya Dunayevskaya {}
+Max Stirner {}
+Gustav Landauer {}
+Marinus van der Lubbe {}
+Antonio Negri {}
+Ricardo Flores Magón {}
+André Gorz {}
+Howard Zinn {}
+Antony Beevor {}
+Herbert Marcuse {}
+David D. Friedman {}
+Gabriel García Márquez {}
+Jean-Paul Sartre {}
+Wilhelm Reich {}
+Sylvia Pankhurst {}
+Peter Kropotkin {}
+Karl Korsch {}
+Otto Rühle {}
+Rosa Luxemburg {}
+Paul Mattick {}
+Murray Bookchin {}
+Alexander Berkman {}
+Antonie Pannekoek {}
+Nestor Makhno {}
+Emma Goldman {}
+Abel Paz {}
+Alfonso XIII of Spain {}
+Charles Fourier {}
+William Morris {}
+Francisco Ferrer Guardia {}
+Karl Marx {}
+Murray Rothbard {}
+Pierre-Joseph Proudhon {}
+Albert Camus {}
+Louise Michel {}
+Karl Liebknecht {}
+Rudolf Rocker {}
+Abdullah Öcalan {}
+Leo Tolstoy {}
+Félix Guattari {}
+Guy Debord {}
+Yanis Varoufakis {}
+Cornelius Castoriadis {}
+Noam Chomsky {}
+Abbie Hoffman {}
+Oscar Wilde {}
+Dorothy Day {}
+Mikhail Bakunin {}
+William Godwin {}
+Louis Althusser 0
+Johannes V. Jensen 0
+Thomas Mann 0
+Margaret Mahler 0
+André Breton 0
+Gao Xingjian 0
+Ludwig Binswanger 0
+George MacDonald 0
+Émile Armand 0
+Edward Said 0
+Alice Hamilton 0
+Michael Moorcock 0
+Mikhail Gorbachev 0
+Doris Lessing 0
+William Rowan Hamilton 0
+Patricia Roberts Harris 0
+Albert Camus 329
+Ivan Illich {}
+Jeremy Bentham {}
+Isaiah Berlin {}
+Martin Heidegger {}
+Henri Lefebvre {}
+Alfredo M. Bonanno {}
+Leon Czolgosz {}
+Mahatma Gandhi {}
+Alexandre Kojève {}
+Winston Churchill {}
+Tomas Tranströmer {}
+Ernst Cassirer {}
+Claude Lévi-Strauss {}
+Muhammad {}
+Paul Heyse {}
+Lev Shestov {}
+Shang Yang {}
+Laozi {}
+Baruch Spinoza {}
+John Galsworthy {}
+Niccolò Machiavelli {}
+Thomas Hobbes {}
+Kurt Vonnegut {}
+George Bernard Shaw {}
+Michel Onfray {}
+Plato {}
+Peter Kropotkin {}
+Thomas Jefferson {}
+Camilo José Cela {}
+Karl Polanyi {}
+Sully Prudhomme {}
+Benjamin Franklin {}
+Reinhold Niebuhr {}
+Georges Bataille {}
+Leo Strauss {}
+Homer {}
+Zygmunt Bauman {}
+Emma Goldman {}
+Thucydides {}
+Bob Dylan {}
+André Philip {}
+Halldór Laxness {}
+Emmanuel Mounier {}
+Louis Gabriel Ambroise de Bonald {}
+Vilém Flusser {}
+Justus Möser {}
+Socrates {}
+Immanuel Kant {}
+Jaroslav Seifert {}
+Altiero Spinelli {}
+Søren Kierkegaard {}
+Frédéric Mistral {}
+Karl Adolph Gjellerup {}
+Luce Irigaray {}
+Robert Nozick {}
+Peter Sloterdijk {}
+Sun Tzu {}
+Mencius {}
+Ivan Bunin {}
+Benjamin Constant {}
+Guy Debord {}
+Jean-Jacques Rousseau {}
+Saul Bellow {}
+Ivo Andrić {}
+John Locke {}
+Michael Walzer {}
+Elias Canetti {}
+Rudolf Christoph Eucken {}
+Hans-Georg Gadamer {}
+Friedrich Hayek {}
+Aristotle {}
+Caligula {}
+Karl Barth {}
+Ralph Ellison {}
+V. S. Naipaul {}
+Jacques Maritain {}
+Gaston Bachelard {}
+Gabriela Mistral {}
+Eugène Ionesco {}
+Jean-François Lyotard {}
+Edmund Husserl {}
+José Echegaray {}
+Mozi {}
+Raymond Aron {}
+Francisco Franco {}
+György Lukács {}
+Daniel Mayer {}
+Judith Butler {}
+Alice Munro {}
+William Golding {}
+Pearl S. Buck {}
+Giovanni Gentile {}
+Maurice Merleau-Ponty {}
+Steve Biko {}
+Dario Fo {}
+Maurice Maeterlinck {}
+Pablo Neruda {}
+Doris Lessing {}
+Hugo Grotius {}
+Sarvepalli Radhakrishnan {}
+Jacques Ellul {}
+Banksy {}
+Carl Schmitt {}
+Joseph B. Soloveitchik {}
+Slavoj Žižek {}
+Friedrich Nietzsche {}
+Boris Pasternak {}
+Ernest Renan {}
+Martin Buber {}
+Walter Benjamin {}
+Dino Buzzati {}
+Roland Barthes {}
+Giovanni Passannante {}
+Erik Axel Karlfeldt {}
+Alexander Berkman {}
+Hippolyte Taine {}
+Mao Zedong {}
+Leszek Kołakowski {}
+Juan Ramón Jiménez {}
+Patrick White {}
+Émile Durkheim {}
+John Steinbeck {}
+Ernest Hemingway {}
+George Orwell {}
+Sigrid Undset {}
+Joseph de Maistre {}
+Harold Pinter {}
+Roman Ingarden {}
+Knut Hamsun {}
+Jean Baudrillard {}
+Terry Eagleton {}
+Octavio Paz {}
+Wilhelm Dilthey {}
+Alexandre Koyré {}
+Theodor Mommsen {}
+Louis Antoine de Saint-Just {}
+William James {}
+Jacques Derrida {}
+David Hume {}
+Vladimir Lenin {}
+Élisée Reclus {}
+Al-Ghazali {}
+Johannes V. Jensen {}
+T. S. Eliot {}
+Louis Althusser {}
+Joseph Brodsky {}
+Samuel Beckett {}
+María Casares {}
+Czesław Miłosz {}
+Giorgos Seferis {}
+Marsilius of Padua {}
+Thomas Paine {}
+Kenzaburō Ōe {}
+Pierre Bourdieu {}
+William Godwin {}
+Gerhart Hauptmann {}
+Giosuè Carducci {}
+Carl Spitteler {}
+Paul Tillich {}
+Anatole France {}
+Augustine of Hippo {}
+Verner von Heidenstam {}
+John Searle {}
+Orhan Pamuk {}
+Günter Grass {}
+Henry David Thoreau {}
+Frans Eemil Sillanpää {}
+Voltaire {}
+Léo Ferré {}
+Derek Walcott {}
+Gustave Le Bon {}
+Plotinus {}
+Arthur Schopenhauer {}
+Gustav Landauer {}
+Nicolas Malebranche {}
+J. M. G. Le Clézio {}
+Franz Rosenzweig {}
+B. R. Ambedkar {}
+Pierre Klossowski {}
+Howard Zinn {}
+Michel Foucault {}
+Ludwig von Mises {}
+Heinrich Böll {}
+Saint-John Perse {}
+Pär Lagerkvist {}
+Selma Lagerlöf {}
+Gabriel García Márquez {}
+Averroes {}
+Adam Smith {}
+Imre Kertész {}
+Max Nettlau {}
+Eugenio Montale {}
+Max Stirner {}
+Fredric Jameson {}
+Rosa Luxemburg {}
+George Santayana {}
+Russell Kirk {}
+Marquis de Sade {}
+Louise Michel {}
+Frantz Fanon {}
+Werner Sombart {}
+Charles Fourier {}
+John Rawls {}
+Errico Malatesta {}
+Confucius {}
+Erich Mühsam {}
+Claude Simon {}
+François Bondy {}
+Isaac Bashevis Singer {}
+Henrik Pontoppidan {}
+Ralph Waldo Emerson {}
+Henri Bergson {}
+Karl Marx {}
+Alberto Giacometti {}
+Eyvind Johnson {}
+Murray Rothbard {}
+Toni Morrison {}
+Colin Wilson {}
+Pierre-Joseph Proudhon {}
+Sinclair Lewis {}
+François Mauriac {}
+Salvatore Quasimodo {}
+Rudolf Rocker {}
+Kazuo Ishiguro {}
+Chanakya {}
+Arthur Koestler {}
+Fyodor Dostoyevsky {}
+Montesquieu {}
+Michel Serres {}
+Emil Cioran {}
+Othmar Spann {}
+Friedrich Wilhelm Joseph Schelling {}
+Hermann Hesse {}
+Noam Chomsky {}
+José Ortega y Gasset {}
+Bertrand Russell {}
+Gao Xingjian {}
+Buenaventura Durruti {}
+Yasunari Kawabata {}
+Gilles Deleuze {}
+Eugene O'Neill {}
+Harry Martinson {}
+Rabindranath Tagore {}
+Alain Badiou {}
+Hannah Arendt {}
+Jürgen Habermas {}
+Thomas Mann {}
+Julia Kristeva {}
+Nicola Abbagnano {}
+Elfriede Jelinek {}
+Thomas Carlyle {}
+Mario Vargas Llosa {}
+J. M. Coetzee {}
+André Breton {}
+Friedrich Engels {}
+Wisława Szymborska {}
+Franz Kafka {}
+José Saramago {}
+Miguel de Unamuno {}
+Abbie Hoffman {}
+Herbert Spencer {}
+Antonio Negri {}
+Ricardo Flores Magón {}
+Luigi Pirandello {}
+Edmund Burke {}
+Arnold Gehlen {}
+Gabriel Marcel {}
+Vicente Aleixandre {}
+Antonio Gramsci {}
+Vilfredo Pareto {}
+André Gide {}
+Jean-Paul Sartre {}
+Giorgio Agamben {}
+Karl Jaspers {}
+Herta Müller {}
+Jacinto Benavente {}
+Niklas Luhmann {}
+Edward Said {}
+Murray Bookchin {}
+Wole Soyinka {}
+John Plamenatz {}
+Rudolf Bultmann {}
+Max Weber {}
+Johann Most {}
+Simone de Beauvoir {}
+Leo Tolstoy {}
+Prabhat Ranjan Sarkar {}
+Gottfried Wilhelm Leibniz {}
+Grazia Deledda {}
+Bjørnstjerne Bjørnson {}
+Cicero {}
+Georg Wilhelm Friedrich Hegel {}
+Ayn Rand {}
+Swami Vivekananda {}
+Francisco Ferrer Guardia {}
+Romain Rolland {}
+Paul Ricœur {}
+Karl Popper {}
+Rudyard Kipling {}
+Roger Martin du Gard {}
+Raymond Williams {}
+Patrick Modiano {}
+Nadine Gordimer {}
+William Faulkner {}
+Aleksandr Solzhenitsyn {}
+Władysław Reymont {}
+Johann Gottlieb Fichte {}
+Seamus Heaney {}
+Thomas Aquinas {}
+Alexis de Tocqueville {}
+Odysseas Elytis {}
+Félix Guattari {}
+Umberto Eco {}
+Herbert Marcuse {}
+Cornelius Castoriadis {}
+Nestor Makhno {}
+Sun Yat-sen {}
+Emmanuel Levinas {}
+John Stuart Mill {}
+Maurice Blanchot {}
+Jacques Lacan {}
+Mikhail Bakunin {}
+Auguste Comte {}
+Nelly Sachs {}
+Theodor W. Adorno {}
+Robert Michels {}
+Shmuel Yosef Agnon {}
+Henryk Sienkiewicz {}
+Mo Yan {}
+Alexis de Tocqueville 0
+Rudolf Otto 0
+André Leroi-Gourhan 0
+Nathaniel Hawthorne 0
+Daniel Cohn-Bendit 0
+Giuseppe Garibaldi 0
+Henry Sidgwick 0
+Robert Browning 0
+Ivan Illich 0
+Martin Heidegger 0
+Isaiah Berlin 0
+Mary McLeod Bethune 0
+Charles de Gaulle 0
+Heini Hediger 0
+Erasmus 0
+Richard J. Daley 0
+Baruch Spinoza 0
+Anna Louise Strong 0
+Zygmunt Bauman 0
+Nicholas II 0
+Aaron Swartz 0
+Paul Ekman 0
+Adolph Kolping 0
+Jean Genet 0
+Gandalf 0
+Sun Tzu 0
+Mencius 0
+Friedrich Hayek 0
+Crane Brinton 0
+Robert Owen 0
+Ruth Bader Ginsburg 0
+Alexander Dubček 0
+György Lukács 0
+François Bernier 0
+Giovanni Gentile 0
+Alfred, Lord Tennyson 0
+Eileen Collins 0
+Norman Mailer 0
+Langston Hughes 0
+Robert F. Kennedy 0
+Andreas Papandreou 0
+Ben Elton 0
+Muhammad 0
+Patrick Kavanagh 0
+Wilhelm von Mirbach 0
+Anselm of Canterbury 0
+Patrick White 0
+Władysław Gomułka 0
+Karl Kautsky 0
+Mike Gravel 0
+Victoria Woodhull 0
+Anastas Mikoyan 0
+Richard Dawkins 0
+Donald Trump 0
+William Ewart Gladstone 0
+Hilary Putnam 0
+Michel Rocard 0
+Hedwig Dohm 0
+Heinrich Wilhelm Dove 0
+Giorgos Seferis 0
+Thomas Paine 0
+Kenzaburō Ōe 0
+Katja Kipping 0
+Abraham Cahan 0
+Mary Harris Jones 0
+Carl Spitteler 0
+Claus Offe 0
+Georges Canguilhem 0
+Georges Bataille 0
+Rudolf Bahro 0
+Todor Zhivkov 0
+Anthony Cronin 0
+B. R. Ambedkar 0
+Louis Dumont 0
+Alexander Danilovich Menshikov 0
+J. R. R. Tolkien 0
+Thomas Gumbleton 0
+René Descartes 0
+Johann Friedrich Blumenbach 0
+William Darwin Fox 0
+Cornelius the Centurion 0
+James K. Galbraith 0
+Bernie Sanders 0
+Edna St. Vincent Millay 0
+James VI and I 0
+Werner Sombart 0
+André Gide 0
+Patricia Churchland 0
+Aimee Mullins 0
+C. Wright Mills 0
+Mary Baker Eddy 0
+Mary Shelley 0
+Karl Pearson 0
+Franz Mehring 0
+Laura Perls 0
+E. F. Schumacher 0
+Georg von Vollmar 0
+Emma Goldman 100
+Ivan Illich {}
+Alfredo M. Bonanno {}
+Mahatma Gandhi {}
+Nikolay Chernyshevsky {}
+Huey P. Newton {}
+Paul Mattick {}
+Max Baginski {}
+Wilhelm Reich {}
+David D. Friedman {}
+Walt Whitman {}
+Joe Hill {}
+Léo Ferré {}
+Voltairine de Cleyre {}
+Guy Debord {}
+Robert Owen {}
+Albert Einstein {}
+Vladimir Lenin {}
+Leon Czolgosz {}
+Nellie Bly {}
+Francisco Franco {}
+Bayard Rustin {}
+Max Stirner {}
+Theodore Roosevelt {}
+Murray Rothbard {}
+Jacques Ellul {}
+Banksy {}
+Bertrand Russell {}
+Kurt Vonnegut {}
+Otto Rühle {}
+Giovanni Passannante {}
+Alexander Berkman {}
+Antonie Pannekoek {}
+Nestor Makhno {}
+William Morris {}
+Buenaventura Durruti {}
+Mary Wollstonecraft {}
+Thomas Müntzer {}
+Joseph Pulitzer {}
+Margaret Sanger {}
+Edna St. Vincent Millay {}
+Leo Tolstoy {}
+Magnus Hirschfeld {}
+Michael Harrington {}
+Ricardo Flores Magón {}
+William McKinley {}
+Dorothy Day {}
+Mikhail Bakunin {}
+Benito Mussolini {}
+Sylvia Pankhurst {}
+Henry David Thoreau {}
+Peggy Guggenheim {}
+Martin Luther King, Jr. {}
+Gustav Landauer {}
+Angela Davis {}
+Howard Zinn {}
+H. G. Wells {}
+Max Nettlau {}
+Bernie Sanders {}
+Henry Clay Frick {}
+Rebecca West {}
+Louise Michel {}
+Charles Fourier {}
+Eugene V. Debs {}
+Francisco Ferrer Guardia {}
+Ralph Waldo Emerson {}
+Phil Ochs {}
+Pierre-Joseph Proudhon {}
+Joseph Stalin {}
+Woodrow Wilson {}
+Norman Thomas {}
+Noam Chomsky {}
+Friedrich Nietzsche {}
+George Orwell {}
+William Godwin {}
+Cornelius Castoriadis {}
+Upton Sinclair {}
+Maureen Stapleton {}
+Errico Malatesta {}
+Franz Kafka {}
+Abbie Hoffman {}
+Antonio Negri {}
+Émile Armand {}
+Étienne Cabet {}
+Peter Kropotkin {}
+Warren Beatty {}
+Murray Bookchin {}
+Johann Most {}
+Erich Mühsam {}
+Ba Jin {}
+Adolf Hitler {}
+Albert Camus {}
+Alexander II of Russia {}
+Rudolf Rocker {}
+Herbert Marcuse {}
+J. Edgar Hoover {}
+Élisée Reclus {}
+John Stuart Mill {}
+Nathaniel Hawthorne {}
+Oscar Wilde {}
+Joan of Arc {}
+Dante Alighieri 0
+Franz Kafka 0
+Yasunari Kawabata 0
+Miguel de Unamuno 0
+Álvaro Leonel Ramazzini Imeri 0
+Jeremy Corbyn 0
+Costa-Gavras 0
+Philippe Pinel 0
+Steve Biko 0
+Carl Rogers 0
+Mary Cassatt 0
+David McClelland 0
+Baron d'Holbach 0
+Thucydides 0
+Emmanuel Mounier 0
+Dante Gabriel Rossetti 0
+Gerard Damiano 0
+Maria Tallchief 0
+Andreas Baader 0
+Leon Trotsky 0
+Carrie Chapman Catt 0
+María Casares 0
+Maria Mitchell 0
+Nikolai Bukharin 0
+Isaac Newton 0
+Sergey Nechayev 0
+Otto Kirchheimer 0
+Élisée Reclus 0
+Arnold Gehlen 0
+John Gould 0
+Julius Wagner-Jauregg 0
+Ilya Repin 0
+Babe Didrikson Zaharias 0
+Edgar Morin 0
+Nicolae Ceaușescu 0
+Snježana Kordić 0
+Seymour Hersh 0
+Billie Jean King 0
+Rosalyn Sussman Yalow 0
+Matt Damon 0
+T. S. Eliot 0
+Otto Fenichel 0
+Camilo José Cela 0
+Tenley Albright 0
+August Wilhelm von Hofmann 0
+Mikhail Kutuzov 0
+John the Baptist 0
+Bob Dylan 0
+Mitch Daniels 0
+Rigas Feraios 0
+Pyotr Krasnov 0
+Alexander Parvus 0
+Hans Jonas 0
+Amelia Earhart 0
+Fanny Imlay 0
+Luce Irigaray 0
+Alfred Döblin 0
+D. H. Lawrence 0
+Emiliano Zapata 0
+Edmund Husserl 0
+Afterlife 0
+Robert Michels 0
+Fyodor Apraksin 0
+Michael Sipser 0
+Dian Fossey 0
+Maurice Maeterlinck 0
+Keir Hardie 0
+John Bercow 0
+Käthe Kollwitz 0
+Melanie Klein 0
+Luigi Pirandello 0
+Asger Jorn 0
+Semyon Budyonny 0
+Wolfgang Wickler 0
+Francisco I. Madero 0
+Margaret Sanger 0
+Ann Bancroft 0
+Léon Foucault 0
+Lucius Junius Brutus 0
+Magnus Hirschfeld 0
+Al-Ghazali 0
+Napoleon III 0
+Hanan Ashrawi 0
+Ricardo Flores Magón 65
+Francisco León de la Barra {}
+Henrik Ibsen {}
+William Morris {}
+Pancho Villa {}
+Leon Czolgosz {}
+Henry David Thoreau {}
+Alfredo M. Bonanno {}
+Errico Malatesta {}
+Johann Most {}
+Álvaro Obregón {}
+Franz Kafka {}
+Max Stirner {}
+Abbie Hoffman {}
+Plutarco Elías Calles {}
+Antonio Negri {}
+Anselmo Lorenzo {}
+Sylvia Pankhurst {}
+Howard Zinn {}
+Karl Marx {}
+Jacques Ellul {}
+Banksy {}
+Herbert Marcuse {}
+Peter Kropotkin {}
+Wilhelm Reich {}
+Kurt Vonnegut {}
+Max Nettlau {}
+Otto Rühle {}
+Giovanni Passannante {}
+Paul Mattick {}
+Murray Bookchin {}
+Alexander Berkman {}
+Antonie Pannekoek {}
+Nestor Makhno {}
+Venustiano Carranza {}
+Emma Goldman {}
+Eugene V. Debs {}
+Ivan Illich {}
+Charles Fourier {}
+Porfirio Díaz {}
+Erich Mühsam {}
+Francisco I. Madero {}
+Francisco Ferrer Guardia {}
+Léo Ferré {}
+Lázaro Cárdenas {}
+Thomas Müntzer {}
+Murray Rothbard {}
+Pierre-Joseph Proudhon {}
+Albert Camus {}
+Louise Michel {}
+Mahatma Gandhi {}
+Leo Tolstoy {}
+Rudolf Rocker {}
+Victoriano Huerta {}
+Guy Debord {}
+Woodrow Wilson {}
+Cornelius Castoriadis {}
+Élisée Reclus {}
+Noam Chomsky {}
+Gustav Landauer {}
+Mikhail Bakunin {}
+Oscar Wilde {}
+Buenaventura Durruti {}
+Dorothy Day {}
+Emiliano Zapata {}
+William Godwin {}
+William Deane 0
+Dorothy Day 224
+Clara Barton {}
+Gertrude B. Elion {}
+Harriet Williams Russell Strong {}
+Aimee Mullins {}
+Edith Nourse Rogers {}
+Mary McLeod Bethune {}
+Rosalynn Carter {}
+Kate Millett {}
+Noam Chomsky {}
+Mahatma Gandhi {}
+Gerty Cori {}
+Helen Keller {}
+Billie Jean King {}
+Mairead Maguire {}
+Nettie Stevens {}
+A. J. Muste {}
+Jack London {}
+Sylvia Pankhurst {}
+Emily Dickinson {}
+Gertrude Ederle {}
+Mikhail Bakunin {}
+Sargent Shriver {}
+Gwendolyn Brooks {}
+Frances Oldham Kelsey {}
+Rosalyn Sussman Yalow {}
+Benjamin Spock {}
+Barbara Jordan {}
+Anna Louise Strong {}
+Oprah Winfrey {}
+Edith Wharton {}
+William Sloane Coffin {}
+Mary Lyon {}
+Tenley Albright {}
+Roy Bourgeois {}
+Elizabeth Blackwell {}
+Charles de Foucauld {}
+Georgia O'Keeffe {}
+Emma Goldman {}
+Paul Mattick {}
+Ho Chi Minh {}
+Ida Tarbell {}
+Lech Wałęsa {}
+Adolph Kolping {}
+Martin Luther King, Jr. {}
+Betty Ford {}
+Eudora Welty {}
+Emma Lazarus {}
+Lucille Ball {}
+Amelia Earhart {}
+Julia Ward Howe {}
+Tommy Douglas {}
+Hélder Câmara {}
+Barbara Mikulski {}
+Willa Cather {}
+Guy Debord {}
+Fidel Castro {}
+Saul Alinsky {}
+Sandra Day O'Connor {}
+Sarah Winnemucca {}
+Ruth Bader Ginsburg {}
+Harriet Tubman {}
+Sacagawea {}
+Norman Thomas {}
+Helen B. Taussig {}
+Maxim Gorky {}
+Francisco Franco {}
+Hillary Clinton {}
+Martin Sheen {}
+Pearl S. Buck {}
+Amy Goodman {}
+Eileen Collins {}
+Maggie Kuhn {}
+Charlotte Perkins Gilman {}
+Donna Shalala {}
+Janet Reno {}
+Frances Wright {}
+Patricia Roberts Harris {}
+Susan Solomon {}
+Rosa Parks {}
+Carrie Chapman Catt {}
+Frances Perkins {}
+Beverly Sills {}
+Annie Jump Cannon {}
+Fannie Lou Hamer {}
+Otto Rühle {}
+Gloria Steinem {}
+Lillian Moller Gilbreth {}
+Antonie Pannekoek {}
+Nestor Makhno {}
+Anne Sullivan {}
+Abraham Lincoln {}
+William Morris {}
+Elisabeth Kübler-Ross {}
+Jacqueline Cochran {}
+Thomas Müntzer {}
+Mary Engle Pennington {}
+Harold Hughes {}
+Victoria Woodhull {}
+Madeleine Albright {}
+Margaret Sanger {}
+Helen Murray Free {}
+Ann Bancroft {}
+Betty Friedan {}
+Leo Tolstoy {}
+Michael Harrington {}
+Thomas Gumbleton {}
+Mary Dyer {}
+Herbert Spencer {}
+Abraham Kuyper {}
+Eleanor Roosevelt {}
+Óscar Romero {}
+Lucretia Mott {}
+Patsy Mink {}
+Mildred Cohn {}
+Eunice Kennedy Shriver {}
+Susan B. Anthony {}
+Billie Holiday {}
+Alice Waters {}
+Maria Goeppert-Mayer {}
+Elizabeth Dole {}
+Julia Child {}
+Gustav Landauer {}
+Geraldine Ferraro {}
+Rachel Carson {}
+Coretta Scott King {}
+Wilhelm Reich {}
+Annie Oakley {}
+Helen Hayes {}
+Emma Willard {}
+Linus Pauling {}
+Moira Kelly {}
+Louisa May Alcott {}
+Sheila Widnall {}
+John Howard Griffin {}
+Bessie Coleman {}
+Louise Bourgeois {}
+Winona LaDuke {}
+Donna de Varona {}
+Grace Hopper {}
+Maya Lin {}
+Louise Michel {}
+Oveta Culp Hobby {}
+Charles Fourier {}
+Beatrice Hicks {}
+Francisco Ferrer Guardia {}
+Cesar Chavez {}
+Dennis Kucinich {}
+Marianne Cope {}
+Mary Baker Eddy {}
+Desmond Tutu {}
+Sojourner Truth {}
+Pierre-Joseph Proudhon {}
+Zora Neale Hurston {}
+Frances Xavier Cabrini {}
+Barbara McClintock {}
+U Thant {}
+Anne Hutchinson {}
+Margaret Fuller {}
+Wilma Rudolph {}
+Nellie Bly {}
+Gustavo Gutiérrez {}
+Hildegard Goss-Mayr {}
+Abigail Adams {}
+Sylvia Earle {}
+Sally Ride {}
+Jane Addams {}
+Buenaventura Durruti {}
+Margaret Bourke-White {}
+Eugene O'Neill {}
+Upton Sinclair {}
+Shannon Lucid {}
+Errico Malatesta {}
+Thomas Merton {}
+Amelia Bloomer {}
+Abbie Hoffman {}
+Álvaro Leonel Ramazzini Imeri {}
+Antonio Negri {}
+Mother Teresa {}
+Bessie Smith {}
+Ricardo Flores Magón {}
+Jeannette Rankin {}
+George F. Kennan {}
+Marian Anderson {}
+Katharine Graham {}
+Ellen Swallow Richards {}
+Maya Angelou {}
+Alice Paul {}
+Mary Cassatt {}
+Margaret Mead {}
+Peter Kropotkin {}
+Kathrine Switzer {}
+Dorothy Height {}
+Alice Hamilton {}
+Dorothea Lange {}
+Murray Bookchin {}
+Maria Tallchief {}
+Medea Benjamin {}
+Benedict XVI {}
+Lydia Maria Child {}
+Daniel Ellsberg {}
+Ella Fitzgerald {}
+John F. Kennedy {}
+Helen Caldicott {}
+Harriet Beecher Stowe {}
+Althea Gibson {}
+Helen Stephens {}
+George McGovern {}
+Maria Mitchell {}
+Nancy Pelosi {}
+Sherry Lansing {}
+Rudolf Rocker {}
+Herbert Marcuse {}
+Patricia Schroeder {}
+Cornelius Castoriadis {}
+Anne Morrow Lindbergh {}
+Janet Rowley {}
+Ida B. Wells {}
+Mary Harris Jones {}
+Oscar Wilde {}
+Shirley Chisholm {}
+Katharine Drexel {}
+Peter Benenson {}
+Babe Didrikson Zaharias {}
+Ruth Benedict {}
+Mikhail Bakunin 96
+Ivan Illich {}
+E. H. Carr {}
+Alfredo M. Bonanno {}
+Mahatma Gandhi {}
+Raya Dunayevskaya {}
+Ludwig Feuerbach {}
+Anselmo Lorenzo {}
+André Gorz {}
+Paul Mattick {}
+Vissarion Belinsky {}
+Giuseppe Mazzini {}
+Wilhelm Reich {}
+Richard Wagner {}
+Emma Goldman {}
+David D. Friedman {}
+Vasili III of Russia {}
+Immanuel Kant {}
+Karl Marx {}
+Abdullah Öcalan {}
+Guy Debord {}
+Nicholas I of Russia {}
+Leon Czolgosz {}
+Friedrich Wilhelm Joseph Schelling {}
+Tom Stoppard {}
+Nikolay Ogarev {}
+Jacques Ellul {}
+Banksy {}
+Carl Schmitt {}
+Kurt Vonnegut {}
+Otto Rühle {}
+Giovanni Passannante {}
+Alexander Berkman {}
+Antonie Pannekoek {}
+Nestor Makhno {}
+Arnold Ruge {}
+James Guillaume {}
+William Morris {}
+Alexander Herzen {}
+Saul {}
+Leo Tolstoy {}
+Ricardo Flores Magón {}
+Karl Korsch {}
+Dorothy Day {}
+Sylvia Pankhurst {}
+Henry David Thoreau {}
+Voltaire {}
+Léo Ferré {}
+Neil Postman {}
+Gustav Landauer {}
+Marinus van der Lubbe {}
+Howard Zinn {}
+Max Nettlau {}
+Friedrich Kapp {}
+Rosa Luxemburg {}
+Louise Michel {}
+Charles Fourier {}
+Friedrich Hecker {}
+Erich Mühsam {}
+Francisco Ferrer Guardia {}
+Pierre-Joseph Proudhon {}
+Karl Liebknecht {}
+Félix Guattari {}
+Max Stirner {}
+Noam Chomsky {}
+Buenaventura Durruti {}
+William Godwin {}
+Errico Malatesta {}
+Louis Blanc {}
+Friedrich Engels {}
+Franz Kafka {}
+Yanis Varoufakis {}
+Abbie Hoffman {}
+Antonio Negri {}
+Lorenz von Stein {}
+Émile Armand {}
+Jean-Paul Sartre {}
+Peter Kropotkin {}
+Georg Herwegh {}
+Philipp Franz von Siebold {}
+Murray Bookchin {}
+Johann Most {}
+Charles Taze Russell {}
+Georg Wilhelm Friedrich Hegel {}
+Murray Rothbard {}
+Albert Camus {}
+Aleksandr Solzhenitsyn {}
+Johann Gottlieb Fichte {}
+Alexander II of Russia {}
+Sergey Nechayev {}
+Rudolf Rocker {}
+Herbert Marcuse {}
+Cornelius Castoriadis {}
+Élisée Reclus {}
+Wilhelm Weitling {}
+Giuseppe Garibaldi {}
+Oscar Wilde {}
+Sigurd Hoel 0
+Ernest Mandel 0
+Hans Herrman Strupp 0
+Jon Stewart 0
+Leonid Krasin 0
+Luiz Inácio Lula da Silva 0
+Étienne de La Boétie 0
+Annie Oakley 0
+Egon Krenz 0
+Benedetto Croce 0
+Max Nettlau 0
+Charles Gabriel Seligman 0
+Alfred North Whitehead 0
+Maya Lin 0
+Alasdair MacIntyre 0
+Kurt Weill 0
+Charlie Chaplin 0
+Jacob Epstein 0
+Carl Menger 0
+Margarethe von Trotta 0
+Algernon Charles Swinburne 0
+Klement Gottwald 0
+Otto Neurath 0
+Ernő Gerő 0
+Kazuo Ishiguro 0
+Angela Merkel 0
+Kurt Lewin 0
+Josiah Wedgwood 0
+Hermann von Helmholtz 0
+Shirley Chisholm 0
+Recep Tayyip Erdoğan 0
+Alice Paul 0
+Norberto Bobbio 0
+Karl Jaspers 0
+Jacinto Benavente 0
+Dorothy Height 0
+Warren Beatty 0
+Sandra Day O'Connor 0
+Lydia Maria Child 0
+Alexander Buturlin 0
+Simone de Beauvoir 0
+Paul Durcan 0
+Ludwig Woltmann 0
+Althea Gibson 0
+Rudyard Kipling 0
+Louis Agassiz 0
+Jared Diamond 0
+Ferdinand de Saussure 0
+Geoffrey Chaucer 0
+Robert FitzRoy 0
+Pavel Milyukov 0
+Clark L. Hull 0
+Theodor W. Adorno 0
+Viggo Mortensen 0
+Álvaro García Linera 0
+Albert von Kölliker 0
+Vera Zasulich 0
+Anselmo Lorenzo 0
+Vissarion Belinsky 0
+Carol Chomsky 0
+Nelly Sachs 0
+Max Baginski 0
+Claude Henri de Rouvroy, comte de Saint-Simon 0
+Peter Lilienthal 0
+Epicurus 0
+Mikhail Kasyanov 0
+Sun Yat-sen 0
+Charles Lyell 0
+Felix von Luschan 0
+Gary Becker 0
+Paul Heyse 0
+Emmeline Pankhurst 0
+Charles Babbage 0
+Hesiod 0
+Susan Sutherland Isaacs 0
+John Locke 0
+Elias Canetti 0
+Walter Scott 0
+C. S. Lewis 0
+Harald Wolf 0
+Jawaharlal Nehru 0
+Mario Vargas Llosa 0
+William S. Burroughs 0
+Elinor Ostrom 0
+Friedrich Wilhelm Joseph Schelling 0
+Julius Plücker 0
+Kate Bush 0
+Ossip K. Flechtheim 0
+David Ricardo 0
+Amy Goodman 0
+Vincent D'Onofrio 0
+Raymond Williams 0
+J. D. Salinger 0
+Adolph Joffe 0
+Beverly Sills 0
+Eddie Vedder 0
+Sophia Tolstaya 0
+Erik Axel Karlfeldt 0
+Hippolyte Taine 0
+Nestor Makhno 72
+Ivan Illich {}
+Émile Armand {}
+Leon Czolgosz {}
+Henry David Thoreau {}
+Alfredo M. Bonanno {}
+Errico Malatesta {}
+Johann Most {}
+Franz Kafka {}
+Raya Dunayevskaya {}
+Max Stirner {}
+Abbie Hoffman {}
+Marinus van der Lubbe {}
+Christian Rakovsky {}
+Antonio Negri {}
+Ricardo Flores Magón {}
+André Gorz {}
+Ida Mett {}
+Howard Zinn {}
+Karl Marx {}
+Jacques Ellul {}
+Banksy {}
+Herbert Marcuse {}
+David D. Friedman {}
+Peter Kropotkin {}
+Jean-Paul Sartre {}
+Wilhelm Reich {}
+Kurt Vonnegut {}
+Max Nettlau {}
+Karl Korsch {}
+Otto Rühle {}
+Rosa Luxemburg {}
+Giovanni Passannante {}
+Paul Mattick {}
+Murray Bookchin {}
+Alexander Berkman {}
+Antonie Pannekoek {}
+Emma Goldman {}
+William Morris {}
+Charles Fourier {}
+Mikhail Frunze {}
+Michael Moorcock {}
+Erich Mühsam {}
+Francisco Ferrer Guardia {}
+Nikolai Yudenich {}
+Léo Ferré {}
+Lev Kamenev {}
+Pyotr Nikolayevich Wrangel {}
+Murray Rothbard {}
+Mahatma Gandhi {}
+Pierre-Joseph Proudhon {}
+Vladimir Lenin {}
+Albert Camus {}
+Louise Michel {}
+Karl Liebknecht {}
+Rudolf Rocker {}
+Abdullah Öcalan {}
+Leo Tolstoy {}
+Symon Petliura {}
+Félix Guattari {}
+Guy Debord {}
+Yanis Varoufakis {}
+Cornelius Castoriadis {}
+Élisée Reclus {}
+Noam Chomsky {}
+Sylvia Pankhurst {}
+Gustav Landauer {}
+Mikhail Bakunin {}
+Oscar Wilde {}
+Buenaventura Durruti {}
+Dorothy Day {}
+Emiliano Zapata {}
+William Godwin {}
+Erving Goffman 0
+Adolphe Crémieux 0
+Karl Grün 0
+Edward Bernays 0
+Kang Youwei 0
+John Howard Griffin 0
+Marianne Cope 0
+Anni Albers 0
+Carl Schorlemmer 0
+Joseph Brodsky 0
+Czesław Miłosz 0
+Abraham Kuyper 0
+Józef Wybicki 0
+Mildred Cohn 0
+Louis Pasteur 0
+Gustav Wyneken 0
+Moira Kelly 0
+Bruce Springsteen 0
+Eugène Ionesco 0
+James Boswell 0
+Michel Foucault 0
+Adam Smith 0
+H. G. Wells 0
+Ernest Jones 0
+Winona LaDuke 0
+Errico Malatesta 32
+Benito Mussolini {}
+Émile Armand {}
+Henry David Thoreau {}
+Alfredo M. Bonanno {}
+Emma Goldman {}
+Mahatma Gandhi {}
+Max Stirner {}
+Gustav Landauer {}
+Umberto I of Italy {}
+Ricardo Flores Magón {}
+Murray Rothbard {}
+Giuseppe Mazzini {}
+Christiaan Cornelissen {}
+Peter Kropotkin {}
+Peter Lilienthal {}
+Émile Gautier {}
+James Joll {}
+Giovanni Passannante {}
+Murray Bookchin {}
+Alexander Berkman {}
+Nestor Makhno {}
+Johann Most {}
+David D. Friedman {}
+Pierre-Joseph Proudhon {}
+Louise Michel {}
+Leo Tolstoy {}
+Rudolf Rocker {}
+Élisée Reclus {}
+Noam Chomsky {}
+Buenaventura Durruti {}
+Mikhail Bakunin {}
+William Godwin {}
+Claude Simon 0
+Ralph Waldo Emerson 0
+Franz Ernst Neumann 0
+Anne Hutchinson 0
+Ralph Ellison 0
+Virgil 0
+Jane Addams 0
+Herbert A. Simon 0
+Donald Knuth 0
+Comte de Lautréamont 0
+John Keats 0
+Paul Krugman 0
+Alfred Adler 0
+Alexander III of Russia 0
+Burton Holmes 0
+Sheila Widnall 0
+François Quesnay 0
+Che Guevara 0
+James Madison 0
+Henri Bergson 0
+Alvin Plantinga 0
+Viktoria Tolstoy 0
+Kathrine Switzer 0
+Theodor Liebknecht 0
+Benedict XVI 0
+Lillian Moller Gilbreth 0
+Marquis de Sade 0
+Wilhelm Wolff 0
+Jonathan Swift 0
+Marcellin Berthelot 0
+Nadezhda Krupskaya 0
+André Gorz 16
+Ivan Illich {}
+Rossana Rossanda {}
+Claus Offe {}
+Jean-Jacques Servan-Schreiber {}
+Herbert Marcuse {}
+Susanne Wiest {}
+François Mitterrand {}
+Jean-Paul Sartre {}
+Louis Dumont {}
+Götz Werner {}
+Anthony Barber {}
+Sergio Garavini {}
+Antonio Negri {}
+Katja Kipping {}
+Juliet Rhys-Williams {}
+Thomas Paine {}
+Christiaan Cornelissen 0
+William Sloane Coffin 0
+Alfred Marshall 0
+Richard Wagner 0
+Gilbert Ryle 0
+Carel van Schaik 0
+Prince Georg Ludwig of Holstein-Gottorp 0
+Emma Lazarus 0
+Graham Nash 0
+Ronald Fisher 0
+Rossana Rossanda 0
+Álvaro Obregón 0
+Milton Friedman 0
+André Malraux 0
+Friedrich Wöhler 0
+Hans-Georg Gadamer 0
+Edward Burne-Jones 0
+Harriet Tubman 0
+Edward Thorndike 0
+Leon Czolgosz 34
+Julius Caesar {}
+Henry David Thoreau {}
+Alfredo M. Bonanno {}
+Errico Malatesta {}
+Johann Most {}
+Mahatma Gandhi {}
+Max Stirner {}
+Gustav Landauer {}
+Theodore Roosevelt {}
+James A. Garfield {}
+Umberto I of Italy {}
+Ricardo Flores Magón {}
+Murray Rothbard {}
+Émile Armand {}
+Peter Kropotkin {}
+Patton Oswalt {}
+Murray Bookchin {}
+Alexander Berkman {}
+Nestor Makhno {}
+Emma Goldman {}
+David D. Friedman {}
+Pierre-Joseph Proudhon {}
+Louise Michel {}
+Rudolf Rocker {}
+Marcus Junius Brutus {}
+Stephen Sondheim {}
+Leo Tolstoy {}
+Gaetano Bresci {}
+Noam Chomsky {}
+Charles J. Guiteau {}
+William McKinley {}
+Buenaventura Durruti {}
+Mikhail Bakunin {}
+William Godwin {}
+Walter Mischel 0
+Daniel Mayer 0
+Alice Munro 0
+Evangelos Venizelos 0
+William Pitt the Younger 0
+Harry Graf Kessler 0
+Grazia Deledda 0
+John William Strutt, 3rd Baron Rayleigh 0
+Marian Anderson 0
+Heinz Kohut 0
+Abel Paz 0
+William Kingdon Clifford 0
+William Morris 66
+Jane Morris {}
+William Holman Hunt {}
+Gandalf {}
+Thomas Carlyle {}
+Errico Malatesta {}
+Alfred Russel Wallace {}
+Dante Alighieri {}
+Pieter Coecke van Aelst {}
+Virgil {}
+Evelyn De Morgan {}
+Alfred, Lord Tennyson {}
+Ralph Vaughan Williams {}
+George Howard, 9th Earl of Carlisle {}
+Marc Chagall {}
+George MacDonald {}
+William Shakespeare {}
+George Bernard Shaw {}
+Maria Zambaco {}
+Christina Rossetti {}
+Henry James {}
+J. R. R. Tolkien {}
+Peter Kropotkin {}
+James Joyce {}
+Ford Madox Brown {}
+Dante Gabriel Rossetti {}
+Emery Walker {}
+Louisa Beresford, Marchioness of Waterford {}
+Beatrice Portinari {}
+Homer {}
+François Boucher {}
+Eleanor Marx {}
+Henry George {}
+Jan van Eyck {}
+Edward Burne-Jones {}
+Jón Sigurðsson {}
+Paul Lafargue {}
+Thomas Malory {}
+Karl Kautsky {}
+William Burges {}
+George Lansbury {}
+Friedrich Engels {}
+Benjamin Disraeli {}
+Gunta Stölzl {}
+Karl Marx {}
+John Ruskin {}
+Astrid Sampe {}
+Jacob Jordaens {}
+John Everett Millais {}
+Charles Kingsley {}
+Marie Spartali Stillman {}
+Anni Albers {}
+William Ewart Gladstone {}
+Effie Gray {}
+Roman Abramovich {}
+Geoffrey Chaucer {}
+Algernon Charles Swinburne {}
+Augustus Pugin {}
+James Collinson {}
+George Frederic Watts {}
+John Stuart Mill {}
+Walter Scott {}
+C. S. Lewis {}
+Robert Browning {}
+John William Waterhouse {}
+Wilhelm Liebknecht {}
+John Keats {}
+Lev Kamenev 0
+Harold Hughes 0
+Dan Sperber 0
+Wilhelm Dilthey 0
+Helen Murray Free 0
+Stephen Sondheim 0
+Marie Spartali Stillman 0
+Miguel d'Escoto Brockmann 0
+Barbara Walters 0
+Alexis Tsipras 0
+Waldemar Pabst 0
+Jane Goodall 0
+Paul Tillich 0
+Augustine of Hippo 0
+Jaroslav Seifert 0
+Karl Löwith 0
+James A. Garfield 0
+George Lakoff 0
+Patrick Modiano 0
+Leonard Darwin 0
+Alfred Rosenberg 0
+James Dwight Dana 0
+Morgan Freeman 0
+Confucius 0
+Beatrice Hicks 0
+Clement Attlee 0
+Friedrich Naumann 0
+George Osborne 0
+Cesare Lombroso 0
+Gwendolyn Brooks 0
+Karl Liebknecht 56
+Philipp Scheidemann {}
+Clara Zetkin {}
+Vladimir Lenin {}
+Friedrich Engels {}
+Friedrich Ebert {}
+Georgi Plekhanov {}
+Alexandra Kollontai {}
+Slavoj Žižek {}
+Che Guevara {}
+Howard Zinn {}
+Leo Jogiches {}
+Antonio Gramsci {}
+Käthe Kollwitz {}
+Jean-Paul Sartre {}
+Wilhelm Reich {}
+Josip Broz Tito {}
+Walter Benjamin {}
+Nelson Mandela {}
+Rosa Luxemburg {}
+Zygmunt Bauman {}
+Eric Hobsbawm {}
+Theodor Liebknecht {}
+Paul Levi {}
+Antonie Pannekoek {}
+Mao Zedong {}
+Erich Fromm {}
+Simone de Beauvoir {}
+Ho Chi Minh {}
+Enver Hoxha {}
+Leon Trotsky {}
+Thomas Sankara {}
+Karl Kautsky {}
+György Lukács {}
+Wolfram Wette {}
+Joseph Stalin {}
+Bertolt Brecht {}
+Karl Marx {}
+Max Horkheimer {}
+Eduard Bernstein {}
+Nikolai Bukharin {}
+Kim Il-sung {}
+C. Wright Mills {}
+Herbert Marcuse {}
+Fidel Castro {}
+Guy Debord {}
+Franz Mehring {}
+Waldemar Pabst {}
+James Connolly {}
+Prince Maximilian of Baden {}
+Raya Dunayevskaya {}
+August Bebel {}
+Zeth Höglund {}
+Theodor W. Adorno {}
+Salvador Allende {}
+Louis Althusser {}
+Wilhelm Liebknecht {}
+Michel Serres 0
+Charles Dickens 0
+Othmar Spann 0
+Élisabeth Roudinesco 0
+Hildegard Goss-Mayr 0
+Friedrich Schleiermacher 0
+Otto von Bismarck 0
+Madeleine Albright 0
+Heydar Aliyev 0
+Maurice Merleau-Ponty 0
+Anton Chekhov 0
+Sarah Bernhardt 0
+Harriet Martineau 0
+Robert Anton Wilson 0
+Pieter Coecke van Aelst 0
+Bolesław Bierut 0
+Thomas Robert Malthus 0
+Dmitriy Ustinov 0
+Walter Lippmann 0
+Wojciech Jaruzelski 0
+Dorothea Lange 0
+Prabhat Ranjan Sarkar 0
+Wilhelm Wundt 0
+Mikhail Frunze 0
+Enver Hoxha 0
+Ayn Rand 0
+John Steinbeck 0
+Rudolf Carnap 0
+Katharine Drexel 0
+Thomas Reid 0
+Alexander II of Russia 0
+Gertrude B. Elion 0
+Jane Morris 0
+Clara Barton 0
+Ernst Torgler 0
+Blaise Pascal 0
+Bronisław Malinowski 0
+Richard Owen 0
+Antonín Novotný 0
+Yevgeny Primakov 0
+Nikolai Bulganin 0
+Beatrice Webb 0
+Socrates 0
+Arnold Bennett 0
+Julia Ward Howe 0
+François Guizot 0
+Ramiz Alia 0
+Hélder Câmara 0
+Ivan Bunin 0
+Walter Ulbricht 0
+Joseph Dalton Hooker 0
+Albert Einstein 0
+Valentin Pavlov 0
+Gaston Bachelard 0
+Roman Malinovsky 0
+José Echegaray 0
+Helen B. Taussig 0
+Wilhelm Windelband 0
+François Mauriac 0
+Arkadi Maslow 0
+Albrecht Ritschl 0
+Frédéric Bastiat 0
+Charlotte Perkins Gilman 0
+William Blake 0
+Axel Honneth 0
+Walter Benjamin 0
+Peter August, Duke of Schleswig-Holstein-Sonderburg-Beck 0
+Michał Kalecki 0
+Thomas Nagel 0
+Mary Wollstonecraft 0
+Joseph Pulitzer 0
+Hugo Haase 0
+Roger Bacon 0
+Martin Seligman 0
+Mary Dyer 0
+Ian Kershaw 0
+Imre Nagy 0
+Benito Mussolini 0
+Elizabeth Dole 0
+Maxim Gorky 0
+Joseph Deniker 0
+Donald Symons 0
+Paul Revere 0
+Gabriel García Márquez 0
+Elfriede Jelinek 0
+Ilya Ulyanov 0
+James Joyce 0
+Friedrich Kapp 0
+Fernand Braudel 0
+François Bondy 0
+Joseph Dietzgen 9
+Baruch Spinoza {}
+Vladimir Lenin {}
+Georg Wilhelm Friedrich Hegel {}
+Friedrich Engels {}
+Georgi Plekhanov {}
+Immanuel Kant {}
+Ludwig Feuerbach {}
+Karl Marx {}
+Antonie Pannekoek {}
+Wisława Szymborska 0
+Arthur Koestler 0
+Rose Wilder Lane 0
+Sojourner Truth 0
+Hermann Hesse 0
+Petar Mladenov 0
+Friedrich Pollock 0
+Venustiano Carranza 0
+Sheridan Le Fanu 0
+Alexandra Kollontai 0
+Verner von Heidenstam 0
+Manuel Castells 0
+Elaine Weyuker 0
+Antonio Gramsci 0
+François Mitterrand 0
+Aldous Huxley 0
+Karl Barth 0
+Rudolf Bultmann 0
+Ignacy Krasicki 0
+Hans Reichenbach 0
+Georg Wilhelm Friedrich Hegel 0
+Wilhelm von Humboldt 0
+Pyotr Bagration 0
+Edward Carson, Baron Carson 0
+François-Noël Babeuf 0
+Marcus Junius Brutus 0
+Seamus Heaney 0
+Félix Guattari 20
+Michel Foucault {}
+Mikhail Bakhtin {}
+Charles Sanders Peirce {}
+Jean-Jacques Lebel {}
+Ferdinand de Saussure {}
+Umberto Eco {}
+Gilles Deleuze {}
+Roland Barthes {}
+Gottlob Frege {}
+Louis Hjelmslev {}
+Friedrich Nietzsche {}
+Daniel Cohn-Bendit {}
+Algirdas Julien Greimas {}
+Roman Jakobson {}
+Antonio Negri {}
+Jacques Lacan {}
+Luiz Inácio Lula da Silva {}
+Karl Marx {}
+Charles W. Morris {}
+Sigmund Freud {}
+W. H. Auden 0
+Wilhelm Eduard Weber 0
+Cornelius Castoriadis 143
+Martin Heidegger {}
+Henri Lefebvre {}
+Alfredo M. Bonanno {}
+Raya Dunayevskaya {}
+Alexandre Kojève {}
+Ernst Cassirer {}
+Claude Lévi-Strauss {}
+André Gorz {}
+Paul Mattick {}
+Terry Eagleton {}
+Pierre Bourdieu {}
+Wilhelm Reich {}
+Zygmunt Bauman {}
+Leo Strauss {}
+Homer {}
+Emma Goldman {}
+William Morris {}
+Maurice Blanchot {}
+Søren Kierkegaard {}
+Karl Marx {}
+Luce Irigaray {}
+Peter Sloterdijk {}
+Abdullah Öcalan {}
+Hesiod {}
+Guy Debord {}
+Hans-Georg Gadamer {}
+Aristotle {}
+Harald Wolf {}
+Sigmund Freud {}
+Gaston Bachelard {}
+Jean-François Lyotard {}
+Edmund Husserl {}
+Leon Czolgosz {}
+György Lukács {}
+Judith Butler {}
+Friedrich Wilhelm Joseph Schelling {}
+Claude Lefort {}
+Slavoj Žižek {}
+Giambattista Vico {}
+Raymond Williams {}
+Jacques Ellul {}
+Carl Schmitt {}
+Melanie Klein {}
+Axel Honneth {}
+Martin Buber {}
+Walter Benjamin {}
+Otto Rühle {}
+Susan Sutherland Isaacs {}
+Alexander Berkman {}
+Antonie Pannekoek {}
+Nestor Makhno {}
+Leszek Kołakowski {}
+Vincent Descombes {}
+Roland Barthes {}
+Richard Rorty {}
+Jean Baudrillard {}
+Wilhelm Dilthey {}
+Alexandre Koyré {}
+Leo Tolstoy {}
+Hans Joas {}
+Louis Althusser {}
+Pierre Klossowski {}
+Ricardo Flores Magón {}
+Karl Korsch {}
+Georg Cantor {}
+Dorothy Day {}
+Mikhail Bakunin {}
+Joan Robinson {}
+Sylvia Pankhurst {}
+Georges Bataille {}
+Arthur Schopenhauer {}
+Gustav Landauer {}
+Marinus van der Lubbe {}
+Howard Zinn {}
+Michel Foucault {}
+Michael Ignatieff {}
+Cornelius the Centurion {}
+Chris Marker {}
+Fredric Jameson {}
+Rosa Luxemburg {}
+E. P. Thompson {}
+Émile Bréhier {}
+Louise Michel {}
+Frantz Fanon {}
+Charles Fourier {}
+Karl Jaspers {}
+Francisco Ferrer Guardia {}
+Maurice Merleau-Ponty {}
+Pierre-Joseph Proudhon {}
+Karl Liebknecht {}
+Rudolf Rocker {}
+Michel Serres {}
+Emil Cioran {}
+Élisabeth Roudinesco {}
+Noam Chomsky {}
+José Ortega y Gasset {}
+Friedrich Nietzsche {}
+Buenaventura Durruti {}
+Gilles Deleuze {}
+William Godwin {}
+Georges Duby {}
+Alain Badiou {}
+Cornelius Castoriadis {}
+Jürgen Habermas {}
+Georgios Papandreou {}
+Julia Kristeva {}
+Konstantinos Tsatsos {}
+Errico Malatesta {}
+Abbie Hoffman {}
+Antonio Negri {}
+Max Weber {}
+Henri Bergson {}
+Gabriel Marcel {}
+Antonio Gramsci {}
+Jean-Paul Sartre {}
+Giorgio Agamben {}
+Roman Ingarden {}
+Peter Kropotkin {}
+Edward Said {}
+Daniel Cohn-Bendit {}
+Murray Bookchin {}
+Simone de Beauvoir {}
+Leon Trotsky {}
+Seyla Benhabib {}
+Pierre Vidal-Naquet {}
+Georg Wilhelm Friedrich Hegel {}
+Niklas Luhmann {}
+Paul Ricœur {}
+Emmanuel Levinas {}
+Albert Camus {}
+Theodor W. Adorno {}
+Johann Gottlieb Fichte {}
+Félix Guattari {}
+Umberto Eco {}
+Herbert Marcuse {}
+Hannah Arendt {}
+Jacques Derrida {}
+Yanis Varoufakis {}
+Jacques Lacan {}
+Oscar Wilde {}
+Jacques Le Goff {}
+André Leroi-Gourhan {}
+Edgar Morin {}
+Hal Draper 0
+Edward Gierek 0
+Janet Rowley 0
+Alexander Kerensky 0
+Alfredo M. Bonanno 23
+Henry David Thoreau {}
+Errico Malatesta {}
+Johann Most {}
+Mahatma Gandhi {}
+Max Stirner {}
+Gustav Landauer {}
+Ricardo Flores Magón {}
+Murray Rothbard {}
+Émile Armand {}
+Peter Kropotkin {}
+Murray Bookchin {}
+Alexander Berkman {}
+Nestor Makhno {}
+Emma Goldman {}
+David D. Friedman {}
+Pierre-Joseph Proudhon {}
+Louise Michel {}
+Leo Tolstoy {}
+Rudolf Rocker {}
+Noam Chomsky {}
+Buenaventura Durruti {}
+Mikhail Bakunin {}
+William Godwin {}
+Rudi Dutschke 0
+Kate Millett 0
+Georgi Plekhanov 0
+Justus von Liebig 0
+Anatoly Lunacharsky 0
+Paul Mattick 55
+Joan Robinson {}
+Ernest Mandel {}
+Leon Czolgosz {}
+Alfredo M. Bonanno {}
+Errico Malatesta {}
+Louise Michel {}
+Friedrich Engels {}
+Raya Dunayevskaya {}
+Gustav Landauer {}
+Marinus van der Lubbe {}
+Antonio Negri {}
+Rosa Luxemburg {}
+Ricardo Flores Magón {}
+André Gorz {}
+Howard Zinn {}
+Karl Marx {}
+Herbert Marcuse {}
+Jean-Paul Sartre {}
+Wilhelm Reich {}
+Sylvia Pankhurst {}
+Peter Kropotkin {}
+Karl Korsch {}
+Otto Rühle {}
+Gavril Myasnikov {}
+Murray Bookchin {}
+Alexander Berkman {}
+Antonie Pannekoek {}
+Nestor Makhno {}
+Emma Goldman {}
+Jan Appel {}
+Charles Fourier {}
+William Morris {}
+Francisco Ferrer Guardia {}
+Joseph Dietzgen {}
+Herman Gorter {}
+Yanis Varoufakis {}
+Pierre-Joseph Proudhon {}
+Albert Camus {}
+Max Horkheimer {}
+Karl Liebknecht {}
+Rudolf Rocker {}
+Abdullah Öcalan {}
+Leo Tolstoy {}
+Félix Guattari {}
+Guy Debord {}
+Cornelius Castoriadis {}
+Noam Chomsky {}
+Abbie Hoffman {}
+Oscar Wilde {}
+Buenaventura Durruti {}
+Dorothy Day {}
+Henryk Grossman {}
+John Maynard Keynes {}
+Mikhail Bakunin {}
+William Godwin {}
+John Searle 0
+Pierre Bourdieu 0
+Louisa May Alcott 0
+Benjamin Franklin 0
+Imre Lakatos 0
+Reinhold Niebuhr 0
+Pyotr Nikolayevich Wrangel 0
+Mother Teresa 0
+André Philip 0
+Walt Whitman 0
+Marcion of Sinope 0
+Louis Gabriel Ambroise de Bonald 0
+Arthur Penrhyn Stanley 0
+Don Cheadle 0
+Guy Debord 64
+Nestor Makhno {}
+Gustav Landauer {}
+Alfredo M. Bonanno {}
+Errico Malatesta {}
+Louise Michel {}
+Friedrich Engels {}
+Raya Dunayevskaya {}
+Yanis Varoufakis {}
+Christine Albanel {}
+Marinus van der Lubbe {}
+Karl Korsch {}
+Antonio Negri {}
+Rosa Luxemburg {}
+Ricardo Flores Magón {}
+André Gorz {}
+Sylvia Pankhurst {}
+Howard Zinn {}
+Karl Marx {}
+Walter Lippmann {}
+Greil Marcus {}
+Jean-Paul Sartre {}
+Wilhelm Reich {}
+Leon Czolgosz {}
+Peter Kropotkin {}
+Carl von Clausewitz {}
+Otto Rühle {}
+Gavril Myasnikov {}
+Paul Mattick {}
+Murray Bookchin {}
+Alexander Berkman {}
+Comte de Lautréamont {}
+Attila Kotányi {}
+Asger Jorn {}
+Emma Goldman {}
+William Morris {}
+Jan Appel {}
+Charles Fourier {}
+Marshall McLuhan {}
+Marquis de Sade {}
+Georg Wilhelm Friedrich Hegel {}
+Francisco Ferrer Guardia {}
+Herman Gorter {}
+Edward Bernays {}
+Jean Baudrillard {}
+Pierre-Joseph Proudhon {}
+Charlie Chaplin {}
+Albert Camus {}
+Theodor W. Adorno {}
+Karl Liebknecht {}
+Rudolf Rocker {}
+Abdullah Öcalan {}
+Sun Tzu {}
+Leo Tolstoy {}
+Félix Guattari {}
+Herbert Marcuse {}
+Cornelius Castoriadis {}
+Noam Chomsky {}
+Abbie Hoffman {}
+Oscar Wilde {}
+Buenaventura Durruti {}
+Dorothy Day {}
+Antonie Pannekoek {}
+Mikhail Bakunin {}
+William Godwin {}
+Nicholas I of Russia 0
+François Boucher 0
+Lavr Kornilov 0
+Arundhati Roy 0
+Frances Wright 0
+Carl Schmitt 0
+Erich Honecker 0
+William T. Vollmann 0
+Ba Jin 0
+Mao Zedong 0
+Simon Newcomb 0
+Herod Antipas 0
+Sigrid Undset 0
+Peter Coyote 0
+Theodor Mommsen 0
+Heinrich Laufenberg 0
+Ludwig Hermann Plate 0
+Ronald Dworkin 0
+Ernst Dronke 0
+Josef Peukert 0
+Mikhail Pervukhin 0
+Neil Postman 0
+Evelyn De Morgan 0
+Tao Xingzhi 0
+Mircea Eliade 0
+Desmond Morris 0
+Robert Nozick 0
+Robert Bunsen 0
+Louise Bourgeois 0
+Philipp Scheidemann 0
+Louise Michel 56
+Victor Hugo {}
+Leon Czolgosz {}
+Henry David Thoreau {}
+Alfredo M. Bonanno {}
+Errico Malatesta {}
+Johann Most {}
+Adolphe Thiers {}
+Raya Dunayevskaya {}
+Max Stirner {}
+Gustav Landauer {}
+Marinus van der Lubbe {}
+Antonio Negri {}
+Ricardo Flores Magón {}
+André Gorz {}
+Howard Zinn {}
+Karl Marx {}
+Guy Debord {}
+Émile Armand {}
+Jean-Paul Sartre {}
+Wilhelm Reich {}
+Sylvia Pankhurst {}
+Peter Kropotkin {}
+Karl Korsch {}
+Émile Gautier {}
+Otto Rühle {}
+Rosa Luxemburg {}
+Paul Mattick {}
+Murray Bookchin {}
+Alexander Berkman {}
+Antonie Pannekoek {}
+Nestor Makhno {}
+Emma Goldman {}
+Charles Fourier {}
+William Morris {}
+Francisco Ferrer Guardia {}
+Yanis Varoufakis {}
+Murray Rothbard {}
+Mahatma Gandhi {}
+Pierre-Joseph Proudhon {}
+David D. Friedman {}
+Albert Camus {}
+Karl Liebknecht {}
+Rudolf Rocker {}
+Abdullah Öcalan {}
+Leo Tolstoy {}
+Félix Guattari {}
+Herbert Marcuse {}
+Napoleon III {}
+Cornelius Castoriadis {}
+Noam Chomsky {}
+Abbie Hoffman {}
+Oscar Wilde {}
+Buenaventura Durruti {}
+Dorothy Day {}
+Mikhail Bakunin {}
+William Godwin {}
+Charles Lindbergh 0
+Lou Andreas-Salomé 0
+Phil Ochs 0
+Pierre-Joseph Proudhon 117
+Ivan Illich {}
+Alfredo M. Bonanno {}
+Mahatma Gandhi {}
+Georgi Plekhanov {}
+Charles Maurras {}
+André Gorz {}
+Paul Mattick {}
+Claude Henri de Rouvroy, comte de Saint-Simon {}
+Karl Polanyi {}
+Nelson Mandela {}
+Emma Goldman {}
+David D. Friedman {}
+Gamal Abdel Nasser {}
+Heinrich Heine {}
+Yanis Varoufakis {}
+Karl Marx {}
+Abdullah Öcalan {}
+Guy Debord {}
+Jean-Jacques Rousseau {}
+John Locke {}
+Salvador Allende {}
+Robert Owen {}
+Albert Einstein {}
+Alexander Dubček {}
+Elinor Ostrom {}
+Max Stirner {}
+Marcel Mauss {}
+Frédéric Bastiat {}
+David Ricardo {}
+Léopold Sédar Senghor {}
+Hugo Grotius {}
+Jacques Ellul {}
+Banksy {}
+Kurt Vonnegut {}
+Otto Rühle {}
+Giovanni Passannante {}
+Gustave Courbet {}
+Alexander Berkman {}
+Antonie Pannekoek {}
+Nestor Makhno {}
+William Morris {}
+Adolphe Crémieux {}
+Buenaventura Durruti {}
+Karl Grün {}
+Eduard Bernstein {}
+Leo Tolstoy {}
+Vladimir Lenin {}
+Ricardo Flores Magón {}
+Karl Korsch {}
+Dorothy Day {}
+Imre Nagy {}
+Mary Harris Jones {}
+Benito Mussolini {}
+Sylvia Pankhurst {}
+Henry David Thoreau {}
+Voltaire {}
+Léo Ferré {}
+Gustav Landauer {}
+Marinus van der Lubbe {}
+Howard Zinn {}
+Wilhelm Reich {}
+Albert Camus {}
+Alphonse de Lamartine {}
+Adam Smith {}
+Leon Czolgosz {}
+Max Nettlau {}
+John Dewey {}
+Rosa Luxemburg {}
+Bernie Sanders {}
+Einar Gerhardsen {}
+David Harvey {}
+Louise Michel {}
+Henry George {}
+Tariq Ali {}
+Charles Fourier {}
+Eugene V. Debs {}
+Clement Attlee {}
+Louis Blanc {}
+Zeev Sternhell {}
+Murray Rothbard {}
+Karl Liebknecht {}
+Rudolf Rocker {}
+Noam Chomsky {}
+Bertrand Russell {}
+George Orwell {}
+William Godwin {}
+Slavoj Žižek {}
+Errico Malatesta {}
+Jack Layton {}
+Friedrich Engels {}
+Silvio Gesell {}
+Franz Kafka {}
+Jeremy Corbyn {}
+Abbie Hoffman {}
+Georges Sorel {}
+Antonio Negri {}
+Émile Armand {}
+François Mitterrand {}
+Jean-Paul Sartre {}
+Peter Kropotkin {}
+Ronald Coase {}
+Murray Bookchin {}
+Johann Most {}
+Erich Mühsam {}
+Mikhail Gorbachev {}
+Francisco Ferrer Guardia {}
+Hugo Chávez {}
+Léon Blum {}
+François-Noël Babeuf {}
+Félix Guattari {}
+Herbert Marcuse {}
+Cornelius Castoriadis {}
+Élisée Reclus {}
+John Stuart Mill {}
+Raya Dunayevskaya {}
+Mikhail Bakunin {}
+Oscar Wilde {}
+Barbara McClintock 0
+Jane Fonda 0
+Isaak Brodsky 0
+Karl Ernst von Baer 0
+İbrahim Şinasi 0
+Charles J. Guiteau 0
+Bertrand Russell 0
+Sally Ride 0
+Ludwig Wittgenstein 0
+Harry Martinson 0
+Kathy Acker 0
+Ludwig von Mises 0
+Thomas Merton 0
+Jerry Fodor 0
+Hermann Souchon 0
+Lorenz von Stein 0
+Johann Georg Hamann 0
+Étienne Cabet 0
+William Penn 0
+August Willich 0
+John Plamenatz 0
+George Herbert Mead 0
+Louisa Beresford, Marchioness of Waterford 0
+Pierre Vidal-Naquet 0
+Hans von Seeckt 0
+Alexander I of Russia 0
+Nadine Gordimer 0
+Namık Kemal 0
+Gaetano Bresci 0
+August Bebel 0
+John von Neumann 0
+Jeremy Bentham 0
+Woody Allen 0
+Mairead Maguire 0
+A. J. Muste 0
+Ida Mett 0
+Porfirio Díaz 0
+Ian Hacking 0
+Emery Walker 0
+Alan Dershowitz 0
+Viktor Khristenko 0
+Viktor Frankl 0
+Ulric Neisser 0
+Frédéric Mistral 0
+Karl Marx 286
+Jeremy Bentham {}
+Isaiah Berlin {}
+Martin Heidegger {}
+Jacob Marschak {}
+Michał Kalecki {}
+William Whewell {}
+Mahatma Gandhi {}
+Blaise Pascal {}
+Anthony Kenny {}
+Justus von Liebig {}
+Ludwig Feuerbach {}
+Vera Zasulich {}
+Joseph Stalin {}
+Ernst Cassirer {}
+Erasmus {}
+Karl Heinzen {}
+Lev Shestov {}
+Laozi {}
+Baruch Spinoza {}
+Ernst Thälmann {}
+Murray Rothbard {}
+Stephen Jay Gould {}
+William Shakespeare {}
+Max Horkheimer {}
+Plato {}
+Thomas Jefferson {}
+Claude Henri de Rouvroy, comte de Saint-Simon {}
+Karl Polanyi {}
+Martin Buber {}
+Benjamin Franklin {}
+Maimonides {}
+Sergei Bulgakov {}
+Robert Solow {}
+Theodor W. Adorno {}
+Epicurus {}
+Reinhold Niebuhr {}
+Alfred Marshall {}
+Leo Strauss {}
+Emil Brunner {}
+Emma Goldman {}
+Paul Samuelson {}
+Che Guevara {}
+Thucydides {}
+Bruno Bauer {}
+Gamal Abdel Nasser {}
+Piero Sraffa {}
+Marcion of Sinope {}
+Heinrich Heine {}
+Johann Wolfgang von Goethe {}
+Justus Möser {}
+James Mill {}
+Socrates {}
+Immanuel Kant {}
+Gary Becker {}
+Joseph Weydemeyer {}
+Søren Kierkegaard {}
+Kenneth Arrow {}
+Luce Irigaray {}
+Rudolf Otto {}
+François Guizot {}
+Charles Babbage {}
+Abdullah Öcalan {}
+Paul Lafargue {}
+Heinrich Marx {}
+Georgi Plekhanov {}
+Jean-Jacques Rousseau {}
+Fidel Castro {}
+Guy Debord {}
+Nicholas I of Russia {}
+Muhammad {}
+August Willich {}
+Michael Walzer {}
+Friedrich Hayek {}
+Aristotle {}
+Salvador Allende {}
+Robert Owen {}
+Karl Barth {}
+Sigmund Freud {}
+Milton Friedman {}
+Albert Einstein {}
+Jacques Maritain {}
+Tommaso Campanella {}
+Vladimir Lenin {}
+William James {}
+Alexander Dubček {}
+Afterlife {}
+Mozi {}
+Leszek Kołakowski {}
+György Lukács {}
+Judith Butler {}
+Max Stirner {}
+Albrecht Ritschl {}
+Heraclitus {}
+David Ricardo {}
+Johann Gottfried Herder {}
+John Locke {}
+Giambattista Vico {}
+George Santayana {}
+Peter Singer {}
+Karl Popper {}
+Hugo Grotius {}
+Sarvepalli Radhakrishnan {}
+Ragnar Frisch {}
+Carl Schmitt {}
+Slavoj Žižek {}
+Friedrich Nietzsche {}
+Ernest Renan {}
+Boethius {}
+Walter Benjamin {}
+William Kingdon Clifford {}
+Hippolyte Taine {}
+Antonie Pannekoek {}
+Mao Zedong {}
+Erich Fromm {}
+Anselm of Canterbury {}
+Enver Hoxha {}
+Joseph Schumpeter {}
+Sun Tzu {}
+Raymond Aron {}
+Georg Wilhelm Friedrich Hegel {}
+Amartya Sen {}
+George Orwell {}
+Joseph de Maistre {}
+Karl Kautsky {}
+Jean Baudrillard {}
+Helene Demuth {}
+Pavel Florensky {}
+Eduard Bernstein {}
+William Alston {}
+David Hume {}
+C. Wright Mills {}
+Carl Schorlemmer {}
+Al-Ghazali {}
+Herbert Spencer {}
+James Connolly {}
+Marsilius of Padua {}
+Émile Durkheim {}
+Thomas Paine {}
+Tjalling Koopmans {}
+Imre Nagy {}
+Mary Harris Jones {}
+Jacques Attali {}
+Clara Zetkin {}
+Augustine of Hippo {}
+John Searle {}
+Ernest Mandel {}
+Henry David Thoreau {}
+George Eliot {}
+Voltaire {}
+Claude Adrien Helvétius {}
+Gustave Le Bon {}
+Niccolò Machiavelli {}
+Nicolas Malebranche {}
+Thomas Sankara {}
+Karl Löwith {}
+B. R. Ambedkar {}
+Mircea Eliade {}
+Horace Greeley {}
+Howard Zinn {}
+Michel Foucault {}
+Wilhelm Reich {}
+Léon Blum {}
+René Descartes {}
+Averroes {}
+Adam Smith {}
+Robert Nozick {}
+Thomas Hobbes {}
+John Bellamy Foster {}
+Terry Eagleton {}
+John Dewey {}
+Rosa Luxemburg {}
+Bernie Sanders {}
+Einar Gerhardsen {}
+Eric Hobsbawm {}
+Marquis de Sade {}
+James VI and I {}
+Sun Yat-sen {}
+David Harvey {}
+Plutarch {}
+Werner Sombart {}
+Herbert A. Simon {}
+Charles Fourier {}
+John Rawls {}
+Ernst Haeckel {}
+Eugene V. Debs {}
+Clement Attlee {}
+Louis Blanc {}
+Ralph Waldo Emerson {}
+Kim Il-sung {}
+John Maynard Keynes {}
+E. P. Thompson {}
+Pierre-Joseph Proudhon {}
+Giovanni Pico della Mirandola {}
+Zygmunt Bauman {}
+Francis Ysidro Edgeworth {}
+Karl Liebknecht {}
+Wilhelm Liebknecht {}
+Chanakya {}
+Russell Kirk {}
+Robert Michels {}
+Othmar Spann {}
+Franz Mehring {}
+Daniel Dennett {}
+Noam Chomsky {}
+Kwame Nkrumah {}
+José Ortega y Gasset {}
+Bertrand Russell {}
+Karl Schapper {}
+Friedrich Schleiermacher {}
+Louis Althusser {}
+Colin Wilson {}
+Alain Badiou {}
+William Morris {}
+Paul Krugman {}
+Jürgen Habermas {}
+Ludwig von Mises {}
+Léon Walras {}
+Moses Hess {}
+Giovanni Gentile {}
+Errico Malatesta {}
+Jack Layton {}
+Friedrich Engels {}
+Jeremy Corbyn {}
+William Wollaston {}
+Alexandra Kollontai {}
+Charles Darwin {}
+Antonio Negri {}
+Ho Chi Minh {}
+Paul Tillich {}
+Louis Gabriel Ambroise de Bonald {}
+Edmund Burke {}
+Alvin Plantinga {}
+Gabriel Marcel {}
+Tariq Ali {}
+Antonio Gramsci {}
+Vilfredo Pareto {}
+Avicenna {}
+François Mitterrand {}
+Jean-Paul Sartre {}
+Shang Yang {}
+Montesquieu {}
+Peter Kropotkin {}
+Josip Broz Tito {}
+Baron d'Holbach {}
+Thomas More {}
+Laura Marx {}
+Murray Bookchin {}
+Confucius {}
+John Plamenatz {}
+Rudolf Bultmann {}
+Max Weber {}
+Eleanor Marx {}
+Simone de Beauvoir {}
+Leon Trotsky {}
+Prabhat Ranjan Sarkar {}
+Gottfried Wilhelm Leibniz {}
+Mikhail Gorbachev {}
+Cicero {}
+Arnold Ruge {}
+Ayn Rand {}
+Swami Vivekananda {}
+Ernst Troeltsch {}
+Hugo Chávez {}
+Bertolt Brecht {}
+Albert Camus {}
+François-Noël Babeuf {}
+Nikolai Bukharin {}
+Thomas Aquinas {}
+Alexis de Tocqueville {}
+Léopold Sédar Senghor {}
+Herbert Marcuse {}
+August Bebel {}
+Hannah Arendt {}
+Nestor Makhno {}
+Ludwig I of Bavaria {}
+Hal Draper {}
+Arnold Gehlen {}
+John Stuart Mill {}
+Yanis Varoufakis {}
+Raya Dunayevskaya {}
+Mikhail Bakunin {}
+Auguste Comte {}
+John von Neumann {}
+Mencius {}
+Karl Christian Friedrich Krause {}
+Nelson Mandela {}
+Pavel Axelrod 0
+Willa Cather 0
+Raya Dunayevskaya 45
+Clara Zetkin {}
+Vladimir Lenin {}
+Friedrich Engels {}
+Georgi Plekhanov {}
+Alexandra Kollontai {}
+Slavoj Žižek {}
+Che Guevara {}
+Howard Zinn {}
+Antonio Gramsci {}
+Jean-Paul Sartre {}
+Wilhelm Reich {}
+Josip Broz Tito {}
+Walter Benjamin {}
+Nelson Mandela {}
+Rosa Luxemburg {}
+Zygmunt Bauman {}
+Eric Hobsbawm {}
+Antonie Pannekoek {}
+Mao Zedong {}
+Erich Fromm {}
+Simone de Beauvoir {}
+Ho Chi Minh {}
+Enver Hoxha {}
+Georg Wilhelm Friedrich Hegel {}
+Thomas Sankara {}
+Karl Kautsky {}
+György Lukács {}
+Joseph Stalin {}
+Bertolt Brecht {}
+Karl Marx {}
+Max Horkheimer {}
+Eduard Bernstein {}
+Karl Liebknecht {}
+Nikolai Bukharin {}
+Kim Il-sung {}
+C. Wright Mills {}
+Herbert Marcuse {}
+Fidel Castro {}
+Guy Debord {}
+James Connolly {}
+Leon Trotsky {}
+August Bebel {}
+Theodor W. Adorno {}
+Salvador Allende {}
+Louis Althusser {}
+Robert Knox 0
+Egon Freiherr von Eickstedt 0
+G. E. Moore 0
+Jorge Luis Borges 0
+William Huggins 0
+Fyodor Dostoyevsky 0
+Judith Butler 0
+Christian Rakovsky 0
+Julius Martov 0
+Arthur Rosenberg 0
+Émile Durkheim 0
+Susan Solomon 0
+Alan Moore 0
+William Chomsky 0
+Shmuel Yosef Agnon 0
+Abraham Lincoln 0
+Laozi 0
+Salome 0
+Louis Antoine de Saint-Just 0
+David Hume 0
+Giovanni Pico della Mirandola 0
+Effie Gray 0
+Peter the Great 0
+Harold Bloom 0
+Dmitry Medvedev 0
+Jane Jacobs 0
+Niccolò Machiavelli 0
+Voltaire 0
+Maria Goeppert-Mayer 0
+Benito Jerónimo Feijóo y Montenegro 0
+Hedwig Lachmann 0
+Averroes 0
+Christina Rossetti 0
+Leopold Kohr 0
+Rosa Luxemburg 68
+Clara Zetkin {}
+Thomas More {}
+Spartacus {}
+Grigory Zinoviev {}
+Sylvia Pankhurst {}
+Tommaso Campanella {}
+Friedrich Engels {}
+Friedrich Ebert {}
+Arkadi Maslow {}
+Georgi Plekhanov {}
+Ruth Fischer {}
+Wilhelm Cuno {}
+Hermann Souchon {}
+Langston Hughes {}
+Anatoly Lunacharsky {}
+Paul Mattick {}
+Leo Jogiches {}
+Harry Graf Kessler {}
+Nadine Gordimer {}
+Ernst Thälmann {}
+Barbara Sukowa {}
+Ben Elton {}
+Ossip K. Flechtheim {}
+Eduard Bernstein {}
+Bruno Ernst Buchrucker {}
+Gustav Stresemann {}
+Peter Kropotkin {}
+Josip Broz Tito {}
+William T. Vollmann {}
+Otto Rühle {}
+Gavril Myasnikov {}
+Bernie Sanders {}
+Paul Levi {}
+Antonie Pannekoek {}
+Mao Zedong {}
+Leszek Kołakowski {}
+Che Guevara {}
+Charles Fourier {}
+Jan Appel {}
+Kurt Weill {}
+Enver Hoxha {}
+Leon Trotsky {}
+Hans von Seeckt {}
+Karl Kautsky {}
+Herman Gorter {}
+Kim Il-sung {}
+Jean Jaurès {}
+Joseph Stalin {}
+Bertolt Brecht {}
+Karl Marx {}
+Pavel Axelrod {}
+François-Noël Babeuf {}
+Karl Liebknecht {}
+Alfred Döblin {}
+Rainer Werner Fassbinder {}
+Jane Fonda {}
+Alexander Parvus {}
+Vladimir Lenin {}
+Guy Debord {}
+Gustav Noske {}
+Fidel Castro {}
+Cornelius Castoriadis {}
+Franz Mehring {}
+Waldemar Pabst {}
+Lucius Junius Brutus {}
+Margarethe von Trotta {}
+Robert Owen {}
+Hugo Haase {}
+Einar Gerhardsen 0
+Saul 0
+Michael Andreas Barclay de Tolly 0
+Bolesław Prus 0
+Patrick Bateson 0
+Niklas Luhmann 0
+Salvatore Quasimodo 0
+Harry Mulisch 0
+James Joseph Sylvester 0
+Chanakya 0
+Anna Freud 0
+Ernst Bloch 0
+Gotthold Ephraim Lessing 0
+Charles W. Morris 0
+Colin Wilson 0
+Georgia O'Keeffe 0
+Albert Schweitzer 0
+Nicola Abbagnano 0
+Virginia Woolf 0
+Adam Sedgwick 0
+Alfred Ploetz 0
+Edmund Burke 0
+Gabriel Marcel 0
+W. D. Hamilton 0
+Louis-Ferdinand Céline 0
+Maya Angelou 0
+Halldór Laxness 0
+Sebastião José de Carvalho e Melo, 1st Marquis of Pombal 0
+Padraic Colum 0
+Gottfried Wilhelm Leibniz 0
+Alexander Bogdanov 0
+Roger Martin du Gard 0
+Aleksandr Solzhenitsyn 0
+Émile Pouget 0
+Kim Il-sung 0
+Wilma Rudolph 0
+James Collinson 0
+Emmanuel Levinas 0
+Leon Festinger 0
+Antoine Destutt de Tracy 0
+Aldo Moro 0
+Denis Diderot 0
+John B. Watson 0
+Victor Hugo 0
+Arthur Conan Doyle 0
+Edith Nourse Rogers 0
+Christabel Pankhurst 0
+Vladimir Putin 0
+Ernst Thälmann 0
+Sinclair Lewis 0
+John Kenneth Galbraith 0
+Ron Paul 0
+Vasili III of Russia 0
+Nancy Pelosi 0
+Lawrence Kohlberg 0
+Joseph Black 0
+Eudora Welty 0
+Terry Eagleton 0
+Peter Sloterdijk 0
+Adolphe Quetelet 0
+Tommy Douglas 0
+Gustáv Husák 0
+Fidel Castro 0
+William Beveridge 0
+Wilhelm Liebknecht 0
+William Lloyd Garrison 0
+Joseph Fourier 0
+Johann Gottfried Herder 0
+Talcott Parsons 0
+John Henry Newman 0
+R. G. Collingwood 0
+Gustav Stresemann 0
+Jemmy Button 0
+Dino Buzzati 0
+Sergey Kiriyenko 0
+Isidor Isaak Sadger 0
+Yiannos Papantoniou 0
+Ernest Hemingway 0
+Amartya Sen 0
+Dwight D. Eisenhower 0
+Herodias 0
+Alexandre Koyré 0
+Roman Abramovich 0
+William McKinley 0
+John Bright 0
+Tjalling Koopmans 0
+Lucretia Mott 0
+Gerhart Hauptmann 0
+John Maynard Keynes 0
+Theodosius Dobzhansky 0
+Léo Ferré 0
+Saint-John Perse 0
+Karl Adolph Gjellerup 0
+Christine Albanel 0
+Yegor Gaidar 0
+Ruth Fischer 0
+Elisabeth Young-Bruehl 0
+Elisabeth Kübler-Ross 0
+Pär Lagerkvist 0
+Eugenio Montale 0
+Émile Bréhier 0
+Jacob Jordaens 0
+Friedrich Kraus 0
+Anthony Kenny 0
+Chantal Mouffe 0
+Zora Neale Hurston 0
+Carl von Ossietzky 0
+Nikolai Ryzhkov 0
+Oliver Stone 0
+Maggie Kuhn 0
+Marisa Tomei 0
+Pierre Gassendi 0
+Paul Feyerabend 0
+Eugene O'Neill 0
+Upton Sinclair 0
+John Backus 0
+Georges Sorel 0
+Alexander von Humboldt 0
+Burkhard Christoph von Münnich 0
+Lord Byron 0
+Vicente Aleixandre 0
+Jack Dempsey 0
+Jean-Paul Sartre 339
+Jeremy Bentham {}
+Émile Durkheim {}
+Isaiah Berlin {}
+Martin Heidegger {}
+Henri Lefebvre {}
+Charles de Gaulle {}
+Mahatma Gandhi {}
+Alexandre Kojève {}
+Duns Scotus {}
+Winston Churchill {}
+Tomas Tranströmer {}
+Ernst Cassirer {}
+Claude Lévi-Strauss {}
+Muhammad {}
+R. G. Collingwood {}
+Paul Heyse {}
+Lev Shestov {}
+Mikhail Bakunin {}
+Laozi {}
+Baruch Spinoza {}
+Ernst Thälmann {}
+Niccolò Machiavelli {}
+Nelly Sachs {}
+George Bernard Shaw {}
+Thomas Aquinas {}
+Plato {}
+Peter Kropotkin {}
+Thomas Jefferson {}
+Camilo José Cela {}
+Karl Polanyi {}
+Rudolf Carnap {}
+Josip Broz Tito {}
+Benjamin Franklin {}
+Parmenides {}
+Reinhold Niebuhr {}
+Georges Bataille {}
+Leo Strauss {}
+Gilbert Ryle {}
+Otto von Stülpnagel {}
+Che Guevara {}
+Thucydides {}
+Bob Dylan {}
+Jean-Jacques Rousseau {}
+Montesquieu {}
+Halldór Laxness {}
+Louis Gabriel Ambroise de Bonald {}
+Vilém Flusser {}
+Justus Möser {}
+Socrates {}
+Immanuel Kant {}
+Jaroslav Seifert {}
+Willard Van Orman Quine {}
+Søren Kierkegaard {}
+Frédéric Mistral {}
+Karl Adolph Gjellerup {}
+Luce Irigaray {}
+Robert Nozick {}
+Francisco Suárez {}
+Peter Sloterdijk {}
+Sun Tzu {}
+Mencius {}
+Ivan Bunin {}
+André Malraux {}
+George Berkeley {}
+Fidel Castro {}
+Guy Debord {}
+Ivo Andrić {}
+John Locke {}
+Michael Walzer {}
+Elias Canetti {}
+Rudolf Christoph Eucken {}
+Hans-Georg Gadamer {}
+Friedrich Hayek {}
+Aristotle {}
+G. E. Moore {}
+Robert Owen {}
+John Plamenatz {}
+Sigmund Freud {}
+Odysseas Elytis {}
+P. F. Strawson {}
+V. S. Naipaul {}
+Jacques Maritain {}
+Gaston Bachelard {}
+Gabriela Mistral {}
+Eugène Ionesco {}
+Jean-François Lyotard {}
+Edmund Husserl {}
+José Echegaray {}
+Alfred North Whitehead {}
+Mozi {}
+Raymond Aron {}
+Henrik Pontoppidan {}
+György Lukács {}
+François Mauriac {}
+Judith Butler {}
+Alice Munro {}
+Juan Ramón Jiménez {}
+William Golding {}
+Pearl S. Buck {}
+Thomas Reid {}
+Giovanni Gentile {}
+Maurice Merleau-Ponty {}
+Dario Fo {}
+Maurice Maeterlinck {}
+Pablo Neruda {}
+Doris Lessing {}
+Hugo Grotius {}
+Sarvepalli Radhakrishnan {}
+Carl Schmitt {}
+Joseph B. Soloveitchik {}
+Slavoj Žižek {}
+Bertrand Russell {}
+Boris Pasternak {}
+Ernest Renan {}
+Martin Buber {}
+Walter Benjamin {}
+Dino Buzzati {}
+Erik Axel Karlfeldt {}
+Shmuel Yosef Agnon {}
+Hippolyte Taine {}
+Karl Marx {}
+Zygmunt Bauman {}
+Leszek Kołakowski {}
+Cicero {}
+Patrick White {}
+Władysław Gomułka {}
+Ernest Hemingway {}
+Roland Barthes {}
+Sigrid Undset {}
+Joseph de Maistre {}
+Harold Pinter {}
+Hilary Putnam {}
+Knut Hamsun {}
+Jean Baudrillard {}
+Swami Vivekananda {}
+Terry Eagleton {}
+Plotinus {}
+John Galsworthy {}
+Wilhelm Dilthey {}
+Alexandre Koyré {}
+Theodor Mommsen {}
+William James {}
+Jacques Derrida {}
+David Hume {}
+Vladimir Lenin {}
+Al-Ghazali {}
+Johannes V. Jensen {}
+T. S. Eliot {}
+Louis Althusser {}
+Joseph Brodsky {}
+Samuel Beckett {}
+Czesław Miłosz {}
+Giorgos Seferis {}
+Harold Bloom {}
+Marsilius of Padua {}
+Michael Dummett {}
+Thomas Paine {}
+Kenzaburō Ōe {}
+Pierre Bourdieu {}
+Gerhart Hauptmann {}
+Giosuè Carducci {}
+Carl Spitteler {}
+Paul Tillich {}
+Anatole France {}
+Augustine of Hippo {}
+Verner von Heidenstam {}
+John Searle {}
+Georges Canguilhem {}
+Günter Grass {}
+Henry David Thoreau {}
+Frans Eemil Sillanpää {}
+Vicente Aleixandre {}
+Voltaire {}
+Derek Walcott {}
+Gustave Le Bon {}
+Arthur Schopenhauer {}
+William Faulkner {}
+Nicolas Malebranche {}
+J. M. G. Le Clézio {}
+Franz Rosenzweig {}
+B. R. Ambedkar {}
+Pierre Klossowski {}
+Mao Zedong {}
+Michel Foucault {}
+Nadine Gordimer {}
+Ludwig von Mises {}
+Heinrich Böll {}
+René Descartes {}
+Pär Lagerkvist {}
+Selma Lagerlöf {}
+Gabriel García Márquez {}
+Averroes {}
+Adam Smith {}
+François-Noël Babeuf {}
+Imre Kertész {}
+Thomas Hobbes {}
+Sully Prudhomme {}
+Adolph Stöhr {}
+Max Stirner {}
+Fredric Jameson {}
+Rosa Luxemburg {}
+George Santayana {}
+Russell Kirk {}
+Marquis de Sade {}
+Eugenio Montale {}
+Frantz Fanon {}
+Werner Sombart {}
+Charles Lindbergh {}
+Charles Fourier {}
+John Rawls {}
+Octavio Paz {}
+Confucius {}
+Sinclair Lewis {}
+Claude Simon {}
+François Bondy {}
+Isaac Bashevis Singer {}
+Hannah Arendt {}
+Ralph Waldo Emerson {}
+Henri Bergson {}
+Honoré de Balzac {}
+Alberto Giacometti {}
+Eyvind Johnson {}
+Murray Rothbard {}
+Toni Morrison {}
+Colin Wilson {}
+Orhan Pamuk {}
+Joseph Stalin {}
+Marcel Proust {}
+Salvatore Quasimodo {}
+Kazuo Ishiguro {}
+Chanakya {}
+G. E. M. Anscombe {}
+Saul Bellow {}
+Fyodor Dostoyevsky {}
+Michel Serres {}
+Emil Cioran {}
+Othmar Spann {}
+Élisabeth Roudinesco {}
+Friedrich Wilhelm Joseph Schelling {}
+Hermann Hesse {}
+Noam Chomsky {}
+José Ortega y Gasset {}
+Friedrich Nietzsche {}
+Mario Vargas Llosa {}
+Ludwig Wittgenstein {}
+Yasunari Kawabata {}
+Gilles Deleuze {}
+Eugene O'Neill {}
+Harry Martinson {}
+Rabindranath Tagore {}
+Alain Badiou {}
+Albert Schweitzer {}
+Jürgen Habermas {}
+Thomas Mann {}
+Julia Kristeva {}
+Nicola Abbagnano {}
+Elfriede Jelinek {}
+Steve Biko {}
+J. M. Coetzee {}
+Tommaso Campanella {}
+Friedrich Engels {}
+Wisława Szymborska {}
+Franz Kafka {}
+José Saramago {}
+Miguel de Unamuno {}
+Gao Xingjian {}
+Roman Ingarden {}
+Herbert Spencer {}
+Antonio Negri {}
+Saul Kripke {}
+Thomas More {}
+Luigi Pirandello {}
+Edmund Burke {}
+Arnold Gehlen {}
+Alvin Plantinga {}
+Gabriel Marcel {}
+Robert Brasillach {}
+Antonio Gramsci {}
+Louis-Ferdinand Céline {}
+Vilfredo Pareto {}
+André Gide {}
+Giorgio Agamben {}
+Karl Jaspers {}
+Herta Müller {}
+Jacinto Benavente {}
+Niklas Luhmann {}
+Edward Said {}
+Wole Soyinka {}
+Andreas Baader {}
+Rudolf Bultmann {}
+Max Weber {}
+Simone de Beauvoir {}
+Leon Trotsky {}
+Prabhat Ranjan Sarkar {}
+Gottfried Wilhelm Leibniz {}
+Grazia Deledda {}
+Bjørnstjerne Bjørnson {}
+Saint-John Perse {}
+Enver Hoxha {}
+Georg Wilhelm Friedrich Hegel {}
+Ayn Rand {}
+Shang Yang {}
+John Steinbeck {}
+Romain Rolland {}
+Paul Ricœur {}
+Ralph Ellison {}
+Karl Popper {}
+Rudyard Kipling {}
+Roger Martin du Gard {}
+Raymond Williams {}
+Patrick Modiano {}
+Albert Camus {}
+Aleksandr Solzhenitsyn {}
+Władysław Reymont {}
+Johann Gottlieb Fichte {}
+Seamus Heaney {}
+Isaac Newton {}
+Alexis de Tocqueville {}
+Charles Sanders Peirce {}
+Félix Guattari {}
+Umberto Eco {}
+Herbert Marcuse {}
+Cornelius Castoriadis {}
+Thomas Carlyle {}
+Sun Yat-sen {}
+Hélène de Beauvoir {}
+Emmanuel Levinas {}
+John Stuart Mill {}
+Maurice Blanchot {}
+Jacques Lacan {}
+Karl Barth {}
+Gustave Flaubert {}
+Auguste Comte {}
+Kim Il-sung {}
+Theodor W. Adorno {}
+Robert Michels {}
+Henryk Sienkiewicz {}
+Mo Yan {}
+Jean Genet {}
+Danny Glover 0
+Herta Müller 0
+Erasmus Darwin 0
+Asa Gray 0
+Hans Rothfels 0
+Johann Most 0
+Tomas Tranströmer 0
+Bjørnstjerne Bjørnson 0
+Mikhail Fradkov 0
+Hugo Chávez 0
+Patsy Mink 0
+Hu Shih 0
+Josh Brolin 0
+Odysseas Elytis 0
+Hannah Arendt 0
+Gustave Flaubert 0
+Jacques Le Goff 0
+Mo Yan 0
+Donald Sutherland 0
+Simon Sebag Montefiore 0
+Samuel Johnson 0
+Alexandre Kojève 0
+Duns Scotus 0
+Karl Heinzen 0
+William Golding 0
+Walther Rathenau 0
+Nelson Mandela 0
+Tommaso Campanella 0
+Ho Chi Minh 0
+Ida Tarbell 0
+Gamal Abdel Nasser 0
+Johann Wolfgang von Goethe 0
+Sergei Stepashin 0
+Lucille Ball 0
+Max Horkheimer 0
+George Berkeley 0
+Thomas Malory 0
+Caligula 0
+Astrid Sampe 0
+Gabriela Mistral 0
+Gregory Bateson 0
+Daniel Coit Gilman 0
+George Wald 0
+Richard Haldane, 1st Viscount Haldane 0
+Joseph Priestley 0
+Theodore Roosevelt 0
+J. Neil Schulman 0
+Margaret Thatcher 0
+Giambattista Vico 0
+Abigail Adams 0
+Peter Singer 0
+Léopold Sédar Senghor 0
+David Chalmers 0
+Moses Mendelssohn 0
+Boethius 0
+Annie Jump Cannon 0
+Gustave Courbet 0
+Anne Sullivan 0
+Joseph Schumpeter 0
+Alfonso XIII of Spain 0
+Alice Rühle-Gerstel 0
+Nikolai Yudenich 0
+Winston Churchill 0
+Herman Gorter 12
+Jan Appel {}
+Guy Debord {}
+Sylvia Pankhurst {}
+Cornelius Castoriadis {}
+Friedrich Engels {}
+Rosa Luxemburg {}
+Otto Rühle {}
+Gavril Myasnikov {}
+Vladimir Lenin {}
+Karl Marx {}
+Paul Mattick {}
+Antonie Pannekoek {}
+Augustin Souchy 0
+Vladimir Lenin 274
+Jeremy Bentham {}
+Thomas Paine {}
+Isaiah Berlin {}
+Martin Heidegger {}
+Todor Zhivkov {}
+Mahatma Gandhi {}
+Georgi Plekhanov {}
+Nikolay Chernyshevsky {}
+Ludwig Feuerbach {}
+Roman Malinovsky {}
+Boris Savinkov {}
+Thomas More {}
+Mikhail Kasyanov {}
+Pavel Axelrod {}
+Laozi {}
+Baruch Spinoza {}
+Ernst Thälmann {}
+Gustave Le Bon {}
+Antonín Novotný {}
+Dmitry Medvedev {}
+Nicolae Ceaușescu {}
+Thomas Jefferson {}
+Karl Polanyi {}
+Pyotr Stolypin {}
+Benjamin Franklin {}
+Nelson Mandela {}
+Nikolai Bulganin {}
+Reinhold Niebuhr {}
+Leo Strauss {}
+Inessa Armand {}
+Emma Goldman {}
+Che Guevara {}
+William Morris {}
+Gamal Abdel Nasser {}
+Voltaire {}
+Andrey Osterman {}
+Justus Möser {}
+Socrates {}
+Immanuel Kant {}
+Sergei Stepashin {}
+Søren Kierkegaard {}
+Grigory Zinoviev {}
+Luce Irigaray {}
+Zygmunt Bauman {}
+Alexander Kolchak {}
+Abdullah Öcalan {}
+Paul Lafargue {}
+Mencius {}
+Gustáv Husák {}
+Guy Debord {}
+Ivan Goremykin {}
+Fidel Castro {}
+Muhammad {}
+John Locke {}
+Michael Walzer {}
+Friedrich Hayek {}
+Aristotle {}
+Jean-Jacques Rousseau {}
+Robert Owen {}
+Yegor Gaidar {}
+Dmitriy Ustinov {}
+Ramiz Alia {}
+Wilhelm Liebknecht {}
+Albert Einstein {}
+Jacques Maritain {}
+Tommaso Campanella {}
+Vladimir Putin {}
+Gheorghe Gheorghiu-Dej {}
+Alexander Dubček {}
+Mozi {}
+Lavr Kornilov {}
+György Lukács {}
+John Dewey {}
+Charles Frederick, Duke of Holstein-Gottorp {}
+Fyodor Apraksin {}
+Christian Rakovsky {}
+Max Weber {}
+Giovanni Gentile {}
+Julius Martov {}
+Georgi Dimitrov {}
+Pyotr Krasnov {}
+Lavrentiy Beria {}
+George Washington {}
+Władysław Gomułka {}
+Alexei Rykov {}
+Hugo Grotius {}
+Sarvepalli Radhakrishnan {}
+Boris Yeltsin {}
+Carl Schmitt {}
+Adolph Joffe {}
+Bertrand Russell {}
+Erich Honecker {}
+Ernest Renan {}
+Yuri Andropov {}
+Mikhail Frunze {}
+Vyacheslav Molotov {}
+Wilhelm von Mirbach {}
+Alexander Berkman {}
+Hippolyte Taine {}
+Antonie Pannekoek {}
+Mao Zedong {}
+Semyon Budyonny {}
+Cicero {}
+Dmitry Mikhailovich Golitsyn {}
+Petar Mladenov {}
+Raymond Aron {}
+Salvador Allende {}
+Joseph de Maistre {}
+Karl Kautsky {}
+Mikhail Gorbachev {}
+Lev Kamenev {}
+Jean Baudrillard {}
+Nikolai Yudenich {}
+Anastas Mikoyan {}
+Valerian Kuybyshev {}
+Peter August, Duke of Schleswig-Holstein-Sonderburg-Beck {}
+Eduard Bernstein {}
+Walter Ulbricht {}
+Peter III of Russia {}
+David Hume {}
+Andrei Gromyko {}
+Al-Ghazali {}
+Felix Dzerzhinsky {}
+Marsilius of Padua {}
+Averroes {}
+Viktor Zubkov {}
+Alexei Kosygin {}
+Imre Nagy {}
+Mary Harris Jones {}
+János Kádár {}
+Marquis de Sade {}
+Plato {}
+Augustine of Hippo {}
+John Searle {}
+Mikhail Pervukhin {}
+Henry David Thoreau {}
+Sergei Witte {}
+Leonid Krasin {}
+Edward Gierek {}
+Niccolò Machiavelli {}
+Nicolas Malebranche {}
+Maxim Gorky {}
+B. R. Ambedkar {}
+Fritz Platten {}
+Valentin Pavlov {}
+Alexander Danilovich Menshikov {}
+Howard Zinn {}
+Michel Foucault {}
+Léon Blum {}
+Sun Tzu {}
+Robert Nozick {}
+Angelica Balabanoff {}
+Egon Krenz {}
+Adam Smith {}
+H. G. Wells {}
+Thomas Hobbes {}
+Ilya Ulyanov {}
+Murray Rothbard {}
+Fredric Jameson {}
+Rosa Luxemburg {}
+Bernie Sanders {}
+Einar Gerhardsen {}
+Lazar Kaganovich {}
+Sergey Kiriyenko {}
+Gavrila Derzhavin {}
+Wojciech Jaruzelski {}
+Nikolai Tikhonov {}
+Werner Sombart {}
+Tariq Ali {}
+Charles Fourier {}
+John Rawls {}
+Errico Malatesta {}
+Confucius {}
+Eugene V. Debs {}
+Clement Attlee {}
+Louis Blanc {}
+Ralph Waldo Emerson {}
+Karl Marx {}
+Kim Il-sung {}
+Pyotr Nikolayevich Wrangel {}
+Karl Popper {}
+Simon Sebag Montefiore {}
+George Santayana {}
+Pierre-Joseph Proudhon {}
+Joseph Stalin {}
+Georgy Lvov {}
+Konstantin Chernenko {}
+Aleksandr Ulyanov {}
+Chanakya {}
+Russell Kirk {}
+Judith Butler {}
+Isaak Brodsky {}
+Nikolai Ryzhkov {}
+Othmar Spann {}
+Klement Gottwald {}
+Max Stirner {}
+Noam Chomsky {}
+José Ortega y Gasset {}
+Friedrich Nietzsche {}
+Mátyás Rákosi {}
+George Orwell {}
+Stanisław Kania {}
+Nikita Khrushchev {}
+Herbert Spencer {}
+Heydar Aliyev {}
+Alain Badiou {}
+Ernő Gerő {}
+Fanny Kaplan {}
+Ludwig von Mises {}
+Émile Durkheim {}
+Thomas Aquinas {}
+Pavel Milyukov {}
+Slavoj Žižek {}
+Alexander III of Russia {}
+Jack Layton {}
+Friedrich Engels {}
+Jeremy Corbyn {}
+Yanis Varoufakis {}
+Bolesław Bierut {}
+Antonio Negri {}
+Nicholas II {}
+Viktor Khristenko {}
+Edmund Burke {}
+Burkhard Christoph von Münnich {}
+Alexander Bogdanov {}
+Antonio Gramsci {}
+Vilfredo Pareto {}
+Jürgen Habermas {}
+Georgy Malenkov {}
+François Mitterrand {}
+Jean-Paul Sartre {}
+Shang Yang {}
+Montesquieu {}
+Peter Kropotkin {}
+Josip Broz Tito {}
+Thucydides {}
+Murray Bookchin {}
+John Plamenatz {}
+Alexander Buturlin {}
+Simone de Beauvoir {}
+Leon Trotsky {}
+Prabhat Ranjan Sarkar {}
+Gottfried Wilhelm Leibniz {}
+Mikhail Fradkov {}
+Enver Hoxha {}
+Georg Wilhelm Friedrich Hegel {}
+Ayn Rand {}
+Swami Vivekananda {}
+Louis Gabriel Ambroise de Bonald {}
+Hugo Chávez {}
+Vladimir Kokovtsov {}
+Albert Camus {}
+François-Noël Babeuf {}
+Alexander II of Russia {}
+Nikolai Bukharin {}
+Alexis de Tocqueville {}
+Léopold Sédar Senghor {}
+Herbert Marcuse {}
+Hannah Arendt {}
+Nestor Makhno {}
+Sun Yat-sen {}
+Yakov Sverdlov {}
+Arnold Gehlen {}
+John Stuart Mill {}
+Prince Georg Ludwig of Holstein-Gottorp {}
+Yevgeny Primakov {}
+Mikhail Bakunin {}
+Alexander Kerensky {}
+Auguste Comte {}
+Viktor Chernomyrdin {}
+Nikita Trubetskoy {}
+Robert Michels {}
+Béla Kun {}
+Nadezhda Krupskaya {}
+Georg Weerth 0
+Marsilius of Padua 0
+Giosuè Carducci 0
+Peter Nothjung 0
+Ford Madox Brown 0
+Gustav Landauer 57
+Émile Armand {}
+Leon Czolgosz {}
+Henry David Thoreau {}
+Alfredo M. Bonanno {}
+Errico Malatesta {}
+Johann Most {}
+Mahatma Gandhi {}
+Raya Dunayevskaya {}
+Max Stirner {}
+Abbie Hoffman {}
+Marinus van der Lubbe {}
+Antonio Negri {}
+Ricardo Flores Magón {}
+André Gorz {}
+Howard Zinn {}
+Hedwig Lachmann {}
+Mike Nichols {}
+Guy Debord {}
+Jean-Paul Sartre {}
+Wilhelm Reich {}
+Sylvia Pankhurst {}
+Peter Kropotkin {}
+William Shakespeare {}
+Otto Rühle {}
+Rosa Luxemburg {}
+Paul Mattick {}
+Murray Bookchin {}
+Alexander Berkman {}
+Antonie Pannekoek {}
+Nestor Makhno {}
+Emma Goldman {}
+Charles Fourier {}
+Étienne de La Boétie {}
+William Morris {}
+Francisco Ferrer Guardia {}
+Karl Marx {}
+Murray Rothbard {}
+Pierre-Joseph Proudhon {}
+David D. Friedman {}
+Albert Camus {}
+Louise Michel {}
+Karl Liebknecht {}
+Rudolf Rocker {}
+Abdullah Öcalan {}
+Leo Tolstoy {}
+Félix Guattari {}
+Herbert Marcuse {}
+Yanis Varoufakis {}
+Cornelius Castoriadis {}
+Noam Chomsky {}
+Friedrich Nietzsche {}
+Karl Korsch {}
+Oscar Wilde {}
+Buenaventura Durruti {}
+Dorothy Day {}
+Mikhail Bakunin {}
+William Godwin {}
+James Prescott Joule 0
+Coretta Scott King 0
+Thomas Ian Nicholas 0
+Fanny Kaplan 0
+Helen Caldicott 0
+Gottlob Frege 0
+Chris Marker 0
+Henry Clay Frick 0
+Harry Stack Sullivan 0
+Jan Appel 17
+Karl Marx {}
+Guy Debord {}
+Grigory Zinoviev {}
+Sylvia Pankhurst {}
+Cornelius Castoriadis {}
+Fritz Wolffheim {}
+Friedrich Engels {}
+Herman Gorter {}
+Karl Liebknecht {}
+Otto Rühle {}
+Gavril Myasnikov {}
+Rosa Luxemburg {}
+Paul Mattick {}
+Antonie Pannekoek {}
+Paul Levi {}
+Heinrich Laufenberg {}
+Franz Jung {}
+Henry George 0
+Tariq Ali 0
+Eugene V. Debs 0
+Cesar Chavez 0
+Isaac Bashevis Singer 0
+Desmond Tutu 0
+Gunta Stölzl 0
+Victoriano Huerta 0
+Emil Cioran 0
+Eugen Fischer 0
+Eleanor Roosevelt 0
+Margaret Bourke-White 0
+Ernst Fehr 0
+George F. Kennan 0
+Max Weber 0
+Katharine Graham 0
+Virginia Satir 0
+Hans Blix 0
+Peter Kropotkin 65
+Ivan Illich {}
+Ernst Fehr {}
+Rudolf Rocker {}
+Leon Czolgosz {}
+Henry David Thoreau {}
+Alfredo M. Bonanno {}
+Errico Malatesta {}
+Francis Galton {}
+Franz Kafka {}
+Max Stirner {}
+Abbie Hoffman {}
+Johann Most {}
+Charles Darwin {}
+Ricardo Flores Magón {}
+Jaak Panksepp {}
+Howard Zinn {}
+Murray Rothbard {}
+Wolfgang Wickler {}
+Stephen Jay Gould {}
+Jacques Ellul {}
+Banksy {}
+George Bernard Shaw {}
+John Stuart Mill {}
+Kurt Vonnegut {}
+Max Nettlau {}
+Émile Gautier {}
+Giovanni Passannante {}
+Richard Dawkins {}
+Murray Bookchin {}
+Alexander Berkman {}
+Nestor Makhno {}
+Emma Goldman {}
+Gerd Gigerenzer {}
+Oscar Wilde {}
+William Morris {}
+Carel van Schaik {}
+Erich Mühsam {}
+Paul Ekman {}
+Francisco Ferrer Guardia {}
+Alexander Herzen {}
+Léo Ferré {}
+Pierre-Joseph Proudhon {}
+Dan Sperber {}
+Albert Camus {}
+Louise Michel {}
+Judith Rich Harris {}
+Alexander II of Russia {}
+Leo Tolstoy {}
+Vladimir Lenin {}
+Jared Diamond {}
+Paul Rozin {}
+W. D. Hamilton {}
+Élisée Reclus {}
+Daniel Dennett {}
+Noam Chomsky {}
+Donald Symons {}
+Friedrich Nietzsche {}
+Gustav Landauer {}
+Donald Rooum {}
+Buenaventura Durruti {}
+Steven Pinker {}
+Sigmund Freud {}
+Herbert Spencer {}
+Mikhail Bakunin {}
+William Godwin {}
+Josip Broz Tito 0
+Helen Mirren 0
+William Shakespeare 0
+Willy Brandt 0
+Marc Chagall 0
+Charles Taze Russell 0
+Thomas Sankara 0
+Stephen Fry 0
+Henry Walter Bates 0
+William Sharpey 0
+Bertolt Brecht 0
+Douglas Hyde 0
+Sherry Lansing 0
+Adam Ferguson 0
+Friedrich Heinrich Jacobi 0
+Marsha M. Linehan 0
+Ian Tattersall 0
+John Edmonstone 0
+Laura Marx 0
+Georgy Malenkov 0
+Barrington Moore, Jr. 0
+Anthony Barber 0
+John Tyndall 0
+Ernst Cassirer 0
+Jack London 0
+Joris-Karl Huysmans 0
+Inessa Armand 0
+Fritz Wolffheim 0
+Yanis Varoufakis 21
+Adamantios Androutsopoulos {}
+Joan Robinson {}
+John Bercow {}
+Andreas Papandreou {}
+Yiannos Papantoniou {}
+Michał Kalecki {}
+Michel Rocard {}
+James K. Galbraith {}
+Alexis Tsipras {}
+Karl Marx {}
+John Howard {}
+Friedrich Hayek {}
+Costa-Gavras {}
+Margaret Thatcher {}
+Angela Merkel {}
+Evangelos Venizelos {}
+Antonis Samaras {}
+George Papandreou {}
+John Maynard Keynes {}
+John Kenneth Galbraith {}
+George Osborne {}
+Wolfram Wette 0
+Søren Kierkegaard 0
+Heinrich Marx 0
+Albert Bandura 0
+Donald Rooum 0
+Sergio Garavini 0
+Charles Gavan Duffy 0
+Percy Bysshe Shelley 0
+Spartacus 0
+Grigory Zinoviev 0
+Paul Federn 0
+Pearl S. Buck 0
+Saul Kripke 0
+Eugen Dühring 0
+Banksy 0
+Roger Ebert 0
+Pierre Janet 0
+Richard Cobden 0
+Leszek Kołakowski 0
+Juan Ramón Jiménez 0
+James Guillaume 0
+John Douglas, 9th Marquess of Queensberry 0
+Josef Breuer 0
+Wilhelm Cuno 0
+Eduard Bernstein 0
+Michael Harrington 0
+Pierre Klossowski 0
+Otto F. Kernberg 0
+Louis Hjelmslev 0
+Eunice Kennedy Shriver 0
+Susan B. Anthony 0
+William Whewell 0
+Abraham Maslow 0
+Martin Luther King, Jr. 0
+Richard E. Nisbett 0
+Ralph Vaughan Williams 0
+Michael Moore 0
+Charles Lamb 0
+Alphonse de Lamartine 0
+Gustave Le Bon 0
+Carl von Clausewitz 0
+William Thomson, 1st Baron Kelvin 0
+Johann Gottlieb Fichte 0
+Robert Brasillach 0
+Rainer Werner Fassbinder 0
+Bessie Coleman 0
+Anne Morrow Lindbergh 0
+Yuri Andropov 0
+Toni Morrison 0
+Frances Xavier Cabrini 0
+Thomas Kuhn 0
+Bertil Ohlin 0
+Sándor Ferenczi 0
+Daniel Dennett 0
+Elizabeth Cotton, Lady Hope 0
+Georgios Papandreou 0
+Moses Hess 0
+Maureen Stapleton 0
+Shannon Lucid 0
+William James 0
+Abbie Hoffman 68
+Timothy Leary {}
+Leon Czolgosz {}
+Allen Ginsberg {}
+Alfredo M. Bonanno {}
+Errico Malatesta {}
+Emma Goldman {}
+Raya Dunayevskaya {}
+Norman Mailer {}
+Gustav Landauer {}
+Marinus van der Lubbe {}
+Thomas Ian Nicholas {}
+Peter Coyote {}
+Antonio Negri {}
+Richard J. Daley {}
+Ricardo Flores Magón {}
+André Gorz {}
+Howard Zinn {}
+Karl Marx {}
+Judy Collins {}
+Herbert Marcuse {}
+Tom Hayden {}
+Abraham Maslow {}
+Jean-Paul Sartre {}
+Wilhelm Reich {}
+Sylvia Pankhurst {}
+Peter Kropotkin {}
+Pete Townshend {}
+Otto Rühle {}
+Rosa Luxemburg {}
+Bill Walton {}
+Paul Mattick {}
+Murray Bookchin {}
+Alexander Berkman {}
+Antonie Pannekoek {}
+Nestor Makhno {}
+Daniel Ellsberg {}
+William Morris {}
+Oscar Wilde {}
+Abraham Lincoln {}
+Charles Fourier {}
+Rudolf Rocker {}
+Francisco Ferrer Guardia {}
+Phil Ochs {}
+Yanis Varoufakis {}
+Bernie Sanders {}
+Pierre-Joseph Proudhon {}
+Hank Azaria {}
+Albert Camus {}
+Louise Michel {}
+Jimmy Carter {}
+Karl Liebknecht {}
+Graham Nash {}
+Abdullah Öcalan {}
+Leo Tolstoy {}
+Félix Guattari {}
+Guy Debord {}
+Barbara Walters {}
+Oliver Stone {}
+Cornelius Castoriadis {}
+Noam Chomsky {}
+Karl Korsch {}
+Thomas Paine {}
+Albert Hofmann {}
+Buenaventura Durruti {}
+Vincent D'Onofrio {}
+Dorothy Day {}
+Mikhail Bakunin {}
+William Godwin {}
+J. M. Coetzee 0
+George Howard, 9th Earl of Carlisle 0
+Franz Jung 0
+Ellen Swallow Richards 0
+Gheorghe Gheorghiu-Dej 0
+Margaret Mead 0
+Shang Yang 0
+Georg Herwegh 0
+Philipp Franz von Siebold 0
+Constance Lloyd 0
+Paul Levi 0
+Vincent Descombes 0
+Harriet Beecher Stowe 0
+Fritz Kater 0
+Romain Rolland 0
+Alexei Rykov 0
+Helen Stephens 0
+Jean-Henri Fabre 0
+Léon Blum 0
+Jesus Christ 0
+Patricia Schroeder 0
+Edward Gibbon 0
+Oscar Wilde 49
+Charles Gavan Duffy {}
+Augustine of Hippo {}
+Sarah Bernhardt {}
+Stéphane Mallarmé {}
+Dante Alighieri {}
+Ada Leverson {}
+Charles Stewart Parnell {}
+Sheridan Le Fanu {}
+Anthony Cronin {}
+John Henry Newman {}
+Joseph Plunkett {}
+Stephen Fry {}
+Joris-Karl Huysmans {}
+George Bernard Shaw {}
+Roger Ebert {}
+Jane Wilde {}
+William Allingham {}
+Thomas Moore {}
+James Joyce {}
+Patrick Pearse {}
+Dante Gabriel Rossetti {}
+Constance Lloyd {}
+Padraic Colum {}
+Aeneas Coffey {}
+John the Baptist {}
+André Gide {}
+Paul Durcan {}
+Herod Antipas {}
+Salome {}
+Herodias {}
+John Ruskin {}
+William Rowan Hamilton {}
+Walter Pater {}
+Richard Haldane, 1st Viscount Haldane {}
+Edward Carson, Baron Carson {}
+Jacob Epstein {}
+Douglas Hyde {}
+Seamus Heaney {}
+Patrick Kavanagh {}
+John Douglas, 9th Marquess of Queensberry {}
+Oliver Goldsmith {}
+Algernon Charles Swinburne {}
+Bobby Sands {}
+Samuel Beckett {}
+Bram Stoker {}
+Jonathan Swift {}
+Aubrey Beardsley {}
+Saint Sebastian {}
+George Orwell {}
+Viktor Chernomyrdin 0
+Steven Pinker 0
+Robert Boyle 0
+E. H. Carr 0
+Charles Maurras 0
+Boris Pasternak 0
+Arthur de Gobineau 0
+Huey P. Newton 0
+Gloria Steinem 0
+Daniel Kahneman 0
+Antonis Samaras 0
+Ilse Schwidetzky 0
+Thomas Jefferson 0
+Bruno Ernst Buchrucker 0
+Barbara Jordan 0
+Pyotr Stolypin 0
+Homer 0
+Otto von Stülpnagel 0
+Claire Tomalin 0
+Lech Wałęsa 0
+Heinrich Heine 0
+James Mill 0
+Betty Ford 0
+Immanuel Kant 0
+Christopher Plummer 0
+Altiero Spinelli 0
+Philippa Foot 0
+Robert Faurisson 0
+Alphonse Toussenel 0
+Edith Jacobson 0
+Michael Walzer 0
+Rudolf Christoph Eucken 0
+Georges-Louis Leclerc, Comte de Buffon 0
+Erik Erikson 0
+Francisco Franco 0
+Leonard Bloomfield 0
+Dario Fo 0
+Henri Victor Regnault 0
+Roman Jakobson 0
+Fannie Lou Hamer 0
+James Joll 0
+Mikhail Bakhtin 0
+Erich Fromm 0
+Karl-Hermann Flach 0
+Alfred Kinsey 0
+Elsa Gindler 0
+Roland Barthes 0
+Alexander Herzen 0
+Richard Rorty 0
+Walter Pater 0
+Plotinus 0
+Hank Azaria 0
+Helene Demuth 0
+Adamantios Korais 0
+Patti Smith 0
+Robert Hooke 0
+Anatole France 0
+Julia Child 0
+Fritz Platten 0
+Janet Reno 0
+Kurt Eisner 0
+Emma Willard 0
+David Strauss 0
+George Santayana 0
+Gordon Allport 0
+David Harvey 0
+Nikolai Tikhonov 0
+Julius von Mayer 0
+Charles Fourier 90
+Alfredo M. Bonanno {}
+Georgi Plekhanov {}
+André Gorz {}
+Paul Mattick {}
+Claude Henri de Rouvroy, comte de Saint-Simon {}
+Wilhelm Reich {}
+Nelson Mandela {}
+Emma Goldman {}
+Gamal Abdel Nasser {}
+Yanis Varoufakis {}
+Karl Marx {}
+Abdullah Öcalan {}
+Guy Debord {}
+Jean-Jacques Rousseau {}
+Alphonse Toussenel {}
+Salvador Allende {}
+Robert Owen {}
+Albert Soboul {}
+Albert Einstein {}
+Alexander Dubček {}
+Daniel Coit Gilman {}
+Joseph Fourier {}
+Léopold Sédar Senghor {}
+William Blake {}
+Walter Benjamin {}
+Otto Rühle {}
+Alexander Berkman {}
+Antonie Pannekoek {}
+Nestor Makhno {}
+William Morris {}
+Buenaventura Durruti {}
+Eduard Bernstein {}
+Leo Tolstoy {}
+Ricardo Flores Magón {}
+Karl Korsch {}
+Dorothy Day {}
+Imre Nagy {}
+Mikhail Bakunin {}
+Gustav Wyneken {}
+Sylvia Pankhurst {}
+Gustav Landauer {}
+Marinus van der Lubbe {}
+Howard Zinn {}
+Karl Polanyi {}
+Albert Camus {}
+Leon Czolgosz {}
+John Dewey {}
+Rosa Luxemburg {}
+Bernie Sanders {}
+Einar Gerhardsen {}
+David Harvey {}
+Louise Michel {}
+Tariq Ali {}
+André Breton {}
+Fredric Jameson {}
+Clement Attlee {}
+Louis Blanc {}
+Pierre-Joseph Proudhon {}
+Karl Liebknecht {}
+Félix Guattari {}
+Noam Chomsky {}
+Bertrand Russell {}
+George Orwell {}
+William Godwin {}
+Slavoj Žižek {}
+Errico Malatesta {}
+Jack Layton {}
+Friedrich Engels {}
+Jeremy Corbyn {}
+Abbie Hoffman {}
+Antonio Negri {}
+Émile Armand {}
+François Mitterrand {}
+Jean-Paul Sartre {}
+Peter Kropotkin {}
+Murray Bookchin {}
+Eugene V. Debs {}
+Mikhail Gorbachev {}
+Marquis de Sade {}
+Francisco Ferrer Guardia {}
+Hugo Chávez {}
+Léon Blum {}
+François-Noël Babeuf {}
+Rudolf Rocker {}
+Herbert Marcuse {}
+Cornelius Castoriadis {}
+Nathaniel Hawthorne {}
+Raya Dunayevskaya {}
+Mary Harris Jones {}
+Oscar Wilde {}
+John Rawls 0
+Ernst Haeckel 0
+Murray Rothbard 0
+Edith Wharton 0
+Augustus Pugin 0
+Kwame Nkrumah 0
+William Paley 0
+Stanisław Kania 0
+Herbert Spencer 221
+Jeremy Bentham {}
+Thomas Hill Green {}
+Isaiah Berlin {}
+Francis Galton {}
+Felix von Luschan {}
+Georgi Plekhanov {}
+John Tyndall {}
+Hernando de Soto {}
+Norberto Bobbio {}
+Arthur de Gobineau {}
+Baruch Spinoza {}
+William Ewart Gladstone {}
+Walther Rathenau {}
+George Bernard Shaw {}
+Ilse Schwidetzky {}
+Plato {}
+Thomas Jefferson {}
+Dadabhai Naoroji {}
+Ian Hacking {}
+Imre Lakatos {}
+Galileo Galilei {}
+William of Ockham {}
+John Kenneth Galbraith {}
+Ron Paul {}
+Emma Goldman {}
+Voltairine de Cleyre {}
+Hans F. K. Günther {}
+David D. Friedman {}
+Matthew Arnold {}
+Samuel Taylor Coleridge {}
+Beatrice Webb {}
+Arthur Penrhyn Stanley {}
+James Mill {}
+Immanuel Kant {}
+Tibor R. Machan {}
+Carl Gustav Hempel {}
+Arnold Bennett {}
+Karl Marx {}
+Carl Linnaeus {}
+D. H. Lawrence {}
+Paul Lafargue {}
+Benjamin Constant {}
+Jean-Jacques Rousseau {}
+Milton Friedman {}
+Egon Freiherr von Eickstedt {}
+John Locke {}
+Rose Wilder Lane {}
+William Beveridge {}
+Friedrich Hayek {}
+Crane Brinton {}
+Robert Knox {}
+Ignacio Ramírez {}
+Erwin Baur {}
+Albert Einstein {}
+Jorge Luis Borges {}
+William Lloyd Garrison {}
+Lewis H. Morgan {}
+Johann Heinrich Pestalozzi {}
+Paul Broca {}
+Karl Ernst von Baer {}
+Alfred North Whitehead {}
+Wilhelm Windelband {}
+Daniel Dennett {}
+Étienne de La Boétie {}
+Friedrich Wilhelm Joseph Schelling {}
+Joseph Priestley {}
+Frédéric Bastiat {}
+David Ricardo {}
+Margaret Thatcher {}
+Georges Cuvier {}
+Karl Popper {}
+Bal Gangadhar Tilak {}
+Otto Neurath {}
+Otto Reche {}
+Wilhelm Wundt {}
+Richard Cobden {}
+Pierre Duhem {}
+Michael Polanyi {}
+Alexander Berkman {}
+Nestor Makhno {}
+Karl-Hermann Flach {}
+Aristotle {}
+Leonard Trelawny Hobhouse {}
+Raymond Aron {}
+Amartya Sen {}
+Ludwig Woltmann {}
+Richard Rorty {}
+Mary Wollstonecraft {}
+Houston Stewart Chamberlain {}
+Wilhelm Dilthey {}
+Eduard Bernstein {}
+Thomas Henry Huxley {}
+David Lloyd George {}
+David Hume {}
+Ludwig Hermann Plate {}
+Ronald Dworkin {}
+Roger Bacon {}
+Marco Pannella {}
+Namık Kemal {}
+Ricardo Flores Magón {}
+Pierre-Joseph Proudhon {}
+Henri Poincaré {}
+John Bright {}
+John Milton {}
+Thomas Paine {}
+William Godwin {}
+Abraham Cahan {}
+John Maynard Keynes {}
+Mikhail Bakunin {}
+William Whewell {}
+Julian Huxley {}
+Henry David Thoreau {}
+George Eliot {}
+Louis Agassiz {}
+Voltaire {}
+Fritz Lenz {}
+Gustav Landauer {}
+Tao Xingzhi {}
+Carleton S. Coon {}
+Ralf Dahrendorf {}
+Joseph Deniker {}
+René Descartes {}
+Petrus Camper {}
+Johann Friedrich Blumenbach {}
+Averroes {}
+Adam Smith {}
+Alfred Rosenberg {}
+Robert Nozick {}
+Thomas Hobbes {}
+Jack London {}
+Max Stirner {}
+John Dewey {}
+Charles Gabriel Seligman {}
+Louise Michel {}
+Henry George {}
+Bolesław Prus {}
+Avicenna {}
+John Rawls {}
+Harriet Martineau {}
+Ernst Haeckel {}
+Friedrich Naumann {}
+Ralph Waldo Emerson {}
+Leo Tolstoy {}
+Cesare Lombroso {}
+Benjamin Disraeli {}
+Gopal Ganesh Agarkar {}
+Otmar Freiherr von Verschuer {}
+Wendy McElroy {}
+Karl Pearson {}
+Thomas Kuhn {}
+Carl Menger {}
+Bertil Ohlin {}
+Charles Dickens {}
+Eugen Fischer {}
+Georges-Louis Leclerc, Comte de Buffon {}
+François Bernier {}
+José Ortega y Gasset {}
+Bertrand Russell {}
+Pierre Gassendi {}
+Buenaventura Durruti {}
+Alan Paton {}
+Paul Feyerabend {}
+Rudolf Steiner {}
+Jean-Baptiste Say {}
+Jan Czekanowski {}
+Jürgen Habermas {}
+Anton Chekhov {}
+Ludwig von Mises {}
+Émile Durkheim {}
+Francis Bacon {}
+J. Neil Schulman {}
+Errico Malatesta {}
+William James {}
+François Quesnay {}
+Charles Darwin {}
+James Madison {}
+Alfred Ploetz {}
+Edmund Burke {}
+Bertil Lundman {}
+Hermann von Helmholtz {}
+Christoph Meiners {}
+Émile Armand {}
+Thomas Hardy {}
+Democritus {}
+Hugh of Saint Victor {}
+Peter Kropotkin {}
+Erasmus Darwin {}
+Willard Van Orman Quine {}
+Chantal Mouffe {}
+George H. Smith {}
+Murray Bookchin {}
+Hans-Hermann Hoppe {}
+Max Weber {}
+Johann Most {}
+Simone de Beauvoir {}
+Henri Bergson {}
+Hans Reichenbach {}
+Ayn Rand {}
+Walter Block {}
+Rudolf Carnap {}
+Wilhelm von Humboldt {}
+Murray Rothbard {}
+Franz Boas {}
+Wilhelm Röpke {}
+Rudyard Kipling {}
+Henry Sidgwick {}
+İbrahim Şinasi {}
+Talcott Parsons {}
+Hu Shih {}
+Benedetto Croce {}
+Isaac Newton {}
+Alexis de Tocqueville {}
+Charles Sanders Peirce {}
+Rudolf Rocker {}
+Thomas Carlyle {}
+John Stuart Mill {}
+Oscar Peschel {}
+Auguste Comte {}
+Rudolf Virchow {}
+Antoine Destutt de Tracy {}
+Denis Diderot {}
+Orhan Pamuk 0
+Jürgen Habermas 0
+Thomas Aquinas 0
+Louis Blanc 0
+Bertil Lundman 0
+Robert Fisk 0
+Paul Watzlawick 0
+Alice Walker 0
+Aaron T. Beck 0
+Eleanor Marx 0
+John F. Kennedy 0
+Paul Ricœur 0
+Franz Boas 0
+Rudolf Rocker 59
+Ivan Illich {}
+Nestor Makhno {}
+Benito Mussolini {}
+Victor Hugo {}
+Georg von Vollmar {}
+Leon Czolgosz {}
+Henry David Thoreau {}
+Alfredo M. Bonanno {}
+Errico Malatesta {}
+Johann Most {}
+Franz Kafka {}
+Max Stirner {}
+Abbie Hoffman {}
+Georges Sorel {}
+Milly Witkop {}
+Fritz Köster {}
+Ricardo Flores Magón {}
+Howard Zinn {}
+Kurt Eisner {}
+Karl Marx {}
+Eugen Dühring {}
+Banksy {}
+Émile Armand {}
+Peter Kropotkin {}
+Kurt Vonnegut {}
+Max Nettlau {}
+Buenaventura Durruti {}
+Giovanni Passannante {}
+Murray Bookchin {}
+Alexander Berkman {}
+Hans Rothfels {}
+Emma Goldman {}
+Léo Ferré {}
+David D. Friedman {}
+John Henry Mackay {}
+Erich Mühsam {}
+Fritz Kater {}
+Francisco Ferrer Guardia {}
+Murray Rothbard {}
+Pierre-Joseph Proudhon {}
+Augustin Souchy {}
+Albert Camus {}
+Louise Michel {}
+Émile Pouget {}
+Mahatma Gandhi {}
+Leo Tolstoy {}
+Gustav Noske {}
+Jacques Ellul {}
+Élisée Reclus {}
+Thomas Mann {}
+Noam Chomsky {}
+Bertrand Russell {}
+Gustav Landauer {}
+Mikhail Bakunin {}
+August Bebel {}
+Otto von Bismarck {}
+Wilhelm Liebknecht {}
+Albert Einstein {}
+William Godwin {}
+Christopher Hitchens 0
+Thomas Carlyle 0
+Hélène de Beauvoir 0
+Jacques Derrida 0
+Prince Maximilian of Baden 0
+John Stuart Mill 0
+Sabina Spielrein 0
+Martin Luther 0
+Francisco León de la Barra 0
+Thomas Hill Green 0
+Henri Lefebvre 0
+Paul Samuelson 0
+Mahatma Gandhi 0
+Étienne Geoffroy Saint-Hilaire 0
+Michel Eugène Chevreul 0
+Lev Shestov 0
+Sargent Shriver 0
+Knut Hamsun 0
+John Galsworthy 0
+Frances Oldham Kelsey 0
+Greil Marcus 0
+Wilhelm Reich 108
+Donald Sutherland {}
+Ernst Simmel {}
+Mahatma Gandhi {}
+Woody Allen {}
+Paul Mattick {}
+Otto Fenichel {}
+Sylvia Pankhurst {}
+Hugh Hefner {}
+Irvin D. Yalom {}
+Emma Goldman {}
+Bob Dylan {}
+Pierre Janet {}
+Viktor Frankl {}
+Julius Wagner-Jauregg {}
+Max Eitingon {}
+Guy Debord {}
+A. S. Neill {}
+Carl Jung {}
+Sigmund Freud {}
+Albert Einstein {}
+William S. Burroughs {}
+Nestor Makhno {}
+Laura Perls {}
+Erik Erikson {}
+Kate Bush {}
+Margaret Mahler {}
+Norman Mailer {}
+J. Edgar Hoover {}
+J. D. Salinger {}
+Alan Moore {}
+Melanie Klein {}
+Marian Anderson {}
+Otto Rühle {}
+Susan Sutherland Isaacs {}
+Edith Jacobson {}
+Antonie Pannekoek {}
+Heinz Kohut {}
+Erich Fromm {}
+Isidor Isaak Sadger {}
+Albert Ellis {}
+Alfred Kinsey {}
+Elsa Gindler {}
+William Morris {}
+Dwight D. Eisenhower {}
+Thomas Müntzer {}
+Josef Breuer {}
+Jack Kerouac {}
+Leo Tolstoy {}
+Dušan Makavejev {}
+Saul Bellow {}
+Ricardo Flores Magón {}
+Otto F. Kernberg {}
+Dorothy Day {}
+Patti Smith {}
+Mikhail Bakunin {}
+Marsha M. Linehan {}
+Hans Herrman Strupp {}
+Gustav Landauer {}
+Karen Horney {}
+Paul Federn {}
+Elisabeth Young-Bruehl {}
+Michel Foucault {}
+Bronisław Malinowski {}
+Otto Rank {}
+Milton H. Erickson {}
+Ernest Jones {}
+Harry Stack Sullivan {}
+Friedrich Kraus {}
+Charles Fourier {}
+Francisco Ferrer Guardia {}
+Lou Andreas-Salomé {}
+Pierre-Joseph Proudhon {}
+Fritz Perls {}
+Harry Mulisch {}
+Jane Fonda {}
+Sándor Ferenczi {}
+Anna Freud {}
+Noam Chomsky {}
+Buenaventura Durruti {}
+Gilles Deleuze {}
+Colin Wilson {}
+Peter Fonagy {}
+Alfred Adler {}
+Allen Ginsberg {}
+Errico Malatesta {}
+Louise Michel {}
+Robert Anton Wilson {}
+Abbie Hoffman {}
+Ludwig Binswanger {}
+Antonio Negri {}
+Philippe Pinel {}
+Carl Rogers {}
+Virginia Satir {}
+Paul Watzlawick {}
+Peter Kropotkin {}
+Gerard Damiano {}
+Murray Bookchin {}
+Aaron T. Beck {}
+Leon Trotsky {}
+Willy Brandt {}
+Sigurd Hoel {}
+Rudolf Rocker {}
+Herbert Marcuse {}
+Cornelius Castoriadis {}
+Sean Connery {}
+Sabina Spielrein {}
+Jacques Lacan {}
+Oscar Wilde {}
+Sully Prudhomme 0
+Sergei Witte 0
+Felix Morrow 0
+Emil Brunner 0
+Montesquieu 0
+Samuel Taylor Coleridge 0
+Stephen Jay Gould 0
+George Lansbury 0
+Barack Obama 0
+Ferdinand Freiligrath 0
+Władysław Reymont 0
+Jean-Jacques Rousseau 0
+A. S. Neill 0
+Ivan Turgenev 0
+Franz Rosenzweig 0
+Crispin Wright 0
+Bayard Rustin 0
+Slavoj Žižek 0
+Julian Huxley 0
+Hugo Grotius 0
+Boris Yeltsin 0
+Jane Wilde 0
+Michael Polanyi 0
+Gerd Gigerenzer 0
+Mary Engle Pennington 0
+Jack Kerouac 0
+Pete Townshend 0
+Betty Friedan 0
+Leo Tolstoy 87
+Victor Hugo {}
+Arthur Conan Doyle {}
+Alfredo M. Bonanno {}
+Mahatma Gandhi {}
+Raya Dunayevskaya {}
+André Gorz {}
+Paul Mattick {}
+Wilhelm Reich {}
+G. K. Chesterton {}
+Mikhail Kutuzov {}
+Matthew Arnold {}
+Pyotr Bagration {}
+Yanis Varoufakis {}
+Christopher Plummer {}
+Karl Marx {}
+Abdullah Öcalan {}
+Ivan Bunin {}
+Guy Debord {}
+A. S. Neill {}
+Leon Czolgosz {}
+Vladimir Nabokov {}
+Otto Rühle {}
+Sophia Tolstaya {}
+Howard Zinn {}
+Alexander Berkman {}
+Napoleon {}
+Antonie Pannekoek {}
+Nestor Makhno {}
+William Morris {}
+Alexander Herzen {}
+Thomas Müntzer {}
+Kang Youwei {}
+Vasily II of Moscow {}
+Peter the Great {}
+Ricardo Flores Magón {}
+Karl Korsch {}
+Dorothy Day {}
+Mikhail Bakunin {}
+Julius Caesar {}
+Sylvia Pankhurst {}
+Henry David Thoreau {}
+Martin Luther King, Jr. {}
+Arthur Schopenhauer {}
+Gustav Landauer {}
+Marinus van der Lubbe {}
+Thomas Mann {}
+James Joyce {}
+Rosa Luxemburg {}
+Michael Andreas Barclay de Tolly {}
+Louise Michel {}
+Henry George {}
+Charles Fourier {}
+Hans Denck {}
+Confucius {}
+Francisco Ferrer Guardia {}
+Pierre-Joseph Proudhon {}
+Karl Liebknecht {}
+Félix Guattari {}
+George Fox {}
+Fyodor Dostoyevsky {}
+Noam Chomsky {}
+Buenaventura Durruti {}
+E. F. Schumacher {}
+William Godwin {}
+Anton Chekhov {}
+Errico Malatesta {}
+Burton Holmes {}
+Virginia Woolf {}
+Abbie Hoffman {}
+Antonio Negri {}
+Emma Goldman {}
+Jean-Paul Sartre {}
+Viktoria Tolstoy {}
+William Penn {}
+Peter Kropotkin {}
+Helen Mirren {}
+Murray Bookchin {}
+Gustave Flaubert {}
+Alexander I of Russia {}
+Albert Camus {}
+Rudolf Rocker {}
+Herbert Marcuse {}
+Jesus Christ {}
+Cornelius Castoriadis {}
+Oscar Wilde {}
+Ilya Repin {}
+Alexander Pushkin {}
+Saul Bellow 0
+John Milton 0
+Carl Ludwig 0
+Jacques Attali 0
+Günter Grass 0
+Sergei Bulgakov 0
+Peggy Guggenheim 0
+Claude Adrien Helvétius 0
+Alfred Russel Wallace 0
+Vandana Shiva 0
+Arthur Schopenhauer 0
+Julia Margaret Cameron 0
+George Washington 0
+Michael Ignatieff 0
+Antony Beevor 0
+Irenäus Eibl-Eibesfeldt 0
+Thomas Hobbes 0
+Émile Gautier 0
+Otmar Freiherr von Verschuer 0
+Grace Hopper 0
+Jan van Eyck 0
+Hans Denck 0
+Hans-Hermann Hoppe 0
+Mátyás Rákosi 0
+Oscar Peschel 0
+Jean Jaurès 0
+Rudolf Steiner 0
+Aleksandr Ulyanov 0
+U Thant 0
+Lazar Kaganovich 0
+Woodrow Wilson 0
+Margaret Fuller 0
+Norman Thomas 0
+Gustavo Gutiérrez 0
+Noam Chomsky 316
+Ivan Illich {}
+Jeremy Bentham {}
+Émile Durkheim {}
+George Herbert Mead {}
+Isaiah Berlin {}
+John B. Watson {}
+Xanana Gusmão {}
+Ian Tattersall {}
+Alfredo M. Bonanno {}
+Mahatma Gandhi {}
+Georgi Plekhanov {}
+Søren Kierkegaard {}
+Max Wertheimer {}
+Irene Khan {}
+Richard Lazarus {}
+Paul Mattick {}
+Daniel Kahneman {}
+Laozi {}
+Baruch Spinoza {}
+Gustave Le Bon {}
+Carol Chomsky {}
+Kurt Vonnegut {}
+Max Horkheimer {}
+Thomas Nagel {}
+Plato {}
+Niels Kaj Jerne {}
+Karl Polanyi {}
+Buckethead {}
+Benjamin Franklin {}
+Karl Liebknecht {}
+Ian Hacking {}
+William Sloane Coffin {}
+Theodor W. Adorno {}
+Alan Dershowitz {}
+Leo Strauss {}
+Gilbert Ryle {}
+Emma Goldman {}
+Snježana Kordić {}
+Manuel Castells {}
+Thucydides {}
+William Morris {}
+Roman Jakobson {}
+Aaron Swartz {}
+Thomas Paine {}
+Leon Trotsky {}
+Louis Gabriel Ambroise de Bonald {}
+Vilém Flusser {}
+Justus Möser {}
+Lawrence Kohlberg {}
+Socrates {}
+Immanuel Kant {}
+Seymour Hersh {}
+Ulric Neisser {}
+Willard Van Orman Quine {}
+Carl Gustav Hempel {}
+Karl Marx {}
+Luce Irigaray {}
+Philippa Foot {}
+Thomas Kuhn {}
+Abdullah Öcalan {}
+Mary Robinson {}
+Herbert A. Simon {}
+Martin Luther King, Jr. {}
+Guy Debord {}
+Jean-Jacques Rousseau {}
+Robert Faurisson {}
+Friedrich Nietzsche {}
+John Locke {}
+Michael Walzer {}
+Leon Festinger {}
+Carl Jung {}
+Aristotle {}
+G. E. Moore {}
+Robert Owen {}
+Thomas Jefferson {}
+Julian Assange {}
+Raymond Cattell {}
+Albert Einstein {}
+Jacques Maritain {}
+Edward Thorndike {}
+William James {}
+Jean Piaget {}
+Alexander Dubček {}
+Crispin Wright {}
+Erik Erikson {}
+Milly Witkop {}
+Walter Mischel {}
+Francisco Franco {}
+George Wald {}
+Judith Butler {}
+Max Stirner {}
+Arundhati Roy {}
+Michael Sipser {}
+Leonard Bloomfield {}
+David Ricardo {}
+Amy Goodman {}
+Zellig Harris {}
+Bernard Williams {}
+Peter Singer {}
+Karl Popper {}
+Hugo Grotius {}
+Sarvepalli Radhakrishnan {}
+Jacques Ellul {}
+Banksy {}
+Carl Schmitt {}
+Slavoj Žižek {}
+David Chalmers {}
+William Deane {}
+Ernest Renan {}
+Denise Levertov {}
+Walter Benjamin {}
+Roland Barthes {}
+Mikhail Gorbachev {}
+Giovanni Passannante {}
+William Chomsky {}
+Alexander Berkman {}
+Hippolyte Taine {}
+Antonie Pannekoek {}
+Mao Zedong {}
+Erich Fromm {}
+Erving Goffman {}
+Sun Tzu {}
+Raymond Aron {}
+George Orwell {}
+Richard Nixon {}
+Joseph de Maistre {}
+Fritz Kater {}
+Donald Trump {}
+Hilary Putnam {}
+Jean Baudrillard {}
+Swami Vivekananda {}
+Augustin Souchy {}
+Harold Pinter {}
+Eduard Bernstein {}
+Paul Grice {}
+David Hume {}
+Vladimir Lenin {}
+Al-Ghazali {}
+Sigmund Freud {}
+Ahad Ha'am {}
+Hanan Ashrawi {}
+Pol Pot {}
+Muhammad Yunus {}
+Steven Pinker {}
+Ivan Pavlov {}
+Michael Dummett {}
+Pierre-Joseph Proudhon {}
+Nelson Goodman {}
+Imre Nagy {}
+Mary Harris Jones {}
+Augustine of Hippo {}
+John Searle {}
+A. J. Ayer {}
+Henry David Thoreau {}
+Jon Stewart {}
+Voltaire {}
+Léo Ferré {}
+Neil Postman {}
+Gottlob Frege {}
+Niccolò Machiavelli {}
+Vandana Shiva {}
+Gustav Landauer {}
+Nicolas Malebranche {}
+Richard E. Nisbett {}
+Jerome Bruner {}
+B. R. Ambedkar {}
+George Lakoff {}
+Michael Moore {}
+Howard Zinn {}
+Michel Foucault {}
+Léon Blum {}
+Robert Nozick {}
+René Descartes {}
+Marsilius of Padua {}
+Abraham Maslow {}
+Averroes {}
+Adam Smith {}
+Jawaharlal Nehru {}
+Paul Ekman {}
+Gregory Bateson {}
+Max Nettlau {}
+John Dewey {}
+Rosa Luxemburg {}
+Bernie Sanders {}
+Einar Gerhardsen {}
+Russell Kirk {}
+Gordon Allport {}
+Marquis de Sade {}
+Nelson Mandela {}
+Louise Michel {}
+Alasdair MacIntyre {}
+Werner Sombart {}
+Tariq Ali {}
+Charles Fourier {}
+John Rawls {}
+Confucius {}
+Eugene V. Debs {}
+Richard Rorty {}
+Clement Attlee {}
+Louis Blanc {}
+Ralph Waldo Emerson {}
+Patricia Churchland {}
+Leo Tolstoy {}
+Mozi {}
+Murray Rothbard {}
+Desmond Tutu {}
+George Santayana {}
+Moritz Schlick {}
+Simone de Beauvoir {}
+Muhammad {}
+Norman Finkelstein {}
+Hans Eysenck {}
+Rudolf Rocker {}
+Carl von Ossietzky {}
+Chanakya {}
+Martin Heidegger {}
+G. E. M. Anscombe {}
+Robert Michels {}
+Montesquieu {}
+Reinhold Niebuhr {}
+Leon Czolgosz {}
+Othmar Spann {}
+Daniel Dennett {}
+José Ortega y Gasset {}
+Bertrand Russell {}
+Jerry Fodor {}
+Buenaventura Durruti {}
+Ludwig Wittgenstein {}
+Paul Feyerabend {}
+Herbert Spencer {}
+William Godwin {}
+Alain Badiou {}
+Stephen Jay Gould {}
+Hannah Arendt {}
+Jürgen Habermas {}
+Ludwig von Mises {}
+John Backus {}
+Thomas Aquinas {}
+Martin Seligman {}
+Giovanni Gentile {}
+Errico Malatesta {}
+Jack Layton {}
+Friedrich Engels {}
+Albert Bandura {}
+Franz Kafka {}
+Jeremy Corbyn {}
+Abbie Hoffman {}
+Donald Knuth {}
+Antonio Negri {}
+Max Weber {}
+Fritz Köster {}
+Ricardo Flores Magón {}
+Kurt Lewin {}
+Thomas Hobbes {}
+Edmund Burke {}
+Carl Rogers {}
+Robert Fisk {}
+Alvin Plantinga {}
+Antonio Gramsci {}
+Zygmunt Bauman {}
+Vilfredo Pareto {}
+Recep Tayyip Erdoğan {}
+François Mitterrand {}
+Jean-Paul Sartre {}
+Ronald Reagan {}
+Hans Blix {}
+Gamal Abdel Nasser {}
+Peter Kropotkin {}
+David McClelland {}
+Niklas Luhmann {}
+Edward Said {}
+Murray Bookchin {}
+Aldous Huxley {}
+John Plamenatz {}
+Elaine Weyuker {}
+Johann Most {}
+Erich Mühsam {}
+Karl Korsch {}
+Prabhat Ranjan Sarkar {}
+Gottfried Wilhelm Leibniz {}
+Marshall McLuhan {}
+Hans Reichenbach {}
+Cicero {}
+Georg Wilhelm Friedrich Hegel {}
+Ayn Rand {}
+Shang Yang {}
+Francisco Ferrer Guardia {}
+Wilhelm von Humboldt {}
+Hugo Chávez {}
+Saul Kripke {}
+J. L. Austin {}
+Albert Camus {}
+Naomi Klein {}
+François-Noël Babeuf {}
+Émile Pouget {}
+Alexis de Tocqueville {}
+Charles Sanders Peirce {}
+Léopold Sédar Senghor {}
+Ferdinand de Saussure {}
+Herbert Marcuse {}
+Christopher Hitchens {}
+Nestor Makhno {}
+Sun Yat-sen {}
+Arnold Gehlen {}
+Clark L. Hull {}
+John Stuart Mill {}
+Yanis Varoufakis {}
+Élisée Reclus {}
+Mikhail Bakunin {}
+Auguste Comte {}
+Stanley Schachter {}
+Mencius {}
+Salvador Allende {}
+Viggo Mortensen {}
+Álvaro García Linera {}
+Friedrich Hayek {}
+Robert Darwin 0
+Seyla Benhabib 0
+Gilles Deleuze 0
+Rabindranath Tagore 0
+Peter Fonagy 0
+Jan Czekanowski 0
+Jack Layton 0
+Silvio Gesell 0
+Karl von Frisch 0
+Oveta Culp Hobby 0
+Antonio Negri 64
+Niccolò Machiavelli {}
+Leon Czolgosz {}
+Alfredo M. Bonanno {}
+Errico Malatesta {}
+Louise Michel {}
+Friedrich Engels {}
+Raya Dunayevskaya {}
+Yanis Varoufakis {}
+Abbie Hoffman {}
+Marinus van der Lubbe {}
+Rosa Luxemburg {}
+Ricardo Flores Magón {}
+André Gorz {}
+Howard Zinn {}
+Michel Foucault {}
+Baruch Spinoza {}
+Raniero Panzieri {}
+René Descartes {}
+Herbert Marcuse {}
+Carl Schmitt {}
+Thomas Hobbes {}
+Jean-Paul Sartre {}
+Norberto Bobbio {}
+Wilhelm Reich {}
+Sylvia Pankhurst {}
+Peter Kropotkin {}
+Karl Korsch {}
+Otto Rühle {}
+Gavril Myasnikov {}
+Paul Mattick {}
+Murray Bookchin {}
+Alexander Berkman {}
+Antonie Pannekoek {}
+Nestor Makhno {}
+Emma Goldman {}
+Jan Appel {}
+Charles Fourier {}
+Louis Althusser {}
+William Morris {}
+Francisco Ferrer Guardia {}
+Herman Gorter {}
+Karl Marx {}
+Hugo Chávez {}
+Pierre-Joseph Proudhon {}
+Albert Camus {}
+Karl Liebknecht {}
+Rudolf Rocker {}
+Abdullah Öcalan {}
+Leo Tolstoy {}
+Vladimir Lenin {}
+Félix Guattari {}
+Guy Debord {}
+Aldo Moro {}
+Cornelius Castoriadis {}
+Noam Chomsky {}
+Jacques Derrida {}
+Gustav Landauer {}
+Mikhail Bakunin {}
+Oscar Wilde {}
+Buenaventura Durruti {}
+Dorothy Day {}
+Gilles Deleuze {}
+Francesco Cossiga {}
+William Godwin {}
+Fritz Köster 0
+Ronald Reagan 0
+Christoph Meiners 0
+Willard Van Orman Quine 0
+Bernard Williams 0
+Zellig Harris 0
+Jacqueline Cochran 0
+Walter Block 0
+Lázaro Cárdenas 0
+Vladimir Kokovtsov 0
+Sir George Stokes, 1st Baronet 0
+Sean Connery 0
+Alexander Pushkin 0
+Karl Christian Friedrich Krause 0
+Henryk Sienkiewicz 0
