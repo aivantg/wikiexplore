@@ -9,13 +9,15 @@ links_here_query = "&lhprop=title&&lhnamespace=0&lhlimit=max"
 prop_query = "&prop={}"
 
 
-def build_request_url(title, plcontinue=None, lhcontinue=None, continuation=False):
+def build_request_url(title, plcontinue=None, lhcontinue=None, continuation=False, page_links_only=False):
     url = base_url.format(urllib.parse.quote(title))
     properties = []
     if not continuation: #if this is the first call, use both properties
-        properties = ["links", "linkshere"]
+        properties = ["links"]
         url += page_links_query
-        url += links_here_query
+        if not page_links_only:
+            properties.append("linkshere")
+            url += links_here_query
     else: #if it's not the first call, use the continue values to decide whether to query for each property
         if not (plcontinue or lhcontinue):
             return None
@@ -23,15 +25,15 @@ def build_request_url(title, plcontinue=None, lhcontinue=None, continuation=Fals
             properties.append("links")
             url += page_links_query
             url += "&plcontinue=" + plcontinue
-        if lhcontinue:
+        if lhcontinue and not page_links_only:
             properties.append("linkshere")
             url += links_here_query
             url += "&lhcontinue=" + lhcontinue
     url += prop_query.format(urllib.parse.quote("|".join(properties)))
     return url
 
-def get(title):
-    url = build_request_url(title)
+def get(title, page_links_only=False):
+    url = build_request_url(title, page_links_only=page_links_only)
     page_links = []
     links_here = []
     count = 1
@@ -43,8 +45,12 @@ def get(title):
         nonlocal count
         print("Making Request", count)
 
+        agent = 'wikipedia (https://github.com/goldsmith/Wikipedia/)'
+        headers = {
+            'User-Agent': agent
+        }
         sec_start = time.time()
-        data = requests.get(url).json()
+        data = requests.get(url, headers=headers).json()
 
         # Process data
         query = data["query"]["pages"]
@@ -68,8 +74,7 @@ def get(title):
 
         print("Request", count, "took", time.time() - sec_start, "seconds")
         count += 1
-
-        new_url = build_request_url(title, plcontinue, lhcontinue, True)
+        new_url = build_request_url(title, plcontinue, lhcontinue, True, page_links_only)
         recursive_request(new_url)
 
     recursive_request(url)
