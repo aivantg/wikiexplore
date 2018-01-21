@@ -77,14 +77,13 @@ def positionAllNodes(graph, centerYear):
 def sizeForNode(graph, title):
     logBase = 3
     try:
-        floatSize = BASE_NODE_SIZE*math.log(logBase*graph.in_degree(title), logBase)
-        return float("{0:.2f}".format(floatSize))
+        return int(BASE_NODE_SIZE*math.log(logBase*graph.in_degree(title), logBase))
     except:
         return BASE_NODE_SIZE
 
 def colorForYear(year):
-    red = float("{0:.2f}".format(256*(YEAR_END - year)/float(YEAR_END)))
-    green = float("{0:.2f}".format(256*(year)/float(YEAR_END)))
+    red = int(256*(YEAR_END - year)/float(YEAR_END))
+    green = int(256*(year)/float(YEAR_END))
     return {'r' : red, 'g' : green, 'b' : 0}
 
 #Returns number of two step paths from start to end
