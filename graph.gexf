@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <meta>
+      <creator>NetworkX 2.0</creator>
+      <lastmodified>20/01/2018</lastmodified>
+    </meta>
+    <nodes>
+      <node id="Bob Schieffer" label="Bob Schieffer" />
+      <node id="Michael Bloomberg" label="Michael Bloomberg" />
+      <node id="John McCain" label="John McCain" />
+      <node id="Ron Paul" label="Ron Paul" />
+      <node id="Ehud Olmert" label="Ehud Olmert" />
+      <node id="Condoleezza Rice" label="Condoleezza Rice" />
+      <node id="Paul Wolfowitz" label="Paul Wolfowitz" />
+      <node id="Dennis Reimer" label="Dennis Reimer" />
+      <node id="Harriet Miers" label="Harriet Miers" />
+      <node id="Alberto Gonzales" label="Alberto Gonzales" />
+      <node id="Mikheil Saakashvili" label="Mikheil Saakashvili" />
+      <node id="Ariel Sharon" label="Ariel Sharon" />
+      <node id="Sali Berisha" label="Sali Berisha" />
+      <node id="Ann Richards" label="Ann Richards" />
+      <node id="Bill Clinton" label="Bill Clinton" />
+      <node id="Dick Cheney" label="Dick Cheney" />
+      <node id="Abraham Lincoln" label="Abraham Lincoln" />
+      <node id="Rudy Giuliani" label="Rudy Giuliani" />
+      <node id="Jimmy Carter" label="Jimmy Carter" />
+      <node id="Victor Ponta" label="Victor Ponta" />
+      <node id="Vicente Fox" label="Vicente Fox" />
+      <node id="T. Boone Pickens" label="T. Boone Pickens" />
+      <node id="Madeleine Albright" label="Madeleine Albright" />
+      <node id="Albert Schweitzer" label="Albert Schweitzer" />
+      <node id="Neil Bush" label="Neil Bush" />
+      <node id="David Koresh" label="David Koresh" />
+      <node id="Osama bin Laden" label="Osama bin Laden" />
+      <node id="Laura Bush" label="Laura Bush" />
+      <node id="John Roberts" label="John Roberts" />
+      <node id="Kathleen Sebelius" label="Kathleen Sebelius" />
+      <node id="Mohamed ElBaradei" label="Mohamed ElBaradei" />
+      <node id="Joe Lieberman" label="Joe Lieberman" />
+      <node id="Elizabeth II" label="Elizabeth II" />
+      <node id="Nouri al-Maliki" label="Nouri al-Maliki" />
+      <node id="Barbara Bush" label="Barbara Bush" />
+      <node id="Ronald Reagan" label="Ronald Reagan" />
+      <node id="Karen Hughes" label="Karen Hughes" />
+      <node id="Howard Dean" label="Howard Dean" />
+      <node id="Alan Greenspan" label="Alan Greenspan" />
+      <node id="Joe Biden" label="Joe Biden" />
+      <node id="Yasser Arafat" label="Yasser Arafat" />
+      <node id="Ted Kennedy" label="Ted Kennedy" />
+      <node id="John Kerry" label="John Kerry" />
+      <node id="Prescott Bush" label="Prescott Bush" />
+      <node id="Barack Obama" label="Barack Obama" />
+      <node id="David Petraeus" label="David Petraeus" />
+      <node id="Sam Houston" label="Sam Houston" />
+      <node id="Vladimir Putin" label="Vladimir Putin" />
+      <node id="Paul Ryan" label="Paul Ryan" />
+      <node id="Karl Rove" label="Karl Rove" />
+      <node id="Frank Guinta" label="Frank Guinta" />
+      <node id="Willa Cather" label="Willa Cather" />
+      <node id="Carol Shea-Porter" label="Carol Shea-Porter" />
+      <node id="Samuel Alito" label="Samuel Alito" />
+      <node id="John Edwards" label="John Edwards" />
+      <node id="Wesley Clark" label="Wesley Clark" />
+      <node id="Gore Vidal" label="Gore Vidal" />
+      <node id="Dennis Kucinich" label="Dennis Kucinich" />
+      <node id="Benjamin Harrison" label="Benjamin Harrison" />
+      <node id="Colin Powell" label="Colin Powell" />
+      <node id="Donald Trump" label="Donald Trump" />
+      <node id="Hillary Clinton" label="Hillary Clinton" />
+      <node id="George W. Bush" label="George W. Bush" />
+      <node id="Jeb Bush" label="Jeb Bush" />
+      <node id="Charles Jay" label="Charles Jay" />
+      <node id="George Washington" label="George Washington" />
+      <node id="Kelly Ayotte" label="Kelly Ayotte" />
+      <node id="Saddam Hussein" label="Saddam Hussein" />
+      <node id="Jalal Talabani" label="Jalal Talabani" />
+      <node id="Kim Jong-il" label="Kim Jong-il" />
+      <node id="George Tenet" label="George Tenet" />
+      <node id="Javier Solana" label="Javier Solana" />
+      <node id="Harry S. Truman" label="Harry S. Truman" />
+      <node id="Michelle Obama" label="Michelle Obama" />
+      <node id="Richard Holbrooke" label="Richard Holbrooke" />
+      <node id="Alexander Haig" label="Alexander Haig" />
+      <node id="Steve Preston" label="Steve Preston" />
+      <node id="Dwight D. Eisenhower" label="Dwight D. Eisenhower" />
+      <node id="Tony Blair" label="Tony Blair" />
+      <node id="Toomas Hendrik Ilves" label="Toomas Hendrik Ilves" />
+      <node id="Slobodan Milošević" label="Slobodan Milošević" />
+      <node id="Nancy Pelosi" label="Nancy Pelosi" />
+    </nodes>
+    <edges>
+      <edge id="0" source="T. Boone Pickens" target="Rudy Giuliani" />
+      <edge id="1" source="T. Boone Pickens" target="Michael Bloomberg" />
+      <edge id="2" source="T. Boone Pickens" target="George W. Bush" />
+      <edge id="3" source="T. Boone Pickens" target="Albert Schweitzer" />
+      <edge id="4" source="T. Boone Pickens" target="John Kerry" />
+      <edge id="5" source="Frank Guinta" target="Kelly Ayotte" />
+      <edge id="6" source="Frank Guinta" target="Carol Shea-Porter" />
+      <edge id="7" source="Carol Shea-Porter" target="T. Boone Pickens" weight="0.8340647828484926" />
+      <edge id="8" source="Carol Shea-Porter" target="Frank Guinta" weight="0.48089834696298783" />
+      <edge id="9" source="Carol Shea-Porter" target="Wesley Clark" weight="0.28853900817779266" />
+      <edge id="10" source="Carol Shea-Porter" target="George W. Bush" weight="0.4884786733519446" />
+      <edge id="11" source="Wesley Clark" target="Bob Schieffer" />
+      <edge id="12" source="Wesley Clark" target="Paul Wolfowitz" />
+      <edge id="13" source="Wesley Clark" target="John McCain" />
+      <edge id="14" source="Wesley Clark" target="Kathleen Sebelius" />
+      <edge id="15" source="Wesley Clark" target="Karl Rove" />
+      <edge id="16" source="Wesley Clark" target="Dennis Reimer" />
+      <edge id="17" source="Wesley Clark" target="Bill Clinton" />
+      <edge id="18" source="Wesley Clark" target="George Tenet" />
+      <edge id="19" source="Wesley Clark" target="Victor Ponta" />
+      <edge id="20" source="Wesley Clark" target="Madeleine Albright" />
+      <edge id="21" source="Wesley Clark" target="Hillary Clinton" />
+      <edge id="22" source="Wesley Clark" target="David Koresh" />
+      <edge id="23" source="Wesley Clark" target="Dwight D. Eisenhower" />
+      <edge id="24" source="Wesley Clark" target="Charles Jay" />
+      <edge id="25" source="Wesley Clark" target="Condoleezza Rice" />
+      <edge id="26" source="Wesley Clark" target="Joe Lieberman" />
+      <edge id="27" source="Wesley Clark" target="John Edwards" />
+      <edge id="28" source="Wesley Clark" target="Javier Solana" />
+      <edge id="29" source="Wesley Clark" target="Howard Dean" />
+      <edge id="30" source="Wesley Clark" target="Richard Holbrooke" />
+      <edge id="31" source="Wesley Clark" target="Alexander Haig" />
+      <edge id="32" source="Wesley Clark" target="Joe Biden" />
+      <edge id="33" source="Wesley Clark" target="Colin Powell" />
+      <edge id="34" source="Wesley Clark" target="John Kerry" />
+      <edge id="35" source="Wesley Clark" target="Slobodan Milošević" />
+      <edge id="36" source="Wesley Clark" target="Barack Obama" />
+      <edge id="37" source="George W. Bush" target="Sam Houston" />
+      <edge id="38" source="George W. Bush" target="John McCain" />
+      <edge id="39" source="George W. Bush" target="Ehud Olmert" />
+      <edge id="40" source="George W. Bush" target="Harriet Miers" />
+      <edge id="41" source="George W. Bush" target="Alberto Gonzales" />
+      <edge id="42" source="George W. Bush" target="Mikheil Saakashvili" />
+      <edge id="43" source="George W. Bush" target="Neil Bush" />
+      <edge id="44" source="George W. Bush" target="Ann Richards" />
+      <edge id="45" source="George W. Bush" target="Bill Clinton" />
+      <edge id="46" source="George W. Bush" target="Dick Cheney" />
+      <edge id="47" source="George W. Bush" target="Abraham Lincoln" />
+      <edge id="48" source="George W. Bush" target="Jimmy Carter" />
+      <edge id="49" source="George W. Bush" target="Vicente Fox" />
+      <edge id="50" source="George W. Bush" target="John Roberts" />
+      <edge id="51" source="George W. Bush" target="Alan Greenspan" />
+      <edge id="52" source="George W. Bush" target="Osama bin Laden" />
+      <edge id="53" source="George W. Bush" target="Laura Bush" />
+      <edge id="54" source="George W. Bush" target="Ron Paul" />
+      <edge id="55" source="George W. Bush" target="Mohamed ElBaradei" />
+      <edge id="56" source="George W. Bush" target="Elizabeth II" />
+      <edge id="57" source="George W. Bush" target="David Petraeus" />
+      <edge id="58" source="George W. Bush" target="Barbara Bush" />
+      <edge id="59" source="George W. Bush" target="Ronald Reagan" />
+      <edge id="60" source="George W. Bush" target="Karen Hughes" />
+      <edge id="61" source="George W. Bush" target="Toomas Hendrik Ilves" />
+      <edge id="62" source="George W. Bush" target="Dennis Kucinich" />
+      <edge id="63" source="George W. Bush" target="Yasser Arafat" />
+      <edge id="64" source="George W. Bush" target="Jeb Bush" />
+      <edge id="65" source="George W. Bush" target="John Kerry" />
+      <edge id="66" source="George W. Bush" target="Prescott Bush" />
+      <edge id="67" source="George W. Bush" target="Sali Berisha" />
+      <edge id="68" source="George W. Bush" target="Paul Ryan" />
+      <edge id="69" source="George W. Bush" target="Karl Rove" />
+      <edge id="70" source="George W. Bush" target="Willa Cather" />
+      <edge id="71" source="George W. Bush" target="Samuel Alito" />
+      <edge id="72" source="George W. Bush" target="George Tenet" />
+      <edge id="73" source="George W. Bush" target="Nouri al-Maliki" />
+      <edge id="74" source="George W. Bush" target="Gore Vidal" />
+      <edge id="75" source="George W. Bush" target="Ariel Sharon" />
+      <edge id="76" source="George W. Bush" target="Benjamin Harrison" />
+      <edge id="77" source="George W. Bush" target="Donald Trump" />
+      <edge id="78" source="George W. Bush" target="Ted Kennedy" />
+      <edge id="79" source="George W. Bush" target="George Washington" />
+      <edge id="80" source="George W. Bush" target="Saddam Hussein" />
+      <edge id="81" source="George W. Bush" target="Jalal Talabani" />
+      <edge id="82" source="George W. Bush" target="Kim Jong-il" />
+      <edge id="83" source="George W. Bush" target="Vladimir Putin" />
+      <edge id="84" source="George W. Bush" target="Harry S. Truman" />
+      <edge id="85" source="George W. Bush" target="Barack Obama" />
+      <edge id="86" source="George W. Bush" target="Steve Preston" />
+      <edge id="87" source="George W. Bush" target="Michelle Obama" />
+      <edge id="88" source="George W. Bush" target="Tony Blair" />
+      <edge id="89" source="George W. Bush" target="Nancy Pelosi" />
+    </edges>
+  </graph>
+</gexf>

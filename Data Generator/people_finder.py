@@ -6,7 +6,7 @@ import urllib
 
 print("Loading humans.json")
 start = time.time()
-with open("humans.json", "r") as jsonFile:
+with open("../humans.json", "r") as jsonFile:
     humans = json.load(jsonFile)
 print("Loaded humans.json in", time.time() - start, "seconds")
 
@@ -41,5 +41,5 @@ def get_score(name, text):
 
 
 def save_humans_json():
-    with open("humans.json", 'w') as f:
+    with open("../humans.json", 'w') as f:
         json.dump(humans, f)

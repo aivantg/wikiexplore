@@ -10,6 +10,9 @@ def dateOfBirth(title):
     simpleRegex = r"[0-9]{4}"
     match = re.search(simpleRegex, content)
     if not match:
-        print("No year match in article")
-    else:
-        print("Year match: ", match.group())
+        return 1000
+    # if not match:
+    #     print("No year match in article")
+    # else:
+    #     print("Year match: ", match.group())
+    return match.group()
