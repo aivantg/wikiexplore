@@ -11,20 +11,34 @@ def addNodeWithLinks(graph, title, links):
         graph.add_edge(title, link)
 
 #Branch out from a given person to construct a graph of given depth
+#Adds vizualization attributes for each node along the way
 def addNodesToDepth(graph, title, depth):
     graph.add_node(title)
-    graph.nodes[title]['viz'] = {'size': 20} #can scale by inbound nodes
-    graph.nodes[title]['viz']['position'] = {'x': random.randint(-100, 100), 'y': random.randint(-100, 100)}
+
+    #Node already linked in:
+    if graph.out_degree[title] > 0:
+        return
+
+    #Initialize node otherwise:
+    graph.nodes[title]['viz'] = {'size': 20}
     graph.nodes[title]['viz']['color'] = {'r' : 0, 'g' : 256, 'b' : 0}
+    graph.nodes[title]['viz']['position'] = {'x': (random.randint(-100, 100)), 'y': random.randint(-100, 100)}
+
+    #Node is a leaf node:
     if depth <= 0:
         return
+
+    #Otherwise Link node into graph, update attributes
     attributes = people_finder.get_people_referenced(title)
     graph.nodes[title]['dob'] = attributes['dob']
+    graph.nodes[title]['viz']['position']['x'] = attributes['dob']
     links = attributes["referenced"]
-    for person in links:
+    for person in links:     #Add links and linked nodes:
+        #TODO: Do edge weight stuff here
         graph.add_edge(title, person)
         if graph.out_degree[person] == 0:
             addNodesToDepth(graph, person, depth - 1)
+
 
 #Returns number of two step paths from start to end
 def numTwoStepPaths(graph, start, end):
@@ -48,14 +62,14 @@ def calcEdgeWeight(graph, start, end):
 start = time.time()
 G = nx.DiGraph()
 
-startTitle = "Carol Shea-Porter"
-
-addNodesToDepth(G, startTitle, 3)
+startTitle = "Kanye West"
+addNodesToDepth(G, startTitle, 2)
 print("Starting node of graph", startTitle)
 print("Number of nodes in graph:", G.number_of_nodes())
 print("Number of edges in graph:", G.number_of_edges())
 print("Time to generate graph", time.time() - start)
 
+#Do some edge weight stuff here
 for link in G.neighbors(startTitle):
     G.edges[startTitle,link]['weight'] = calcEdgeWeight(G, startTitle,link)
 
