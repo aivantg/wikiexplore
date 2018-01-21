@@ -71,18 +71,21 @@ def positionAllNodes(graph, centerYear):
         for title in yearDict[year]:
             graph.nodes[title]['viz'] = {'size': sizeForNode(graph, title)}
             graph.nodes[title]['viz']['position'] = {'x': X_INTERVAL_WIDTH*(year//5 - centerYear//5), 'y': i*Y_SPACING}
-            graph.nodes[title]['viz']['color'] = DEFAULT_COLOR
+            graph.nodes[title]['viz']['color'] = colorForYear(year)
             i = i + 1
 
 def sizeForNode(graph, title):
     logBase = 3
     try:
-        return BASE_NODE_SIZE*math.log(logBase*graph.in_degree(title), logBase)
+        floatSize = BASE_NODE_SIZE*math.log(logBase*graph.in_degree(title), logBase)
+        return float("{0:.2f}".format(floatSize))
     except:
         return BASE_NODE_SIZE
 
 def colorForYear(year):
-    return {'r' : 256*(YEAR_END - year)/float(YEAR_END), 'g' : 256*(year)/float(YEAR_END), 'b' : 0}
+    red = float("{0:.2f}".format(256*(YEAR_END - year)/float(YEAR_END)))
+    green = float("{0:.2f}".format(256*(year)/float(YEAR_END)))
+    return {'r' : red, 'g' : green, 'b' : 0}
 
 #Returns number of two step paths from start to end
 def numTwoStepPaths(graph, start, end):
