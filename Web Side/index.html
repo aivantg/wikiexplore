@@ -46,7 +46,8 @@
 <script src="sigma/src/misc/sigma.misc.bindDOMEvents.js"></script>
 <script src="sigma/src/misc/sigma.misc.drawHovers.js"></script>
 <!-- END SIGMA IMPORTS -->
-<script src="sigma/plugins/sigma.parsers.json/sigma.parsers.json.js"></script>
+<script src="sigma/plugins/sigma.parsers.gexf/gexf-parser.js"></script>
+<script src="sigma/plugins/sigma.parsers.gexf/sigma.parsers.gexf.js"></script>
 <div id="container">
   <style>
     #graph-container {
@@ -71,7 +72,7 @@
  * configuration object. The plugin will just add the "graph" key to it
  * before the instanciation.
  */
- sigma.parsers.json('sigma/examples/data/arctic.json', {
-   container: 'graph-container'
- });
+sigma.parsers.gexf('sigma/examples/data/arctic.gexf', {
+  container: 'graph-container'
+});
 </script>
