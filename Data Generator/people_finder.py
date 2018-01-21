@@ -2,7 +2,7 @@ import wikipedia
 import requests
 import json
 import time
-import urllib
+import re
 
 print("Loading humans.json")
 start = time.time()
@@ -24,8 +24,12 @@ def get_people_referenced(title):
             score = get_score(link, page.content)
             if score > 0:
                 referenced[link] = score
-    humans[title] = referenced
-    return referenced
+
+    attributes = {}
+    attributes["referenced"] = referenced
+    attributes["dob"] = get_date(page.contents
+    humans[title] = attributes
+    return attributes
 
 def get_score(name, text):
     score = 0
@@ -38,6 +42,25 @@ def get_score(name, text):
         score += ((text.count(" " + last_name + " ") - score)*0.5)
     return score
 
+def get_date(text):
+    simpleRegex = r"[0-9]{4}"
+    match = re.search(simpleRegex, text)
+    if not match:
+        simpleRegex = r"[0-9]{3}"
+        match = re.search(simpleRegex, text)
+    if not match:
+        return 1000
+    return match.group()
+
+def clear_humans():
+    with open("../humans.json", "r") as jsonFile:
+        humans = json.load(jsonFile)
+
+    for key in list(humans.keys()):
+        humans[key] = {}
+
+    with open("../humans.json", 'w') as f:
+        json.dump(humans, f)
 
 
 def save_humans_json():
