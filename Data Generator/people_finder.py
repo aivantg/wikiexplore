@@ -4,11 +4,11 @@ import json
 import time
 import re
 
-print("Loading humans.json")
+#print("Loading humans.json")
 start = time.time()
 with open("../humans.json", "r") as jsonFile:
     humans = json.load(jsonFile)
-print("Loaded humans.json in", time.time() - start, "seconds")
+#print("Loaded humans.json in", time.time() - start, "seconds")
 
 
 def get_people_referenced(title):

@@ -17,7 +17,7 @@
       <node id="Lily Tomlin" label="Lily Tomlin">
         <viz:color a="None" r="144" g="159" b="70" />
         <viz:size value="30" />
-        <viz:position x="-2000" y="80" z="None" />
+        <viz:position x="600" y="80" z="None" />
         <attvalues>
           <attvalue for="0" value="1939" />
         </attvalues>
@@ -77,7 +77,7 @@
         <viz:size value="30" />
         <viz:position x="-1000" y="160" z="None" />
         <attvalues>
-          <attvalue for="0" value="1964" />
+          <attvalue for="0" value="1905" />
         </attvalues>
       </node>
       <node id="Elton John" label="Elton John">
@@ -96,7 +96,7 @@
       <node id="Gram Parsons" label="Gram Parsons">
         <viz:color a="None" r="61" g="54" b="188" />
         <viz:size value="30" />
-        <viz:position x="-1600" y="240" z="None" />
+        <viz:position x="-1800" y="0" z="None" />
         <attvalues>
           <attvalue for="0" value="1946" />
         </attvalues>
@@ -128,7 +128,7 @@
       <node id="Linda Ronstadt" label="Linda Ronstadt">
         <viz:color a="None" r="27" g="102" b="84" />
         <viz:size value="30" />
-        <viz:position x="-1600" y="400" z="None" />
+        <viz:position x="-200" y="80" z="None" />
         <attvalues>
           <attvalue for="0" value="1946" />
         </attvalues>
@@ -144,7 +144,7 @@
       <node id="Carole King" label="Carole King">
         <viz:color a="None" r="84" g="161" b="220" />
         <viz:size value="30" />
-        <viz:position x="-1800" y="160" z="None" />
+        <viz:position x="-1800" y="80" z="None" />
         <attvalues>
           <attvalue for="0" value="1942" />
         </attvalues>

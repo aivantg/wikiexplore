@@ -116,7 +116,7 @@
     <h1>Welcome to WikiWorld!</h1>
     <form class="form">
     			<input id="label_input" type="text" class="form__field" placeholder="Barack Obama" />
-    			<button type="button" class="btn btn--primary btn--inside uppercase" onclick="startSigma()">Send</button>
+    			<button type="submit" class="btn btn--primary btn--inside uppercase" onclick="startSigma()">Send</button>
     </form>
 
   </div>
@@ -181,6 +181,10 @@
         // original color.
         // We do the same for the edges, and we only keep
         // edges that have both extremities colored.
+        s.bind('doubleClickNode', function(e) {
+          var name = encodeURI(e.data.node.label);
+          window.open("https://en.wikipedia.org/wiki/" + name)
+        })
         s.bind('clickNode', function(e) {
           var nodeId = e.data.node.id,
               toAdd = s.graph.neighbors(nodeId);
