@@ -120,4 +120,4 @@ print("Number of edges in graph:", G.number_of_edges())
 print("Time to generate graph", time.time() - start)
 
 people_finder.save_humans_json()
-nx.write_gexf(G, "../graph.gexf")
+nx.write_gexf(G, "../Web Side/graph.gexf")
