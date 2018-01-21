@@ -2,7 +2,11 @@
 
 ## How to run it
 
-Navigate to the "Data Generator" folder and run the command `python3 [person name] [degrees of separation] [# connections per degree]`
+Navigate to the "Data Generator" folder and run the command:
+ `python3 [person name] [degrees of separation] [# connections per degree]`
+
+Example: `python3 "Billy Joel" 3 4`
+We advise keeping the latter numbers low to save on time
 
 Then navigate to the "Web Side" folder and run `python3 -m http.server 8080`
 
