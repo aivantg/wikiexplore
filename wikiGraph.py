@@ -1,6 +1,7 @@
 import people_finder
 import networkx as nx
 import time
+import math
 
 #Adds a node to the graph with given title, edges from node to links
 def addNodeWithLinks(graph, title, links):
@@ -13,11 +14,11 @@ def addNodesToDepth(graph, title, depth):
     #print("Adding node for ", title)
     if depth <= 0:
         return
-    links = people_finder.get_people_referenced(title)
-    for link in links:
-        graph.add_edge(title, link)
-        if graph.out_degree[link] == 0:
-            addNodesToDepth(graph, link, depth - 1)
+    referenced_ppl = people_finder.get_people_referenced(title)
+    for person in list(referenced_ppl.keys()):
+        graph.add_edge(title, person)
+        if graph.out_degree[person] == 0:
+            addNodesToDepth(graph, person, depth - 1)
 
 #Returns number of two step paths from start to end
 def numTwoStepPaths(graph, start, end):
@@ -36,14 +37,14 @@ def calcEdgeWeight(graph, start, end):
     if not graph.has_edge(start, end):
         return 0.0
     totalDegree = graph.in_degree(end) + graph.out_degree(end) + graph.in_degree(start) + graph.out_degree(start)
-    return float(numTwoStepPaths(graph, start, end))/log(totalDegree)
+    return float(numTwoStepPaths(graph, start, end))/math.log(totalDegree)
 
 start = time.time()
 G = nx.DiGraph()
 
 startTitle = "Carol Shea-Porter"
 
-addNodesToDepth(G, startTitle, 2)
+addNodesToDepth(G, startTitle, 3)
 print("Starting node of graph", startTitle)
 print("Number of nodes in graph:", G.number_of_nodes())
 print("Number of edges in graph:", G.number_of_edges())
@@ -70,11 +71,11 @@ black_edges = [edge for edge in G.edges()]
 pos = nx.spring_layout(G)
 nx.draw_networkx_nodes(G, pos, cmap=plt.get_cmap('jet'),
                        node_color = values, node_size = 5)
-#nx.draw_networkx_labels(G, pos, fontsize=4)
+nx.draw_networkx_labels(G, pos, fontsize=4)
 nx.draw_networkx_edges(G, pos, edgelist=black_edges, arrows=True, width=0.2)
 plt.show()
 
 
 #Write the graph
-#nx.write_multiline_adjlist(G, "graphAdjList")
+nx.write_multiline_adjlist(G, "graphAdjList")
 #nx.write_multiline_adjlist(G, "/dev/stdout")
