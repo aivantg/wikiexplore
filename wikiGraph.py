@@ -19,17 +19,41 @@ def addNodesToDepth(graph, title, depth):
         if graph.out_degree[link] == 0:
             addNodesToDepth(graph, link, depth - 1)
 
-#def twoStepConnections(graph, start, end):
+#Returns number of two step paths from start to end
+def numTwoStepPaths(graph, start, end):
+    if (start not in G) or (end not in G):
+        return 0
+    print("Start:", start, "End:", end)
+    startTime = time.time()
+    undirected = graph.to_undirected()
+    paths = nx.all_simple_paths(undirected, start, end, 2)
+    print("Time to count two step paths between ", start, "and ", end, "is:", time.time() - startTime)
+    return len(list(paths))
 
-startTitle = "Carol Shea-Porter"
+#Calculate what we think the edge weight should be from start to end, using links
+#Returns 0 if there is no link from start to end
+def calcEdgeWeight(graph, start, end):
+    if not graph.has_edge(start, end):
+        return 0.0
+    totalDegree = graph.in_degree(end) + graph.out_degree(end) + graph.in_degree(start) + graph.out_degree(start)
+    return float(numTwoStepPaths(graph, start, end))/log(totalDegree)
+
 start = time.time()
 G = nx.DiGraph()
+
+startTitle = "Carol Shea-Porter"
+
 addNodesToDepth(G, startTitle, 2)
 print("Starting node of graph", startTitle)
 print("Number of nodes in graph:", G.number_of_nodes())
 print("Number of edges in graph:", G.number_of_edges())
 print("Time to generate graph", time.time() - start)
-#addNodeWithLinks(G, startPage.title, startPage.links)
+
+endTitle = "Antonie Pannekoek"
+print("Num 2-step paths between", startTitle, "and", endTitle, "is: ", numTwoStepPaths(G, startTitle, endTitle))
+
+for link in G.neighbors(startTitle):
+    G.edges[startTitle,link]['weight'] = calcEdgeWeight(G, startTitle,link)
 
 people_finder.save_humans_json()
 
