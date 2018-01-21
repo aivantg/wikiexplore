@@ -50,6 +50,9 @@
 <script src="sigma/plugins/sigma.parsers.gexf/sigma.parsers.gexf.js"></script>
 <script src="sigma/plugins/sigma.plugins.animate/sigma.plugins.animate.js"></script>
 
+<head>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">
+  </head>
 <div id="container">
   <style>
     #graph-container {
@@ -58,12 +61,64 @@
       left: 0;
       right: 0;
     }
+    #form-div {
+      height: 200px;
+      width: 400px;
+      text-align: center;
+      font-family: 'Open Sans', serif;
+
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: -100px;
+      margin-left: -200px;
+    }
+
+.btn {
+	display: inline-block;
+	border: 0;
+	outline: 0;
+	transition: all 200ms ease-in;
+	cursor: pointer;
+
+
+		background: #7f8ff4;
+		color: #fff;
+		box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
+		border-radius: 2px;
+		padding: 12px 36px;
+
+	}
+
+	&--inside {
+		margin-left: -96px;
+	}
+}
+
+.form {
+	&__field {
+		width: 700px;
+		background: #fff;
+		color: #a3a3a3;
+		font: inherit;
+		box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .1);
+		border: 0;
+		outline: 0;
+		padding: 22px 18px;
+	}
+}
+
+#label_input{
+  height: 36px
+}
   </style>
-  <div id="form_div">
-    <form id="frm1">
-      Initial Node: <input id="label_input" type="text" name="fname"><br>
-      <input type="button" onclick="startSigma()" value="Submit">
+  <div id="form-div">
+    <h1>Welcome to WikiWorld!</h1>
+    <form class="form">
+    			<input id="label_input" type="text" class="form__field" placeholder="Barack Obama" />
+    			<button type="button" class="btn btn--primary btn--inside uppercase" onclick="startSigma()">Send</button>
     </form>
+
   </div>
   <div id="graph-container"></div>
 </div>
@@ -83,7 +138,7 @@
 
   function startSigma() {
     initLabel = document.getElementById('label_input').value
-    document.getElementById("form_div").innerHTML = ""
+    document.getElementById("form-div").innerHTML = ""
     document.getElementById("graph-container").style.position="absolute"
     sigma.parsers.gexf(
       'graph.gexf',

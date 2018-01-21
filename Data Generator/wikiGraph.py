@@ -3,6 +3,17 @@ import networkx as nx
 import time
 import math
 import random
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("query",
+                    help="initial search query")
+parser.add_argument("depth", type=int, help="search depth")
+parser.add_argument("num_connections", type=int, help="Number of connections to give each person")
+args = parser.parse_args()
+startTitle = args.query
+searchDepth = args.depth
+NUM_CONNECTIONS = args.num_connections
 
 #Adds a node to the graph with given title, edges from node to links
 def addNodeWithLinks(graph, title, links):
@@ -38,7 +49,6 @@ def addNodesToDepth(graph, title, depth, centerYear):
     if depth == 2:
         people_finder.save_humans_json()
 
-NUM_CONNECTIONS = 5
 def mostImportantLinks(links):
     sortedLinks = sorted(links, key=links.get, reverse=True)
     return sortedLinks[:NUM_CONNECTIONS]
@@ -46,7 +56,7 @@ def mostImportantLinks(links):
 #Assigns a reasonable position to all nodes
 #Loop through all years, sorting them into buckets of YEAR_INTERVAL_WIDTH
 #Then arrange each bucket's y position
-X_INTERVAL_WIDTH = 75
+X_INTERVAL_WIDTH = 200
 YEAR_INTERVAL_WIDTH = 5
 YEAR_START = 0
 YEAR_END = 2020
@@ -62,7 +72,7 @@ def positionAllNodes(graph, centerYear):
     #Add all people to year buckets:
     for title in graph.nodes:
         dob = int(graph.nodes[title]['dob'])
-        print("Adding title:", title, "with dob", dob)
+        #print("Adding title:", title, "with dob", dob)
         yearDict[dob - (dob%5)].append(title)
     print(yearDict)
     #Position all people:
@@ -82,19 +92,20 @@ def sizeForNode(graph, title):
         return BASE_NODE_SIZE
 
 def colorForYear(year):
-    red = int(256*(YEAR_END - year)/float(YEAR_END))
-    green = int(256*(year)/float(YEAR_END))
-    return {'r' : red, 'g' : green, 'b' : 0}
+    red = random.randint(20,220)
+    green = random.randint(20, 220)
+    blue = random.randint(20,220)
+    return {'r' : red, 'g' : green, 'b' : blue}
 
 #Returns number of two step paths from start to end
 def numTwoStepPaths(graph, start, end):
     if (start not in G) or (end not in G):
         return 0
-    print("Start:", start, "End:", end)
+    #print("Start:", start, "End:", end)
     startTime = time.time()
     undirected = graph.to_undirected()
     paths = nx.all_simple_paths(undirected, start, end, 2)
-    print("Time to count two step paths between ", start, "and ", end, "is:", time.time() - startTime)
+    #print("Time to count two step paths between ", start, "and ", end, "is:", time.time() - startTime)
     return len(list(paths))
 
 #Calculate what we think the edge weight should be from start to end, using links
@@ -106,10 +117,10 @@ def calcEdgeWeight(graph, start, end):
     return float(numTwoStepPaths(graph, start, end))/math.log(totalDegree)
 
 start = time.time()
+print("Creating Graph for", startTitle, "with depth", searchDepth, "and breadth", NUM_CONNECTIONS)
 G = nx.DiGraph()
 
-startTitle = "Taylor Swift"
-addNodesToDepth(G, startTitle, 3, 0)
+addNodesToDepth(G, startTitle, searchDepth, 0)
 
 centerYear = int(G.nodes[startTitle]['dob'])
 positionAllNodes(G, centerYear)
@@ -121,3 +132,13 @@ print("Time to generate graph", time.time() - start)
 
 people_finder.save_humans_json()
 nx.write_gexf(G, "../Web Side/graph.gexf")
+
+with open("../Web Side/graph.gexf", "r") as myFile:
+    data = myFile.read()
+
+data = data.replace(" r=\"", "[tempvar]")
+data = data.replace(" b=\"", " r=\"")
+data = data.replace("[tempvar]", " b=\"")
+
+with open("../Web Side/graph.gexf", "w") as myFile:
+    myFile.write(data)
