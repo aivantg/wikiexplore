@@ -10,15 +10,15 @@
     </meta>
     <nodes>
       <node id="George W. Bush" label="George W. Bush">
-        <viz:color a="None" b="0" g="246" r="9" />
+        <viz:color a="None" r="0" g="246" b="9" />
         <viz:size value="30" />
-        <viz:position x="-600" y="0" z="None" />
+        <viz:position x="0" y="0" z="None" />
         <attvalues>
           <attvalue for="0" value="1946" />
         </attvalues>
       </node>
       <node id="Shania Twain" label="Shania Twain">
-        <viz:color a="None" b="0" g="249" r="6" />
+        <viz:color a="None" r="0" g="249" b="6" />
         <viz:size value="30" />
         <viz:position x="-300" y="0" z="None" />
         <attvalues>
@@ -26,7 +26,7 @@
         </attvalues>
       </node>
       <node id="Jodhi May" label="Jodhi May">
-        <viz:color a="None" b="0" g="250" r="5" />
+        <viz:color a="None" r="0" g="250" b="5" />
         <viz:size value="30" />
         <viz:position x="-150" y="0" z="None" />
         <attvalues>
@@ -34,7 +34,7 @@
         </attvalues>
       </node>
       <node id="Dolly Parton" label="Dolly Parton">
-        <viz:color a="None" b="0" g="246" r="9" />
+        <viz:color a="None" r="0" g="246" b="9" />
         <viz:size value="48" />
         <viz:position x="-600" y="80" z="None" />
         <attvalues>
@@ -42,7 +42,7 @@
         </attvalues>
       </node>
       <node id="Carrie Underwood" label="Carrie Underwood">
-        <viz:color a="None" b="0" g="250" r="5" />
+        <viz:color a="None" r="0" g="250" b="5" />
         <viz:size value="30" />
         <viz:position x="-75" y="0" z="None" />
         <attvalues>
@@ -50,7 +50,7 @@
         </attvalues>
       </node>
       <node id="Gladys Knight" label="Gladys Knight">
-        <viz:color a="None" b="0" g="245" r="10" />
+        <viz:color a="None" r="0" g="245" b="10" />
         <viz:size value="30" />
         <viz:position x="-675" y="0" z="None" />
         <attvalues>
@@ -58,7 +58,7 @@
         </attvalues>
       </node>
       <node id="Taylor Swift" label="Taylor Swift">
-        <viz:color a="None" b="0" g="251" r="4" />
+        <viz:color a="None" r="0" g="251" b="4" />
         <viz:size value="30" />
         <viz:position x="0" y="0" z="None" />
         <attvalues>
@@ -66,7 +66,7 @@
         </attvalues>
       </node>
       <node id="Susannah York" label="Susannah York">
-        <viz:color a="None" b="0" g="245" r="10" />
+        <viz:color a="None" r="0" g="245" b="10" />
         <viz:size value="30" />
         <viz:position x="-750" y="0" z="None" />
         <attvalues>
@@ -74,7 +74,7 @@
         </attvalues>
       </node>
       <node id="Leon Russell" label="Leon Russell">
-        <viz:color a="None" b="0" g="245" r="10" />
+        <viz:color a="None" r="0" g="245" b="10" />
         <viz:size value="30" />
         <viz:position x="-675" y="80" z="None" />
         <attvalues>
@@ -82,7 +82,7 @@
         </attvalues>
       </node>
       <node id="The Miz" label="The Miz">
-        <viz:color a="None" b="0" g="250" r="5" />
+        <viz:color a="None" r="0" g="250" b="5" />
         <viz:size value="30" />
         <viz:position x="-75" y="80" z="None" />
         <attvalues>
@@ -90,7 +90,7 @@
         </attvalues>
       </node>
       <node id="John Lennon" label="John Lennon">
-        <viz:color a="None" b="0" g="245" r="10" />
+        <viz:color a="None" r="0" g="245" b="10" />
         <viz:size value="30" />
         <viz:position x="-675" y="160" z="None" />
         <attvalues>
@@ -98,7 +98,7 @@
         </attvalues>
       </node>
       <node id="Paul Rodgers" label="Paul Rodgers">
-        <viz:color a="None" b="0" g="246" r="9" />
+        <viz:color a="None" r="0" g="246" b="9" />
         <viz:size value="30" />
         <viz:position x="-600" y="160" z="None" />
         <attvalues>
@@ -106,7 +106,7 @@
         </attvalues>
       </node>
       <node id="George Washington" label="George Washington">
-        <viz:color a="None" b="0" g="219" r="36" />
+        <viz:color a="None" r="0" g="219" b="36" />
         <viz:size value="30" />
         <viz:position x="-3825" y="0" z="None" />
         <attvalues>
@@ -114,7 +114,7 @@
         </attvalues>
       </node>
       <node id="Boxcar Willie" label="Boxcar Willie">
-        <viz:color a="None" b="0" g="244" r="11" />
+        <viz:color a="None" r="0" g="244" b="11" />
         <viz:size value="30" />
         <viz:position x="-825" y="0" z="None" />
         <attvalues>
@@ -122,7 +122,7 @@
         </attvalues>
       </node>
       <node id="Lily Collins" label="Lily Collins">
-        <viz:color a="None" b="0" g="251" r="4" />
+        <viz:color a="None" r="0" g="251" b="4" />
         <viz:size value="30" />
         <viz:position x="0" y="80" z="None" />
         <attvalues>
@@ -130,7 +130,7 @@
         </attvalues>
       </node>
       <node id="Emma Stone" label="Emma Stone">
-        <viz:color a="None" b="0" g="251" r="4" />
+        <viz:color a="None" r="0" g="251" b="4" />
         <viz:size value="30" />
         <viz:position x="0" y="160" z="None" />
         <attvalues>
@@ -138,7 +138,7 @@
         </attvalues>
       </node>
       <node id="Julia Roberts" label="Julia Roberts">
-        <viz:color a="None" b="0" g="249" r="6" />
+        <viz:color a="None" r="0" g="249" b="6" />
         <viz:size value="30" />
         <viz:position x="-300" y="80" z="None" />
         <attvalues>
@@ -146,7 +146,7 @@
         </attvalues>
       </node>
       <node id="Elton John" label="Elton John">
-        <viz:color a="None" b="0" g="246" r="9" />
+        <viz:color a="None" r="0" g="246" b="9" />
         <viz:size value="83" />
         <viz:position x="-600" y="240" z="None" />
         <attvalues>
@@ -154,7 +154,7 @@
         </attvalues>
       </node>
       <node id="Theresa May" label="Theresa May">
-        <viz:color a="None" b="0" g="247" r="8" />
+        <viz:color a="None" r="0" g="247" b="8" />
         <viz:size value="30" />
         <viz:position x="-450" y="0" z="None" />
         <attvalues>
@@ -162,7 +162,7 @@
         </attvalues>
       </node>
       <node id="Jane Fonda" label="Jane Fonda">
-        <viz:color a="None" b="0" g="245" r="10" />
+        <viz:color a="None" r="0" g="245" b="10" />
         <viz:size value="30" />
         <viz:position x="-750" y="80" z="None" />
         <attvalues>
@@ -170,7 +170,7 @@
         </attvalues>
       </node>
       <node id="Hillary Clinton" label="Hillary Clinton">
-        <viz:color a="None" b="0" g="246" r="9" />
+        <viz:color a="None" r="0" g="246" b="9" />
         <viz:size value="67" />
         <viz:position x="-600" y="320" z="None" />
         <attvalues>
@@ -178,7 +178,7 @@
         </attvalues>
       </node>
       <node id="Joe Walsh" label="Joe Walsh">
-        <viz:color a="None" b="0" g="246" r="9" />
+        <viz:color a="None" r="0" g="246" b="9" />
         <viz:size value="30" />
         <viz:position x="-600" y="400" z="None" />
         <attvalues>
@@ -186,7 +186,7 @@
         </attvalues>
       </node>
       <node id="John Deacon" label="John Deacon">
-        <viz:color a="None" b="0" g="247" r="8" />
+        <viz:color a="None" r="0" g="247" b="8" />
         <viz:size value="30" />
         <viz:position x="-525" y="0" z="None" />
         <attvalues>
@@ -194,7 +194,7 @@
         </attvalues>
       </node>
       <node id="Christian" label="Christian">
-        <viz:color a="None" b="0" g="254" r="1" />
+        <viz:color a="None" r="0" g="254" b="1" />
         <viz:size value="30" />
         <viz:position x="375" y="0" z="None" />
         <attvalues>
@@ -202,7 +202,7 @@
         </attvalues>
       </node>
       <node id="Ivanka Trump" label="Ivanka Trump">
-        <viz:color a="None" b="0" g="250" r="5" />
+        <viz:color a="None" r="0" g="250" b="5" />
         <viz:size value="30" />
         <viz:position x="-75" y="160" z="None" />
         <attvalues>
@@ -210,7 +210,7 @@
         </attvalues>
       </node>
       <node id="Ivana Trump" label="Ivana Trump">
-        <viz:color a="None" b="0" g="246" r="9" />
+        <viz:color a="None" r="0" g="246" b="9" />
         <viz:size value="30" />
         <viz:position x="-600" y="480" z="None" />
         <attvalues>
@@ -218,7 +218,7 @@
         </attvalues>
       </node>
       <node id="Lionel Richie" label="Lionel Richie">
-        <viz:color a="None" b="0" g="246" r="9" />
+        <viz:color a="None" r="0" g="246" b="9" />
         <viz:size value="30" />
         <viz:position x="-600" y="560" z="None" />
         <attvalues>
@@ -226,7 +226,7 @@
         </attvalues>
       </node>
       <node id="Tito Jackson" label="Tito Jackson">
-        <viz:color a="None" b="0" g="247" r="8" />
+        <viz:color a="None" r="0" g="247" b="8" />
         <viz:size value="30" />
         <viz:position x="-525" y="80" z="None" />
         <attvalues>
@@ -234,7 +234,7 @@
         </attvalues>
       </node>
       <node id="Gram Parsons" label="Gram Parsons">
-        <viz:color a="None" b="0" g="246" r="9" />
+        <viz:color a="None" r="0" g="246" b="9" />
         <viz:size value="30" />
         <viz:position x="-600" y="640" z="None" />
         <attvalues>
@@ -242,7 +242,7 @@
         </attvalues>
       </node>
       <node id="James Taylor" label="James Taylor">
-        <viz:color a="None" b="0" g="246" r="9" />
+        <viz:color a="None" r="0" g="246" b="9" />
         <viz:size value="30" />
         <viz:position x="-600" y="720" z="None" />
         <attvalues>
@@ -250,7 +250,7 @@
         </attvalues>
       </node>
       <node id="Michael Jackson" label="Michael Jackson">
-        <viz:color a="None" b="0" g="247" r="8" />
+        <viz:color a="None" r="0" g="247" b="8" />
         <viz:size value="30" />
         <viz:position x="-450" y="80" z="None" />
         <attvalues>
@@ -258,7 +258,7 @@
         </attvalues>
       </node>
       <node id="Bushrod Washington" label="Bushrod Washington">
-        <viz:color a="None" b="0" g="223" r="32" />
+        <viz:color a="None" r="0" g="223" b="32" />
         <viz:size value="30" />
         <viz:position x="-3375" y="0" z="None" />
         <attvalues>
@@ -266,7 +266,7 @@
         </attvalues>
       </node>
       <node id="Carole King" label="Carole King">
-        <viz:color a="None" b="0" g="245" r="10" />
+        <viz:color a="None" r="0" g="245" b="10" />
         <viz:size value="30" />
         <viz:position x="-675" y="240" z="None" />
         <attvalues>
@@ -274,7 +274,7 @@
         </attvalues>
       </node>
       <node id="Russell Brand" label="Russell Brand">
-        <viz:color a="None" b="0" g="250" r="5" />
+        <viz:color a="None" r="0" g="250" b="5" />
         <viz:size value="30" />
         <viz:position x="-150" y="80" z="None" />
         <attvalues>
@@ -282,7 +282,7 @@
         </attvalues>
       </node>
       <node id="Mike Rutherford" label="Mike Rutherford">
-        <viz:color a="None" b="0" g="247" r="8" />
+        <viz:color a="None" r="0" g="247" b="8" />
         <viz:size value="48" />
         <viz:position x="-525" y="160" z="None" />
         <attvalues>
@@ -290,7 +290,7 @@
         </attvalues>
       </node>
       <node id="Dottie West" label="Dottie West">
-        <viz:color a="None" b="0" g="244" r="11" />
+        <viz:color a="None" r="0" g="244" b="11" />
         <viz:size value="30" />
         <viz:position x="-825" y="80" z="None" />
         <attvalues>
@@ -298,7 +298,7 @@
         </attvalues>
       </node>
       <node id="Carrie Fisher" label="Carrie Fisher">
-        <viz:color a="None" b="0" g="247" r="8" />
+        <viz:color a="None" r="0" g="247" b="8" />
         <viz:size value="30" />
         <viz:position x="-450" y="160" z="None" />
         <attvalues>
@@ -306,7 +306,7 @@
         </attvalues>
       </node>
       <node id="Joss Stone" label="Joss Stone">
-        <viz:color a="None" b="0" g="251" r="4" />
+        <viz:color a="None" r="0" g="251" b="4" />
         <viz:size value="30" />
         <viz:position x="0" y="240" z="None" />
         <attvalues>
@@ -314,7 +314,7 @@
         </attvalues>
       </node>
       <node id="Kenny Rogers" label="Kenny Rogers">
-        <viz:color a="None" b="0" g="245" r="10" />
+        <viz:color a="None" r="0" g="245" b="10" />
         <viz:size value="30" />
         <viz:position x="-750" y="160" z="None" />
         <attvalues>
@@ -322,7 +322,7 @@
         </attvalues>
       </node>
       <node id="Linda Ronstadt" label="Linda Ronstadt">
-        <viz:color a="None" b="0" g="246" r="9" />
+        <viz:color a="None" r="0" g="246" b="9" />
         <viz:size value="30" />
         <viz:position x="-600" y="800" z="None" />
         <attvalues>
@@ -330,7 +330,7 @@
         </attvalues>
       </node>
       <node id="Eric Clapton" label="Eric Clapton">
-        <viz:color a="None" b="0" g="246" r="9" />
+        <viz:color a="None" r="0" g="246" b="9" />
         <viz:size value="30" />
         <viz:position x="-600" y="880" z="None" />
         <attvalues>
@@ -338,7 +338,7 @@
         </attvalues>
       </node>
       <node id="Ted Turner" label="Ted Turner">
-        <viz:color a="None" b="0" g="245" r="10" />
+        <viz:color a="None" r="0" g="245" b="10" />
         <viz:size value="30" />
         <viz:position x="-750" y="240" z="None" />
         <attvalues>
@@ -346,7 +346,7 @@
         </attvalues>
       </node>
       <node id="Peter Gabriel" label="Peter Gabriel">
-        <viz:color a="None" b="0" g="247" r="8" />
+        <viz:color a="None" r="0" g="247" b="8" />
         <viz:size value="48" />
         <viz:position x="-525" y="240" z="None" />
         <attvalues>
@@ -354,7 +354,7 @@
         </attvalues>
       </node>
       <node id="John Kerry" label="John Kerry">
-        <viz:color a="None" b="0" g="245" r="10" />
+        <viz:color a="None" r="0" g="245" b="10" />
         <viz:size value="30" />
         <viz:position x="-675" y="320" z="None" />
         <attvalues>
@@ -362,7 +362,7 @@
         </attvalues>
       </node>
       <node id="David Geffen" label="David Geffen">
-        <viz:color a="None" b="0" g="245" r="10" />
+        <viz:color a="None" r="0" g="245" b="10" />
         <viz:size value="30" />
         <viz:position x="-675" y="400" z="None" />
         <attvalues>
@@ -370,7 +370,7 @@
         </attvalues>
       </node>
       <node id="Chelsea Clinton" label="Chelsea Clinton">
-        <viz:color a="None" b="0" g="250" r="5" />
+        <viz:color a="None" r="0" g="250" b="5" />
         <viz:size value="30" />
         <viz:position x="-75" y="240" z="None" />
         <attvalues>
@@ -378,7 +378,7 @@
         </attvalues>
       </node>
       <node id="Peggy Fleming" label="Peggy Fleming">
-        <viz:color a="None" b="0" g="246" r="9" />
+        <viz:color a="None" r="0" g="246" b="9" />
         <viz:size value="30" />
         <viz:position x="-600" y="960" z="None" />
         <attvalues>
@@ -386,7 +386,7 @@
         </attvalues>
       </node>
       <node id="Louisa Adams" label="Louisa Adams">
-        <viz:color a="None" b="0" g="224" r="31" />
+        <viz:color a="None" r="0" g="224" b="31" />
         <viz:size value="30" />
         <viz:position x="-3150" y="0" z="None" />
         <attvalues>
@@ -394,7 +394,7 @@
         </attvalues>
       </node>
       <node id="Phil Collins" label="Phil Collins">
-        <viz:color a="None" b="0" g="247" r="8" />
+        <viz:color a="None" r="0" g="247" b="8" />
         <viz:size value="67" />
         <viz:position x="-525" y="320" z="None" />
         <attvalues>
@@ -402,7 +402,7 @@
         </attvalues>
       </node>
       <node id="Brian May" label="Brian May">
-        <viz:color a="None" b="0" g="246" r="9" />
+        <viz:color a="None" r="0" g="246" b="9" />
         <viz:size value="30" />
         <viz:position x="-600" y="1040" z="None" />
         <attvalues>
@@ -410,7 +410,7 @@
         </attvalues>
       </node>
       <node id="Martha Washington" label="Martha Washington">
-        <viz:color a="None" b="0" g="219" r="36" />
+        <viz:color a="None" r="0" g="219" b="36" />
         <viz:size value="30" />
         <viz:position x="-3825" y="80" z="None" />
         <attvalues>
@@ -418,7 +418,7 @@
         </attvalues>
       </node>
       <node id="Bill Clinton" label="Bill Clinton">
-        <viz:color a="None" b="0" g="246" r="9" />
+        <viz:color a="None" r="0" g="246" b="9" />
         <viz:size value="48" />
         <viz:position x="-600" y="1120" z="None" />
         <attvalues>
@@ -426,7 +426,7 @@
         </attvalues>
       </node>
       <node id="Cher" label="Cher">
-        <viz:color a="None" b="0" g="246" r="9" />
+        <viz:color a="None" r="0" g="246" b="9" />
         <viz:size value="30" />
         <viz:position x="-600" y="1200" z="None" />
         <attvalues>
@@ -434,7 +434,7 @@
         </attvalues>
       </node>
       <node id="Brad Paisley" label="Brad Paisley">
-        <viz:color a="None" b="0" g="249" r="6" />
+        <viz:color a="None" r="0" g="249" b="6" />
         <viz:size value="30" />
         <viz:position x="-225" y="0" z="None" />
         <attvalues>
@@ -442,7 +442,7 @@
         </attvalues>
       </node>
       <node id="Michelle Obama" label="Michelle Obama">
-        <viz:color a="None" b="0" g="248" r="7" />
+        <viz:color a="None" r="0" g="248" b="7" />
         <viz:size value="60" />
         <viz:position x="-375" y="0" z="None" />
         <attvalues>
@@ -450,7 +450,7 @@
         </attvalues>
       </node>
       <node id="Bernie Taupin" label="Bernie Taupin">
-        <viz:color a="None" b="0" g="247" r="8" />
+        <viz:color a="None" r="0" g="247" b="8" />
         <viz:size value="30" />
         <viz:position x="-525" y="400" z="None" />
         <attvalues>
@@ -458,7 +458,7 @@
         </attvalues>
       </node>
       <node id="Patty Duke" label="Patty Duke">
-        <viz:color a="None" b="0" g="246" r="9" />
+        <viz:color a="None" r="0" g="246" b="9" />
         <viz:size value="30" />
         <viz:position x="-600" y="1280" z="None" />
         <attvalues>
@@ -466,7 +466,7 @@
         </attvalues>
       </node>
       <node id="Elizabeth Arden" label="Elizabeth Arden">
-        <viz:color a="None" b="0" g="237" r="18" />
+        <viz:color a="None" r="0" g="237" b="18" />
         <viz:size value="30" />
         <viz:position x="-1650" y="0" z="None" />
         <attvalues>
@@ -474,7 +474,7 @@
         </attvalues>
       </node>
       <node id="David Foster" label="David Foster">
-        <viz:color a="None" b="0" g="246" r="9" />
+        <viz:color a="None" r="0" g="246" b="9" />
         <viz:size value="30" />
         <viz:position x="-600" y="1360" z="None" />
         <attvalues>
@@ -482,7 +482,7 @@
         </attvalues>
       </node>
       <node id="Emmylou Harris" label="Emmylou Harris">
-        <viz:color a="None" b="0" g="246" r="9" />
+        <viz:color a="None" r="0" g="246" b="9" />
         <viz:size value="30" />
         <viz:position x="-600" y="1440" z="None" />
         <attvalues>
@@ -490,7 +490,7 @@
         </attvalues>
       </node>
       <node id="Lynda Carter" label="Lynda Carter">
-        <viz:color a="None" b="0" g="247" r="8" />
+        <viz:color a="None" r="0" g="247" b="8" />
         <viz:size value="30" />
         <viz:position x="-525" y="480" z="None" />
         <attvalues>
@@ -498,7 +498,7 @@
         </attvalues>
       </node>
       <node id="Tom Hayden" label="Tom Hayden">
-        <viz:color a="None" b="0" g="245" r="10" />
+        <viz:color a="None" r="0" g="245" b="10" />
         <viz:size value="30" />
         <viz:position x="-750" y="320" z="None" />
         <attvalues>
@@ -506,7 +506,7 @@
         </attvalues>
       </node>
       <node id="John Trumbull" label="John Trumbull">
-        <viz:color a="None" b="0" g="222" r="33" />
+        <viz:color a="None" r="0" g="222" b="33" />
         <viz:size value="30" />
         <viz:position x="-3450" y="0" z="None" />
         <attvalues>
@@ -514,7 +514,7 @@
         </attvalues>
       </node>
       <node id="Barack Obama" label="Barack Obama">
-        <viz:color a="None" b="0" g="248" r="7" />
+        <viz:color a="None" r="0" g="248" b="7" />
         <viz:size value="60" />
         <viz:position x="-375" y="80" z="None" />
         <attvalues>
@@ -522,7 +522,7 @@
         </attvalues>
       </node>
       <node id="Joe Biden" label="Joe Biden">
-        <viz:color a="None" b="0" g="245" r="10" />
+        <viz:color a="None" r="0" g="245" b="10" />
         <viz:size value="30" />
         <viz:position x="-675" y="480" z="None" />
         <attvalues>
@@ -530,7 +530,7 @@
         </attvalues>
       </node>
       <node id="Gerry Goffin" label="Gerry Goffin">
-        <viz:color a="None" b="0" g="245" r="10" />
+        <viz:color a="None" r="0" g="245" b="10" />
         <viz:size value="30" />
         <viz:position x="-750" y="400" z="None" />
         <attvalues>
@@ -538,7 +538,7 @@
         </attvalues>
       </node>
       <node id="Sonny Bono" label="Sonny Bono">
-        <viz:color a="None" b="0" g="245" r="10" />
+        <viz:color a="None" r="0" g="245" b="10" />
         <viz:size value="30" />
         <viz:position x="-750" y="480" z="None" />
         <attvalues>
@@ -546,7 +546,7 @@
         </attvalues>
       </node>
       <node id="Jake Gyllenhaal" label="Jake Gyllenhaal">
-        <viz:color a="None" b="0" g="250" r="5" />
+        <viz:color a="None" r="0" g="250" b="5" />
         <viz:size value="30" />
         <viz:position x="-75" y="320" z="None" />
         <attvalues>
@@ -554,7 +554,7 @@
         </attvalues>
       </node>
       <node id="Barry Gibb" label="Barry Gibb">
-        <viz:color a="None" b="0" g="246" r="9" />
+        <viz:color a="None" r="0" g="246" b="9" />
         <viz:size value="30" />
         <viz:position x="-600" y="1520" z="None" />
         <attvalues>
@@ -562,7 +562,7 @@
         </attvalues>
       </node>
       <node id="Henry Fonda" label="Henry Fonda">
-        <viz:color a="None" b="0" g="241" r="14" />
+        <viz:color a="None" r="0" g="241" b="14" />
         <viz:size value="30" />
         <viz:position x="-1200" y="0" z="None" />
         <attvalues>
@@ -570,7 +570,7 @@
         </attvalues>
       </node>
       <node id="Kid Rock" label="Kid Rock">
-        <viz:color a="None" b="0" g="249" r="6" />
+        <viz:color a="None" r="0" g="249" b="6" />
         <viz:size value="30" />
         <viz:position x="-225" y="80" z="None" />
         <attvalues>
@@ -578,7 +578,7 @@
         </attvalues>
       </node>
       <node id="Nelson Mandela" label="Nelson Mandela">
-        <viz:color a="None" b="0" g="242" r="13" />
+        <viz:color a="None" r="0" g="242" b="13" />
         <viz:size value="30" />
         <viz:position x="-1050" y="0" z="None" />
         <attvalues>
@@ -586,7 +586,7 @@
         </attvalues>
       </node>
       <node id="Keith Urban" label="Keith Urban">
-        <viz:color a="None" b="0" g="249" r="6" />
+        <viz:color a="None" r="0" g="249" b="6" />
         <viz:size value="30" />
         <viz:position x="-300" y="160" z="None" />
         <attvalues>
@@ -594,7 +594,7 @@
         </attvalues>
       </node>
       <node id="Zola Taylor" label="Zola Taylor">
-        <viz:color a="None" b="0" g="245" r="10" />
+        <viz:color a="None" r="0" g="245" b="10" />
         <viz:size value="30" />
         <viz:position x="-750" y="560" z="None" />
         <attvalues>
@@ -602,7 +602,7 @@
         </attvalues>
       </node>
       <node id="Adam Lambert" label="Adam Lambert">
-        <viz:color a="None" b="0" g="250" r="5" />
+        <viz:color a="None" r="0" g="250" b="5" />
         <viz:size value="30" />
         <viz:position x="-75" y="400" z="None" />
         <attvalues>
@@ -610,7 +610,7 @@
         </attvalues>
       </node>
       <node id="Randy Jackson" label="Randy Jackson">
-        <viz:color a="None" b="0" g="247" r="8" />
+        <viz:color a="None" r="0" g="247" b="8" />
         <viz:size value="30" />
         <viz:position x="-450" y="240" z="None" />
         <attvalues>
@@ -618,7 +618,7 @@
         </attvalues>
       </node>
       <node id="Larry King" label="Larry King">
-        <viz:color a="None" b="0" g="244" r="11" />
+        <viz:color a="None" r="0" g="244" b="11" />
         <viz:size value="48" />
         <viz:position x="-825" y="160" z="None" />
         <attvalues>
@@ -626,7 +626,7 @@
         </attvalues>
       </node>
       <node id="Donald Trump" label="Donald Trump">
-        <viz:color a="None" b="0" g="246" r="9" />
+        <viz:color a="None" r="0" g="246" b="9" />
         <viz:size value="48" />
         <viz:position x="-600" y="1600" z="None" />
         <attvalues>
@@ -634,7 +634,7 @@
         </attvalues>
       </node>
       <node id="Melania Trump" label="Melania Trump">
-        <viz:color a="None" b="0" g="249" r="6" />
+        <viz:color a="None" r="0" g="249" b="6" />
         <viz:size value="30" />
         <viz:position x="-225" y="160" z="None" />
         <attvalues>
@@ -642,7 +642,7 @@
         </attvalues>
       </node>
       <node id="Dustin Hoffman" label="Dustin Hoffman">
-        <viz:color a="None" b="0" g="245" r="10" />
+        <viz:color a="None" r="0" g="245" b="10" />
         <viz:size value="30" />
         <viz:position x="-750" y="640" z="None" />
         <attvalues>
@@ -650,7 +650,7 @@
         </attvalues>
       </node>
       <node id="Cliff Richard" label="Cliff Richard">
-        <viz:color a="None" b="0" g="245" r="10" />
+        <viz:color a="None" r="0" g="245" b="10" />
         <viz:size value="30" />
         <viz:position x="-675" y="560" z="None" />
         <attvalues>
@@ -658,7 +658,7 @@
         </attvalues>
       </node>
       <node id="Lee Strasberg" label="Lee Strasberg">
-        <viz:color a="None" b="0" g="240" r="15" />
+        <viz:color a="None" r="0" g="240" b="15" />
         <viz:size value="30" />
         <viz:position x="-1275" y="0" z="None" />
         <attvalues>
@@ -666,7 +666,7 @@
         </attvalues>
       </node>
       <node id="John Cusack" label="John Cusack">
-        <viz:color a="None" b="0" g="249" r="6" />
+        <viz:color a="None" r="0" g="249" b="6" />
         <viz:size value="30" />
         <viz:position x="-300" y="240" z="None" />
         <attvalues>
@@ -674,7 +674,7 @@
         </attvalues>
       </node>
       <node id="Audrey Hepburn" label="Audrey Hepburn">
-        <viz:color a="None" b="0" g="243" r="12" />
+        <viz:color a="None" r="0" g="243" b="12" />
         <viz:size value="30" />
         <viz:position x="-900" y="0" z="None" />
         <attvalues>
@@ -682,7 +682,7 @@
         </attvalues>
       </node>
       <node id="Willie Nelson" label="Willie Nelson">
-        <viz:color a="None" b="0" g="244" r="11" />
+        <viz:color a="None" r="0" g="244" b="11" />
         <viz:size value="30" />
         <viz:position x="-825" y="240" z="None" />
         <attvalues>
@@ -690,7 +690,7 @@
         </attvalues>
       </node>
       <node id="Patti LaBelle" label="Patti LaBelle">
-        <viz:color a="None" b="0" g="245" r="10" />
+        <viz:color a="None" r="0" g="245" b="10" />
         <viz:size value="30" />
         <viz:position x="-675" y="640" z="None" />
         <attvalues>
@@ -698,7 +698,7 @@
         </attvalues>
       </node>
       <node id="Peter Fonda" label="Peter Fonda">
-        <viz:color a="None" b="0" g="245" r="10" />
+        <viz:color a="None" r="0" g="245" b="10" />
         <viz:size value="30" />
         <viz:position x="-675" y="720" z="None" />
         <attvalues>
