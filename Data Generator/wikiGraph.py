@@ -12,7 +12,9 @@ def addNodeWithLinks(graph, title, links):
 
 #Branch out from a given person to construct a graph of given depth
 #Adds vizualization attributes for each node along the way
-def addNodesToDepth(graph, title, depth):
+yMax = 350
+xScaleFactor = 15
+def addNodesToDepth(graph, title, depth, centerYear):
     graph.add_node(title)
 
     #Node already linked in:
@@ -22,24 +24,28 @@ def addNodesToDepth(graph, title, depth):
     #Initialize node otherwise:
     graph.nodes[title]['viz'] = {'size': 20}
     graph.nodes[title]['viz']['color'] = {'r' : 0, 'g' : 256, 'b' : 0}
-    graph.nodes[title]['viz']['position'] = {'x': (random.randint(-100, 100)), 'y': random.randint(-100, 100)}
 
-    #Node is a leaf node:
+    #Initialize x-position:
+    attributes = people_finder.get_people_referenced(title)
+    dob = int(attributes['dob'])
+    graph.nodes[title]['dob'] = dob
+    if centerYear == 0:
+        centerYear = dob
+    graph.nodes[title]['viz']['position'] = {'x': xScaleFactor*(dob - centerYear), 'y': yMax*random.uniform(-1.0, 1.0)}
+
+    #If node is a leaf node:
     if depth <= 0:
         return
 
     #Otherwise Link node into graph, update attributes
-    attributes = people_finder.get_people_referenced(title)
-    graph.nodes[title]['dob'] = attributes['dob']
-    graph.nodes[title]['viz']['position']['x'] = attributes['dob']
     links = attributes["referenced"]
     importantLinks = mostImportantLinks(links)
     for person in importantLinks:
         graph.add_edge(title, person, weight = links[person])
         if graph.out_degree[person] == 0:
-            addNodesToDepth(graph, person, depth - 1)
+            addNodesToDepth(graph, person, depth - 1, centerYear)
 
-numConnections = 7
+numConnections = 5
 def mostImportantLinks(links):
     sortedLinks = sorted(links, key=links.get, reverse=True)
     return sortedLinks[:numConnections]
@@ -66,8 +72,8 @@ def calcEdgeWeight(graph, start, end):
 start = time.time()
 G = nx.DiGraph()
 
-startTitle = "Will Ferrell"
-addNodesToDepth(G, startTitle, 2)
+startTitle = "Abby Wambach"
+addNodesToDepth(G, startTitle, 3, 0)
 print("Starting node of graph", startTitle)
 print("Number of nodes in graph:", G.number_of_nodes())
 print("Number of edges in graph:", G.number_of_edges())
