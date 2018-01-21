@@ -13,7 +13,7 @@ parser.add_argument("num_connections", type=int, help="Number of connections to 
 args = parser.parse_args()
 startTitle = args.query
 searchDepth = args.depth
-NUM_CONNECTIONS = args.num_connections
+NUM_CONNECTIONS = args.num_connections - 1
 
 #Adds a node to the graph with given title, edges from node to links
 def addNodeWithLinks(graph, title, links):
@@ -74,7 +74,7 @@ def positionAllNodes(graph, centerYear):
         dob = int(graph.nodes[title]['dob'])
         #print("Adding title:", title, "with dob", dob)
         yearDict[dob - (dob%5)].append(title)
-    print(yearDict)
+    #print(yearDict)
     #Position all people:
     for year in yearDict:
         i = 0
@@ -117,7 +117,7 @@ def calcEdgeWeight(graph, start, end):
     return float(numTwoStepPaths(graph, start, end))/math.log(totalDegree)
 
 start = time.time()
-print("Creating Graph for", startTitle, "with depth", searchDepth, "and breadth", NUM_CONNECTIONS)
+print("Creating Graph for", startTitle, "with depth", searchDepth, "and breadth", NUM_CONNECTIONS + 1)
 G = nx.DiGraph()
 
 addNodesToDepth(G, startTitle, searchDepth, 0)
