@@ -33,12 +33,16 @@ def addNodesToDepth(graph, title, depth):
     graph.nodes[title]['dob'] = attributes['dob']
     graph.nodes[title]['viz']['position']['x'] = attributes['dob']
     links = attributes["referenced"]
-    for person in links:     #Add links and linked nodes:
-        #TODO: Do edge weight stuff here
-        graph.add_edge(title, person)
+    importantLinks = mostImportantLinks(links)
+    for person in importantLinks:
+        graph.add_edge(title, person, weight = links[person])
         if graph.out_degree[person] == 0:
             addNodesToDepth(graph, person, depth - 1)
 
+numConnections = 7
+def mostImportantLinks(links):
+    sortedLinks = sorted(links, key=links.get, reverse=True)
+    return sortedLinks[:numConnections]
 
 #Returns number of two step paths from start to end
 def numTwoStepPaths(graph, start, end):
@@ -62,16 +66,12 @@ def calcEdgeWeight(graph, start, end):
 start = time.time()
 G = nx.DiGraph()
 
-startTitle = "Kanye West"
+startTitle = "Will Ferrell"
 addNodesToDepth(G, startTitle, 2)
 print("Starting node of graph", startTitle)
 print("Number of nodes in graph:", G.number_of_nodes())
 print("Number of edges in graph:", G.number_of_edges())
 print("Time to generate graph", time.time() - start)
-
-#Do some edge weight stuff here
-for link in G.neighbors(startTitle):
-    G.edges[startTitle,link]['weight'] = calcEdgeWeight(G, startTitle,link)
 
 people_finder.save_humans_json()
 nx.write_gexf(G, "../graph.gexf")
