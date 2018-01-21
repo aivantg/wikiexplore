@@ -154,6 +154,12 @@
           n.color = "#FFFFFF00"
           n.forceShowLabel = true
           n.hidden= true
+          if (/[0-9]{4}/.test(n.label)) {
+            n.hidden = false
+          }
+          if(n.label == "Taylor Swift"){
+            console.log(n)
+          }
           if(n.label == initLabel) {
             startingNode = n
           }
@@ -166,6 +172,7 @@
 
         startingNode.hidden = false
         startingNode.color = startingNode.originalColor
+
 
         s.refresh()
         // When a node is clicked, we check for each node

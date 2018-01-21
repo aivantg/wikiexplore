@@ -74,13 +74,12 @@ def positionAllNodes(graph, centerYear):
         dob = int(graph.nodes[title]['dob'])
         #print("Adding title:", title, "with dob", dob)
         yearDict[dob - (dob%5)].append(title)
-    print(yearDict)
     #Position all people:
     for year in yearDict:
         i = 0
         for title in yearDict[year]:
             graph.nodes[title]['viz'] = {'size': sizeForNode(graph, title)}
-            graph.nodes[title]['viz']['position'] = {'x': X_INTERVAL_WIDTH*(year//5 - centerYear//5), 'y': i*Y_SPACING}
+            graph.nodes[title]['viz']['position'] = {'x': X_INTERVAL_WIDTH*(year//5 - centerYear//5), 'y': (i+1)*Y_SPACING}
             graph.nodes[title]['viz']['color'] = colorForYear(year)
             i = i + 1
 
@@ -96,6 +95,17 @@ def colorForYear(year):
     green = random.randint(20, 220)
     blue = random.randint(20,220)
     return {'r' : red, 'g' : green, 'b' : blue}
+
+def addTimelineNodes(graph, centerYear):
+    for i in range(-4, 4):
+        year = (centerYear + 25*i) - centerYear%25
+        graph.add_node(year)
+        print("Adding node for year ", year)
+        graph.nodes[year]['viz'] = {'size': BASE_NODE_SIZE}
+        graph.nodes[year]['viz']['position'] = {'x': X_INTERVAL_WIDTH*(year//5 - centerYear//5), 'y': -200}
+        graph.nodes[year]['viz']['color'] = {'r' : 256, 'g' : 256, 'b' : 256}
+        if not (i >= 3):
+            graph.add_edge(year, year + 25)
 
 #Returns number of two step paths from start to end
 def numTwoStepPaths(graph, start, end):
@@ -124,6 +134,7 @@ addNodesToDepth(G, startTitle, searchDepth, 0)
 
 centerYear = int(G.nodes[startTitle]['dob'])
 positionAllNodes(G, centerYear)
+addTimelineNodes(G, centerYear)
 
 print("Starting node of graph", startTitle)
 print("Number of nodes in graph:", G.number_of_nodes())
