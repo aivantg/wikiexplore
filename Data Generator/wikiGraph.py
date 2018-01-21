@@ -11,9 +11,6 @@ def addNodeWithLinks(graph, title, links):
         graph.add_edge(title, link)
 
 #Branch out from a given person to construct a graph of given depth
-#Adds vizualization attributes for each node along the way
-yMax = 350
-xScaleFactor = 15
 def addNodesToDepth(graph, title, depth, centerYear):
     graph.add_node(title)
 
@@ -21,17 +18,9 @@ def addNodesToDepth(graph, title, depth, centerYear):
     if graph.out_degree[title] > 0:
         return
 
-    #Initialize node otherwise:
-    graph.nodes[title]['viz'] = {'size': 20}
-    graph.nodes[title]['viz']['color'] = {'r' : 0, 'g' : 256, 'b' : 0}
-
     #Initialize x-position:
     attributes = people_finder.get_people_referenced(title)
-    dob = int(attributes['dob'])
-    graph.nodes[title]['dob'] = dob
-    if centerYear == 0:
-        centerYear = dob
-    graph.nodes[title]['viz']['position'] = {'x': xScaleFactor*(dob - centerYear), 'y': yMax*random.uniform(-1.0, 1.0)}
+    graph.nodes[title]['dob'] = int(attributes['dob'])
 
     #If node is a leaf node:
     if depth <= 0:
@@ -45,10 +34,55 @@ def addNodesToDepth(graph, title, depth, centerYear):
         if graph.out_degree[person] == 0:
             addNodesToDepth(graph, person, depth - 1, centerYear)
 
-numConnections = 5
+    #Save to JSON at intervals
+    if depth == 2:
+        people_finder.save_humans_json()
+
+NUM_CONNECTIONS = 5
 def mostImportantLinks(links):
     sortedLinks = sorted(links, key=links.get, reverse=True)
-    return sortedLinks[:numConnections]
+    return sortedLinks[:NUM_CONNECTIONS]
+
+#Assigns a reasonable position to all nodes
+#Loop through all years, sorting them into buckets of YEAR_INTERVAL_WIDTH
+#Then arrange each bucket's y position
+X_INTERVAL_WIDTH = 75
+YEAR_INTERVAL_WIDTH = 5
+YEAR_START = 0
+YEAR_END = 2020
+BASE_NODE_SIZE = 30
+Y_SPACING = 80
+Y_MAX = 200
+DEFAULT_COLOR = {'r' : 0, 'g' : 256, 'b' : 0}
+def positionAllNodes(graph, centerYear):
+    yearDict = {}
+    for year in range(YEAR_START, YEAR_END, YEAR_INTERVAL_WIDTH):
+        yearDict[year] = []
+
+    #Add all people to year buckets:
+    for title in graph.nodes:
+        dob = int(graph.nodes[title]['dob'])
+        print("Adding title:", title, "with dob", dob)
+        yearDict[dob - (dob%5)].append(title)
+    print(yearDict)
+    #Position all people:
+    for year in yearDict:
+        i = 0
+        for title in yearDict[year]:
+            graph.nodes[title]['viz'] = {'size': sizeForNode(graph, title)}
+            graph.nodes[title]['viz']['position'] = {'x': X_INTERVAL_WIDTH*(year//5 - centerYear//5), 'y': i*Y_SPACING}
+            graph.nodes[title]['viz']['color'] = colorForYear(year)
+            i = i + 1
+
+def sizeForNode(graph, title):
+    logBase = 3
+    try:
+        return BASE_NODE_SIZE*math.log(logBase*graph.in_degree(title), logBase)
+    except:
+        return BASE_NODE_SIZE
+
+def colorForYear(year):
+    return {'r' : 256*(YEAR_END - year)/float(YEAR_END), 'g' : 256*(year)/float(YEAR_END), 'b' : 0}
 
 #Returns number of two step paths from start to end
 def numTwoStepPaths(graph, start, end):
@@ -72,8 +106,12 @@ def calcEdgeWeight(graph, start, end):
 start = time.time()
 G = nx.DiGraph()
 
-startTitle = "Abby Wambach"
+startTitle = "Taylor Swift"
 addNodesToDepth(G, startTitle, 3, 0)
+
+centerYear = int(G.nodes[startTitle]['dob'])
+positionAllNodes(G, centerYear)
+
 print("Starting node of graph", startTitle)
 print("Number of nodes in graph:", G.number_of_nodes())
 print("Number of edges in graph:", G.number_of_edges())

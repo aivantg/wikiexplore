@@ -6,275 +6,709 @@
     </attributes>
     <meta>
       <creator>NetworkX 2.0</creator>
-      <lastmodified>20/01/2018</lastmodified>
+      <lastmodified>21/01/2018</lastmodified>
     </meta>
     <nodes>
-      <node id="Magic Johnson" label="Magic Johnson">
-        <viz:color a="None" b="0" g="256" r="0" />
-        <viz:size value="20" />
-        <viz:position x="-315" y="101.678884468" z="None" />
+      <node id="Lenny Kravitz" label="Lenny Kravitz">
+        <viz:color a="None" b="0" g="248.396039604" r="7.60396039604" />
+        <viz:size value="30.0" />
+        <viz:position x="-375" y="0" z="None" />
         <attvalues>
-          <attvalue for="0" value="1959" />
+          <attvalue for="0" value="1964" />
         </attvalues>
       </node>
-      <node id="Dean Smith" label="Dean Smith">
-        <viz:color a="None" b="0" g="256" r="0" />
-        <viz:size value="20" />
-        <viz:position x="-735" y="230.401474587" z="None" />
+      <node id="Joe Biden" label="Joe Biden">
+        <viz:color a="None" b="0" g="245.861386139" r="10.1386138614" />
+        <viz:size value="30.0" />
+        <viz:position x="-675" y="0" z="None" />
         <attvalues>
-          <attvalue for="0" value="1931" />
+          <attvalue for="0" value="1942" />
         </attvalues>
       </node>
-      <node id="Maurice Richard" label="Maurice Richard">
-        <viz:color a="None" b="0" g="256" r="0" />
-        <viz:size value="20" />
-        <viz:position x="-885" y="2.82893844589" z="None" />
+      <node id="Willie Nelson" label="Willie Nelson">
+        <viz:color a="None" b="0" g="244.594059406" r="11.4059405941" />
+        <viz:size value="30.0" />
+        <viz:position x="-825" y="0" z="None" />
         <attvalues>
-          <attvalue for="0" value="1921" />
+          <attvalue for="0" value="1933" />
         </attvalues>
       </node>
-      <node id="LeBron James" label="LeBron James">
-        <viz:color a="None" b="0" g="256" r="0" />
-        <viz:size value="20" />
-        <viz:position x="60" y="-139.239072304" z="None" />
+      <node id="Lee Grant" label="Lee Grant">
+        <viz:color a="None" b="0" g="243.326732673" r="12.6732673267" />
+        <viz:size value="30.0" />
+        <viz:position x="-975" y="0" z="None" />
         <attvalues>
-          <attvalue for="0" value="1984" />
+          <attvalue for="0" value="1920" />
         </attvalues>
       </node>
-      <node id="Michael Phelps" label="Michael Phelps">
-        <viz:color a="None" b="0" g="256" r="0" />
-        <viz:size value="20" />
-        <viz:position x="75" y="-266.694225324" z="None" />
-        <attvalues>
-          <attvalue for="0" value="1985" />
-        </attvalues>
-      </node>
-      <node id="Pelé" label="Pelé">
-        <viz:color a="None" b="0" g="256" r="0" />
-        <viz:size value="20" />
-        <viz:position x="-600" y="99.5060284531" z="None" />
-        <attvalues>
-          <attvalue for="0" value="1940" />
-        </attvalues>
-      </node>
-      <node id="Mia Hamm" label="Mia Hamm">
-        <viz:color a="None" b="0" g="256" r="0" />
-        <viz:size value="20" />
-        <viz:position x="-120" y="301.112025935" z="None" />
-        <attvalues>
-          <attvalue for="0" value="1972" />
-        </attvalues>
-      </node>
-      <node id="Tiffeny Milbrett" label="Tiffeny Milbrett">
-        <viz:color a="None" b="0" g="256" r="0" />
-        <viz:size value="20" />
-        <viz:position x="-120" y="44.1642113844" z="None" />
-        <attvalues>
-          <attvalue for="0" value="1972" />
-        </attvalues>
-      </node>
-      <node id="Hope Solo" label="Hope Solo">
-        <viz:color a="None" b="0" g="256" r="0" />
-        <viz:size value="20" />
-        <viz:position x="15" y="-78.6588862211" z="None" />
-        <attvalues>
-          <attvalue for="0" value="1981" />
-        </attvalues>
-      </node>
-      <node id="Briana Scurry" label="Briana Scurry">
-        <viz:color a="None" b="0" g="256" r="0" />
-        <viz:size value="20" />
-        <viz:position x="-135" y="-211.503529214" z="None" />
+      <node id="Kid Rock" label="Kid Rock">
+        <viz:color a="None" b="0" g="249.663366337" r="6.33663366337" />
+        <viz:size value="30.0" />
+        <viz:position x="-225" y="0" z="None" />
         <attvalues>
           <attvalue for="0" value="1971" />
         </attvalues>
       </node>
-      <node id="Megan Rapinoe" label="Megan Rapinoe">
-        <viz:color a="None" b="0" g="256" r="0" />
-        <viz:size value="20" />
-        <viz:position x="75" y="289.334483731" z="None" />
-        <attvalues>
-          <attvalue for="0" value="1985" />
-        </attvalues>
-      </node>
-      <node id="Pia Sundhage" label="Pia Sundhage">
-        <viz:color a="None" b="0" g="256" r="0" />
-        <viz:size value="20" />
-        <viz:position x="-300" y="7.90919258591" z="None" />
-        <attvalues>
-          <attvalue for="0" value="1960" />
-        </attvalues>
-      </node>
-      <node id="Carli Lloyd" label="Carli Lloyd">
-        <viz:color a="None" b="0" g="256" r="0" />
-        <viz:size value="20" />
-        <viz:position x="30" y="123.362587445" z="None" />
-        <attvalues>
-          <attvalue for="0" value="1982" />
-        </attvalues>
-      </node>
-      <node id="Scottie Pippen" label="Scottie Pippen">
-        <viz:color a="None" b="0" g="256" r="0" />
-        <viz:size value="20" />
-        <viz:position x="-225" y="287.566579507" z="None" />
-        <attvalues>
-          <attvalue for="0" value="1965" />
-        </attvalues>
-      </node>
-      <node id="Greg Ryan" label="Greg Ryan">
-        <viz:color a="None" b="0" g="256" r="0" />
-        <viz:size value="20" />
-        <viz:position x="-345" y="-189.669468497" z="None" />
+      <node id="Katie Couric" label="Katie Couric">
+        <viz:color a="None" b="0" g="247.762376238" r="8.23762376238" />
+        <viz:size value="30.0" />
+        <viz:position x="-450" y="0" z="None" />
         <attvalues>
           <attvalue for="0" value="1957" />
         </attvalues>
       </node>
-      <node id="George Best" label="George Best">
-        <viz:color a="None" b="0" g="256" r="0" />
-        <viz:size value="20" />
-        <viz:position x="-510" y="105.894061777" z="None" />
+      <node id="Dottie West" label="Dottie West">
+        <viz:color a="None" b="0" g="244.594059406" r="11.4059405941" />
+        <viz:size value="30.0" />
+        <viz:position x="-825" y="80" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1932" />
+        </attvalues>
+      </node>
+      <node id="George Washington" label="George Washington">
+        <viz:color a="None" b="0" g="219.247524752" r="36.7524752475" />
+        <viz:size value="30.0" />
+        <viz:position x="-3825" y="0" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1732" />
+        </attvalues>
+      </node>
+      <node id="Patty Duke" label="Patty Duke">
+        <viz:color a="None" b="0" g="246.495049505" r="9.50495049505" />
+        <viz:size value="30.0" />
+        <viz:position x="-600" y="0" z="None" />
         <attvalues>
           <attvalue for="0" value="1946" />
         </attvalues>
       </node>
-      <node id="Abby Wambach" label="Abby Wambach">
-        <viz:color a="None" b="0" g="256" r="0" />
-        <viz:size value="20" />
-        <viz:position x="0" y="-169.829528079" z="None" />
+      <node id="Hillary Clinton" label="Hillary Clinton">
+        <viz:color a="None" b="0" g="246.495049505" r="9.50495049505" />
+        <viz:size value="67.8557852143" />
+        <viz:position x="-600" y="80" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1947" />
+        </attvalues>
+      </node>
+      <node id="Russell Brand" label="Russell Brand">
+        <viz:color a="None" b="0" g="250.297029703" r="5.70297029703" />
+        <viz:size value="30.0" />
+        <viz:position x="-150" y="0" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1975" />
+        </attvalues>
+      </node>
+      <node id="Dionne Warwick" label="Dionne Warwick">
+        <viz:color a="None" b="0" g="245.861386139" r="10.1386138614" />
+        <viz:size value="30.0" />
+        <viz:position x="-675" y="80" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1940" />
+        </attvalues>
+      </node>
+      <node id="Vladimir Putin" label="Vladimir Putin">
+        <viz:color a="None" b="0" g="247.128712871" r="8.87128712871" />
+        <viz:size value="30.0" />
+        <viz:position x="-525" y="0" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1952" />
+        </attvalues>
+      </node>
+      <node id="Chelsea Clinton" label="Chelsea Clinton">
+        <viz:color a="None" b="0" g="250.930693069" r="5.06930693069" />
+        <viz:size value="30.0" />
+        <viz:position x="-75" y="0" z="None" />
         <attvalues>
           <attvalue for="0" value="1980" />
         </attvalues>
       </node>
-      <node id="Babe Ruth" label="Babe Ruth">
-        <viz:color a="None" b="0" g="256" r="0" />
-        <viz:size value="20" />
-        <viz:position x="-1275" y="-285.801427066" z="None" />
-        <attvalues>
-          <attvalue for="0" value="1895" />
-        </attvalues>
-      </node>
-      <node id="Michelle Akers" label="Michelle Akers">
-        <viz:color a="None" b="0" g="256" r="0" />
-        <viz:size value="20" />
-        <viz:position x="-210" y="337.402632909" z="None" />
-        <attvalues>
-          <attvalue for="0" value="1966" />
-        </attvalues>
-      </node>
-      <node id="Michael Jordan" label="Michael Jordan">
-        <viz:color a="None" b="0" g="256" r="0" />
-        <viz:size value="20" />
-        <viz:position x="-255" y="298.907581539" z="None" />
-        <attvalues>
-          <attvalue for="0" value="1963" />
-        </attvalues>
-      </node>
-      <node id="Christine Sinclair" label="Christine Sinclair">
-        <viz:color a="None" b="0" g="256" r="0" />
-        <viz:size value="20" />
-        <viz:position x="45" y="-235.566346486" z="None" />
-        <attvalues>
-          <attvalue for="0" value="1983" />
-        </attvalues>
-      </node>
-      <node id="Alex Morgan" label="Alex Morgan">
-        <viz:color a="None" b="0" g="256" r="0" />
-        <viz:size value="20" />
-        <viz:position x="135" y="-273.667482276" z="None" />
-        <attvalues>
-          <attvalue for="0" value="1989" />
-        </attvalues>
-      </node>
-      <node id="Ayumi Kaihori" label="Ayumi Kaihori">
-        <viz:color a="None" b="0" g="256" r="0" />
-        <viz:size value="20" />
-        <viz:position x="90" y="225.560411849" z="None" />
-        <attvalues>
-          <attvalue for="0" value="1986" />
-        </attvalues>
-      </node>
-      <node id="Kristine Lilly" label="Kristine Lilly">
-        <viz:color a="None" b="0" g="256" r="0" />
-        <viz:size value="20" />
-        <viz:position x="-135" y="129.466252396" z="None" />
-        <attvalues>
-          <attvalue for="0" value="1971" />
-        </attvalues>
-      </node>
-      <node id="Geoff Hurst" label="Geoff Hurst">
-        <viz:color a="None" b="0" g="256" r="0" />
-        <viz:size value="20" />
-        <viz:position x="-585" y="-115.150015435" z="None" />
+      <node id="Darlene Love" label="Darlene Love">
+        <viz:color a="None" b="0" g="245.861386139" r="10.1386138614" />
+        <viz:size value="30.0" />
+        <viz:position x="-675" y="160" z="None" />
         <attvalues>
           <attvalue for="0" value="1941" />
         </attvalues>
       </node>
-      <node id="Sue Bird" label="Sue Bird">
-        <viz:color a="None" b="0" g="256" r="0" />
-        <viz:size value="20" />
-        <viz:position x="0" y="-338.2872922" z="None" />
+      <node id="Paul Simon" label="Paul Simon">
+        <viz:color a="None" b="0" g="245.861386139" r="10.1386138614" />
+        <viz:size value="30.0" />
+        <viz:position x="-675" y="240" z="None" />
         <attvalues>
-          <attvalue for="0" value="1980" />
+          <attvalue for="0" value="1941" />
         </attvalues>
       </node>
-      <node id="Charmaine Hooper" label="Charmaine Hooper">
-        <viz:color a="None" b="0" g="256" r="0" />
-        <viz:size value="20" />
-        <viz:position x="-180" y="282.219573407" z="None" />
+      <node id="Taylor Swift" label="Taylor Swift">
+        <viz:color a="None" b="0" g="251.564356436" r="4.43564356436" />
+        <viz:size value="30" />
+        <viz:position x="0" y="0" z="None" />
         <attvalues>
-          <attvalue for="0" value="1968" />
+          <attvalue for="0" value="1989" />
+        </attvalues>
+      </node>
+      <node id="Vermin Supreme" label="Vermin Supreme">
+        <viz:color a="None" b="0" g="248.396039604" r="7.60396039604" />
+        <viz:size value="30.0" />
+        <viz:position x="-375" y="80" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1961" />
+        </attvalues>
+      </node>
+      <node id="Theresa May" label="Theresa May">
+        <viz:color a="None" b="0" g="247.762376238" r="8.23762376238" />
+        <viz:size value="30.0" />
+        <viz:position x="-450" y="80" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1956" />
+        </attvalues>
+      </node>
+      <node id="Whitney Houston" label="Whitney Houston">
+        <viz:color a="None" b="0" g="248.396039604" r="7.60396039604" />
+        <viz:size value="30.0" />
+        <viz:position x="-375" y="160" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1963" />
+        </attvalues>
+      </node>
+      <node id="Rembrandt Peale" label="Rembrandt Peale">
+        <viz:color a="None" b="0" g="224.95049505" r="31.0495049505" />
+        <viz:size value="30.0" />
+        <viz:position x="-3150" y="0" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1778" />
+        </attvalues>
+      </node>
+      <node id="Melania Trump" label="Melania Trump">
+        <viz:color a="None" b="0" g="249.663366337" r="6.33663366337" />
+        <viz:size value="30.0" />
+        <viz:position x="-225" y="80" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1970" />
+        </attvalues>
+      </node>
+      <node id="Lionel Richie" label="Lionel Richie">
+        <viz:color a="None" b="0" g="246.495049505" r="9.50495049505" />
+        <viz:size value="30.0" />
+        <viz:position x="-600" y="160" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1949" />
+        </attvalues>
+      </node>
+      <node id="Sarah Palin" label="Sarah Palin">
+        <viz:color a="None" b="0" g="248.396039604" r="7.60396039604" />
+        <viz:size value="30.0" />
+        <viz:position x="-375" y="240" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1964" />
+        </attvalues>
+      </node>
+      <node id="Peggy Fleming" label="Peggy Fleming">
+        <viz:color a="None" b="0" g="246.495049505" r="9.50495049505" />
+        <viz:size value="30.0" />
+        <viz:position x="-600" y="240" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1948" />
+        </attvalues>
+      </node>
+      <node id="Carole King" label="Carole King">
+        <viz:color a="None" b="0" g="245.861386139" r="10.1386138614" />
+        <viz:size value="30.0" />
+        <viz:position x="-675" y="320" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1942" />
+        </attvalues>
+      </node>
+      <node id="Leon Russell" label="Leon Russell">
+        <viz:color a="None" b="0" g="245.861386139" r="10.1386138614" />
+        <viz:size value="30.0" />
+        <viz:position x="-675" y="400" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1942" />
+        </attvalues>
+      </node>
+      <node id="Lynda Carter" label="Lynda Carter">
+        <viz:color a="None" b="0" g="247.128712871" r="8.87128712871" />
+        <viz:size value="30.0" />
+        <viz:position x="-525" y="80" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1951" />
+        </attvalues>
+      </node>
+      <node id="Dolly Parton" label="Dolly Parton">
+        <viz:color a="None" b="0" g="246.495049505" r="9.50495049505" />
+        <viz:size value="48.9278926071" />
+        <viz:position x="-600" y="320" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1946" />
+        </attvalues>
+      </node>
+      <node id="Michelle Obama" label="Michelle Obama">
+        <viz:color a="None" b="0" g="248.396039604" r="7.60396039604" />
+        <viz:size value="60.0" />
+        <viz:position x="-375" y="320" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1964" />
+        </attvalues>
+      </node>
+      <node id="Elton John" label="Elton John">
+        <viz:color a="None" b="0" g="246.495049505" r="9.50495049505" />
+        <viz:size value="67.8557852143" />
+        <viz:position x="-600" y="400" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1947" />
+        </attvalues>
+      </node>
+      <node id="Martha Washington" label="Martha Washington">
+        <viz:color a="None" b="0" g="219.247524752" r="36.7524752475" />
+        <viz:size value="30.0" />
+        <viz:position x="-3825" y="80" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1731" />
+        </attvalues>
+      </node>
+      <node id="Sonny Bono" label="Sonny Bono">
+        <viz:color a="None" b="0" g="245.227722772" r="10.7722772277" />
+        <viz:size value="30.0" />
+        <viz:position x="-750" y="0" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1935" />
+        </attvalues>
+      </node>
+      <node id="Jay Leno" label="Jay Leno">
+        <viz:color a="None" b="0" g="247.128712871" r="8.87128712871" />
+        <viz:size value="30.0" />
+        <viz:position x="-525" y="160" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1950" />
+        </attvalues>
+      </node>
+      <node id="Randy Jackson" label="Randy Jackson">
+        <viz:color a="None" b="0" g="247.762376238" r="8.23762376238" />
+        <viz:size value="30.0" />
+        <viz:position x="-450" y="160" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1956" />
+        </attvalues>
+      </node>
+      <node id="Gram Parsons" label="Gram Parsons">
+        <viz:color a="None" b="0" g="246.495049505" r="9.50495049505" />
+        <viz:size value="30.0" />
+        <viz:position x="-600" y="480" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1946" />
+        </attvalues>
+      </node>
+      <node id="John Lennon" label="John Lennon">
+        <viz:color a="None" b="0" g="245.861386139" r="10.1386138614" />
+        <viz:size value="30.0" />
+        <viz:position x="-675" y="480" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1940" />
+        </attvalues>
+      </node>
+      <node id="Gladys Knight" label="Gladys Knight">
+        <viz:color a="None" b="0" g="245.861386139" r="10.1386138614" />
+        <viz:size value="30.0" />
+        <viz:position x="-675" y="560" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1944" />
+        </attvalues>
+      </node>
+      <node id="Tito Jackson" label="Tito Jackson">
+        <viz:color a="None" b="0" g="247.128712871" r="8.87128712871" />
+        <viz:size value="30.0" />
+        <viz:position x="-525" y="240" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1953" />
+        </attvalues>
+      </node>
+      <node id="Diane Sawyer" label="Diane Sawyer">
+        <viz:color a="None" b="0" g="246.495049505" r="9.50495049505" />
+        <viz:size value="30.0" />
+        <viz:position x="-600" y="560" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1945" />
+        </attvalues>
+      </node>
+      <node id="Barry Gibb" label="Barry Gibb">
+        <viz:color a="None" b="0" g="246.495049505" r="9.50495049505" />
+        <viz:size value="30.0" />
+        <viz:position x="-600" y="640" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1946" />
+        </attvalues>
+      </node>
+      <node id="David Foster" label="David Foster">
+        <viz:color a="None" b="0" g="246.495049505" r="9.50495049505" />
+        <viz:size value="30.0" />
+        <viz:position x="-600" y="720" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1949" />
+        </attvalues>
+      </node>
+      <node id="Bill Clinton" label="Bill Clinton">
+        <viz:color a="None" b="0" g="246.495049505" r="9.50495049505" />
+        <viz:size value="60.0" />
+        <viz:position x="-600" y="800" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1946" />
+        </attvalues>
+      </node>
+      <node id="Zola Taylor" label="Zola Taylor">
+        <viz:color a="None" b="0" g="245.227722772" r="10.7722772277" />
+        <viz:size value="30.0" />
+        <viz:position x="-750" y="80" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1938" />
+        </attvalues>
+      </node>
+      <node id="Patti LaBelle" label="Patti LaBelle">
+        <viz:color a="None" b="0" g="245.861386139" r="10.1386138614" />
+        <viz:size value="30.0" />
+        <viz:position x="-675" y="640" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1944" />
+        </attvalues>
+      </node>
+      <node id="Maria Shriver" label="Maria Shriver">
+        <viz:color a="None" b="0" g="247.762376238" r="8.23762376238" />
+        <viz:size value="30.0" />
+        <viz:position x="-450" y="240" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1955" />
+        </attvalues>
+      </node>
+      <node id="Boxcar Willie" label="Boxcar Willie">
+        <viz:color a="None" b="0" g="244.594059406" r="11.4059405941" />
+        <viz:size value="30.0" />
+        <viz:position x="-825" y="160" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1931" />
+        </attvalues>
+      </node>
+      <node id="James Taylor" label="James Taylor">
+        <viz:color a="None" b="0" g="246.495049505" r="9.50495049505" />
+        <viz:size value="30.0" />
+        <viz:position x="-600" y="880" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1948" />
+        </attvalues>
+      </node>
+      <node id="Donald Trump" label="Donald Trump">
+        <viz:color a="None" b="0" g="246.495049505" r="9.50495049505" />
+        <viz:size value="48.9278926071" />
+        <viz:position x="-600" y="960" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1946" />
+        </attvalues>
+      </node>
+      <node id="Kenny Rogers" label="Kenny Rogers">
+        <viz:color a="None" b="0" g="245.227722772" r="10.7722772277" />
+        <viz:size value="30.0" />
+        <viz:position x="-750" y="160" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1938" />
+        </attvalues>
+      </node>
+      <node id="Barack Obama" label="Barack Obama">
+        <viz:color a="None" b="0" g="248.396039604" r="7.60396039604" />
+        <viz:size value="60.0" />
+        <viz:position x="-375" y="400" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1961" />
+        </attvalues>
+      </node>
+      <node id="Janet Jackson" label="Janet Jackson">
+        <viz:color a="None" b="0" g="249.02970297" r="6.9702970297" />
+        <viz:size value="30.0" />
+        <viz:position x="-300" y="0" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1966" />
+        </attvalues>
+      </node>
+      <node id="Lily Tomlin" label="Lily Tomlin">
+        <viz:color a="None" b="0" g="245.227722772" r="10.7722772277" />
+        <viz:size value="30.0" />
+        <viz:position x="-750" y="240" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1939" />
+        </attvalues>
+      </node>
+      <node id="David Geffen" label="David Geffen">
+        <viz:color a="None" b="0" g="245.861386139" r="10.1386138614" />
+        <viz:size value="30.0" />
+        <viz:position x="-675" y="720" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1943" />
+        </attvalues>
+      </node>
+      <node id="Ivanka Trump" label="Ivanka Trump">
+        <viz:color a="None" b="0" g="250.930693069" r="5.06930693069" />
+        <viz:size value="30.0" />
+        <viz:position x="-75" y="80" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1981" />
+        </attvalues>
+      </node>
+      <node id="John Trumbull" label="John Trumbull">
+        <viz:color a="None" b="0" g="222.415841584" r="33.5841584158" />
+        <viz:size value="30.0" />
+        <viz:position x="-3450" y="0" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1756" />
+        </attvalues>
+      </node>
+      <node id="Gerry Goffin" label="Gerry Goffin">
+        <viz:color a="None" b="0" g="245.227722772" r="10.7722772277" />
+        <viz:size value="30.0" />
+        <viz:position x="-750" y="320" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1939" />
+        </attvalues>
+      </node>
+      <node id="Ivana Trump" label="Ivana Trump">
+        <viz:color a="None" b="0" g="246.495049505" r="9.50495049505" />
+        <viz:size value="30.0" />
+        <viz:position x="-600" y="1040" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1949" />
+        </attvalues>
+      </node>
+      <node id="Elizabeth Arden" label="Elizabeth Arden">
+        <viz:color a="None" b="0" g="237.623762376" r="18.3762376238" />
+        <viz:size value="30.0" />
+        <viz:position x="-1650" y="0" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1878" />
+        </attvalues>
+      </node>
+      <node id="Michael Jackson" label="Michael Jackson">
+        <viz:color a="None" b="0" g="247.762376238" r="8.23762376238" />
+        <viz:size value="30.0" />
+        <viz:position x="-450" y="320" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1958" />
+        </attvalues>
+      </node>
+      <node id="John Kerry" label="John Kerry">
+        <viz:color a="None" b="0" g="245.861386139" r="10.1386138614" />
+        <viz:size value="30.0" />
+        <viz:position x="-675" y="800" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1943" />
+        </attvalues>
+      </node>
+      <node id="Bobby Brown" label="Bobby Brown">
+        <viz:color a="None" b="0" g="249.02970297" r="6.9702970297" />
+        <viz:size value="30.0" />
+        <viz:position x="-300" y="80" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1969" />
+        </attvalues>
+      </node>
+      <node id="Jane Fonda" label="Jane Fonda">
+        <viz:color a="None" b="0" g="245.227722772" r="10.7722772277" />
+        <viz:size value="30.0" />
+        <viz:position x="-750" y="400" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1937" />
+        </attvalues>
+      </node>
+      <node id="Cher" label="Cher">
+        <viz:color a="None" b="0" g="246.495049505" r="9.50495049505" />
+        <viz:size value="30.0" />
+        <viz:position x="-600" y="1120" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1946" />
+        </attvalues>
+      </node>
+      <node id="Robert Altman" label="Robert Altman">
+        <viz:color a="None" b="0" g="243.96039604" r="12.0396039604" />
+        <viz:size value="30.0" />
+        <viz:position x="-900" y="0" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1925" />
+        </attvalues>
+      </node>
+      <node id="Emmylou Harris" label="Emmylou Harris">
+        <viz:color a="None" b="0" g="246.495049505" r="9.50495049505" />
+        <viz:size value="48.9278926071" />
+        <viz:position x="-600" y="1200" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1947" />
+        </attvalues>
+      </node>
+      <node id="Kathryn Joosten" label="Kathryn Joosten">
+        <viz:color a="None" b="0" g="245.227722772" r="10.7722772277" />
+        <viz:size value="30.0" />
+        <viz:position x="-750" y="480" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1939" />
+        </attvalues>
+      </node>
+      <node id="Emma Stone" label="Emma Stone">
+        <viz:color a="None" b="0" g="251.564356436" r="4.43564356436" />
+        <viz:size value="30.0" />
+        <viz:position x="0" y="80" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1988" />
+        </attvalues>
+      </node>
+      <node id="Larry King" label="Larry King">
+        <viz:color a="None" b="0" g="244.594059406" r="11.4059405941" />
+        <viz:size value="30.0" />
+        <viz:position x="-825" y="240" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1933" />
+        </attvalues>
+      </node>
+      <node id="Linda Ronstadt" label="Linda Ronstadt">
+        <viz:color a="None" b="0" g="246.495049505" r="9.50495049505" />
+        <viz:size value="30.0" />
+        <viz:position x="-600" y="1280" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1946" />
+        </attvalues>
+      </node>
+      <node id="George Michael" label="George Michael">
+        <viz:color a="None" b="0" g="248.396039604" r="7.60396039604" />
+        <viz:size value="30.0" />
+        <viz:position x="-375" y="480" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1963" />
+        </attvalues>
+      </node>
+      <node id="Jodhi May" label="Jodhi May">
+        <viz:color a="None" b="0" g="250.297029703" r="5.70297029703" />
+        <viz:size value="30.0" />
+        <viz:position x="-150" y="80" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1975" />
+        </attvalues>
+      </node>
+      <node id="Bernie Taupin" label="Bernie Taupin">
+        <viz:color a="None" b="0" g="247.128712871" r="8.87128712871" />
+        <viz:size value="30.0" />
+        <viz:position x="-525" y="320" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1950" />
+        </attvalues>
+      </node>
+      <node id="Dustin Hoffman" label="Dustin Hoffman">
+        <viz:color a="None" b="0" g="245.227722772" r="10.7722772277" />
+        <viz:size value="30.0" />
+        <viz:position x="-750" y="560" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1937" />
+        </attvalues>
+      </node>
+      <node id="Bushrod Washington" label="Bushrod Washington">
+        <viz:color a="None" b="0" g="223.04950495" r="32.9504950495" />
+        <viz:size value="30.0" />
+        <viz:position x="-3375" y="0" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1762" />
+        </attvalues>
+      </node>
+      <node id="Susannah York" label="Susannah York">
+        <viz:color a="None" b="0" g="245.227722772" r="10.7722772277" />
+        <viz:size value="30.0" />
+        <viz:position x="-750" y="640" z="None" />
+        <attvalues>
+          <attvalue for="0" value="1939" />
         </attvalues>
       </node>
     </nodes>
     <edges>
-      <edge id="0" source="Mia Hamm" target="Michael Jordan" weight="2.5" />
-      <edge id="1" source="Mia Hamm" target="Tiffeny Milbrett" weight="2.0" />
-      <edge id="2" source="Mia Hamm" target="Kristine Lilly" weight="4.0" />
-      <edge id="3" source="Mia Hamm" target="Abby Wambach" weight="2.0" />
-      <edge id="4" source="Mia Hamm" target="Michelle Akers" weight="3.0" />
-      <edge id="5" source="Tiffeny Milbrett" target="Mia Hamm" weight="0.5" />
-      <edge id="6" source="Hope Solo" target="Megan Rapinoe" weight="5.0" />
-      <edge id="7" source="Hope Solo" target="Briana Scurry" weight="4.0" />
-      <edge id="8" source="Hope Solo" target="Alex Morgan" weight="3.5" />
-      <edge id="9" source="Hope Solo" target="Greg Ryan" weight="3.5" />
-      <edge id="10" source="Hope Solo" target="Abby Wambach" weight="3.0" />
-      <edge id="11" source="Megan Rapinoe" target="Abby Wambach" weight="1.0" />
-      <edge id="12" source="Megan Rapinoe" target="Sue Bird" weight="1.0" />
-      <edge id="13" source="Megan Rapinoe" target="Alex Morgan" weight="3.5" />
-      <edge id="14" source="Megan Rapinoe" target="Tiffeny Milbrett" weight="1.0" />
-      <edge id="15" source="Megan Rapinoe" target="Hope Solo" weight="1.0" />
-      <edge id="16" source="Carli Lloyd" target="Geoff Hurst" weight="1.0" />
-      <edge id="17" source="Carli Lloyd" target="Ayumi Kaihori" weight="1.0" />
-      <edge id="18" source="Carli Lloyd" target="Michael Phelps" weight="1.0" />
-      <edge id="19" source="Carli Lloyd" target="Greg Ryan" weight="1.0" />
-      <edge id="20" source="Greg Ryan" target="Hope Solo" weight="1.0" />
-      <edge id="21" source="Abby Wambach" target="Mia Hamm" weight="7.5" />
-      <edge id="22" source="Abby Wambach" target="Alex Morgan" weight="6.5" />
-      <edge id="23" source="Abby Wambach" target="Carli Lloyd" weight="3.0" />
-      <edge id="24" source="Abby Wambach" target="Greg Ryan" weight="2.0" />
-      <edge id="25" source="Abby Wambach" target="Michelle Akers" weight="2.0" />
-      <edge id="26" source="Michelle Akers" target="Pelé" weight="1" />
-      <edge id="27" source="Michelle Akers" target="Mia Hamm" weight="1.0" />
-      <edge id="28" source="Michelle Akers" target="George Best" weight="1.0" />
-      <edge id="29" source="Michael Jordan" target="Magic Johnson" weight="2.5" />
-      <edge id="30" source="Michael Jordan" target="LeBron James" weight="4.5" />
-      <edge id="31" source="Michael Jordan" target="Dean Smith" weight="2.0" />
-      <edge id="32" source="Michael Jordan" target="Babe Ruth" weight="3.0" />
-      <edge id="33" source="Michael Jordan" target="Scottie Pippen" weight="3.5" />
-      <edge id="34" source="Christine Sinclair" target="Abby Wambach" weight="1.0" />
-      <edge id="35" source="Christine Sinclair" target="Mia Hamm" weight="1.0" />
-      <edge id="36" source="Christine Sinclair" target="Alex Morgan" weight="2.0" />
-      <edge id="37" source="Christine Sinclair" target="Maurice Richard" weight="0.5" />
-      <edge id="38" source="Christine Sinclair" target="Charmaine Hooper" weight="2.0" />
-      <edge id="39" source="Alex Morgan" target="Abby Wambach" weight="4.0" />
-      <edge id="40" source="Alex Morgan" target="Christine Sinclair" weight="2.0" />
-      <edge id="41" source="Alex Morgan" target="Carli Lloyd" weight="2.0" />
-      <edge id="42" source="Alex Morgan" target="Mia Hamm" weight="1.5" />
-      <edge id="43" source="Alex Morgan" target="Megan Rapinoe" weight="2.5" />
-      <edge id="44" source="Kristine Lilly" target="Mia Hamm" weight="1.0" />
-      <edge id="45" source="Kristine Lilly" target="Briana Scurry" weight="1.0" />
-      <edge id="46" source="Kristine Lilly" target="Pia Sundhage" weight="1.0" />
-      <edge id="47" source="Kristine Lilly" target="Michelle Akers" weight="1.0" />
+      <edge id="0" source="Katie Couric" target="Bill Clinton" weight="1.5" />
+      <edge id="1" source="Katie Couric" target="Sarah Palin" weight="1.5" />
+      <edge id="2" source="Katie Couric" target="Maria Shriver" weight="2.0" />
+      <edge id="3" source="Katie Couric" target="Jay Leno" weight="3.5" />
+      <edge id="4" source="Katie Couric" target="Diane Sawyer" weight="2.5" />
+      <edge id="5" source="Hillary Clinton" target="Bill Clinton" weight="120.0" />
+      <edge id="6" source="Hillary Clinton" target="Michelle Obama" weight="16.5" />
+      <edge id="7" source="Hillary Clinton" target="Barack Obama" weight="17.0" />
+      <edge id="8" source="Hillary Clinton" target="Hillary Clinton" weight="116.0" />
+      <edge id="9" source="Hillary Clinton" target="Chelsea Clinton" weight="112.5" />
+      <edge id="10" source="Taylor Swift" target="Elton John" weight="1.5" />
+      <edge id="11" source="Taylor Swift" target="Dolly Parton" weight="3.5" />
+      <edge id="12" source="Taylor Swift" target="Michelle Obama" weight="2.0" />
+      <edge id="13" source="Taylor Swift" target="Emmylou Harris" weight="1.0" />
+      <edge id="14" source="Taylor Swift" target="Elizabeth Arden" weight="2.0" />
+      <edge id="15" source="Whitney Houston" target="Darlene Love" weight="18.0" />
+      <edge id="16" source="Whitney Houston" target="Michael Jackson" weight="7.0" />
+      <edge id="17" source="Whitney Houston" target="Janet Jackson" weight="6.0" />
+      <edge id="18" source="Whitney Houston" target="George Michael" weight="7.0" />
+      <edge id="19" source="Whitney Houston" target="Bobby Brown" weight="12.5" />
+      <edge id="20" source="Carole King" target="John Kerry" weight="3.0" />
+      <edge id="21" source="Carole King" target="Barack Obama" weight="4.0" />
+      <edge id="22" source="Carole King" target="Zola Taylor" weight="5.0" />
+      <edge id="23" source="Carole King" target="Gerry Goffin" weight="9.0" />
+      <edge id="24" source="Carole King" target="James Taylor" weight="9.0" />
+      <edge id="25" source="Dolly Parton" target="Kenny Rogers" weight="2.0" />
+      <edge id="26" source="Dolly Parton" target="Whitney Houston" weight="2.0" />
+      <edge id="27" source="Dolly Parton" target="Cher" weight="2" />
+      <edge id="28" source="Dolly Parton" target="Lily Tomlin" weight="2.0" />
+      <edge id="29" source="Dolly Parton" target="Emmylou Harris" weight="3.0" />
+      <edge id="30" source="Michelle Obama" target="Martha Washington" weight="2.5" />
+      <edge id="31" source="Michelle Obama" target="Donald Trump" weight="2.5" />
+      <edge id="32" source="Michelle Obama" target="Barack Obama" weight="62.0" />
+      <edge id="33" source="Michelle Obama" target="Hillary Clinton" weight="7.0" />
+      <edge id="34" source="Michelle Obama" target="Katie Couric" weight="2.0" />
+      <edge id="35" source="Elton John" target="Gladys Knight" weight="3.5" />
+      <edge id="36" source="Elton John" target="Bernie Taupin" weight="12.0" />
+      <edge id="37" source="Elton John" target="Larry King" weight="7.0" />
+      <edge id="38" source="Elton John" target="Carole King" weight="6.5" />
+      <edge id="39" source="Elton John" target="Elton John" weight="100.0" />
+      <edge id="40" source="Martha Washington" target="Rembrandt Peale" weight="0.5" />
+      <edge id="41" source="Martha Washington" target="George Washington" weight="40.0" />
+      <edge id="42" source="Martha Washington" target="John Trumbull" weight="1.0" />
+      <edge id="43" source="Martha Washington" target="Patty Duke" weight="1.0" />
+      <edge id="44" source="Martha Washington" target="Bushrod Washington" weight="34.0" />
+      <edge id="45" source="Gladys Knight" target="Randy Jackson" weight="1.5" />
+      <edge id="46" source="Gladys Knight" target="Lenny Kravitz" weight="1.0" />
+      <edge id="47" source="Gladys Knight" target="Dionne Warwick" weight="1.0" />
+      <edge id="48" source="Gladys Knight" target="Patti LaBelle" weight="1.5" />
+      <edge id="49" source="Gladys Knight" target="Tito Jackson" weight="1.5" />
+      <edge id="50" source="Donald Trump" target="Ivanka Trump" weight="153.0" />
+      <edge id="51" source="Donald Trump" target="Melania Trump" weight="153.0" />
+      <edge id="52" source="Donald Trump" target="Theresa May" weight="6.0" />
+      <edge id="53" source="Donald Trump" target="Ivana Trump" weight="153.0" />
+      <edge id="54" source="Donald Trump" target="Hillary Clinton" weight="5.5" />
+      <edge id="55" source="Kenny Rogers" target="Dottie West" weight="6.0" />
+      <edge id="56" source="Kenny Rogers" target="Lynda Carter" weight="2.0" />
+      <edge id="57" source="Kenny Rogers" target="Barry Gibb" weight="2.5" />
+      <edge id="58" source="Kenny Rogers" target="Lionel Richie" weight="3.0" />
+      <edge id="59" source="Kenny Rogers" target="David Foster" weight="2.5" />
+      <edge id="60" source="Barack Obama" target="Bill Clinton" weight="6.0" />
+      <edge id="61" source="Barack Obama" target="Vermin Supreme" weight="3.0" />
+      <edge id="62" source="Barack Obama" target="Joe Biden" weight="4.5" />
+      <edge id="63" source="Barack Obama" target="Michelle Obama" weight="120.5" />
+      <edge id="64" source="Barack Obama" target="Hillary Clinton" weight="5.0" />
+      <edge id="65" source="Lily Tomlin" target="Jane Fonda" weight="1.5" />
+      <edge id="66" source="Lily Tomlin" target="Paul Simon" weight="1.0" />
+      <edge id="67" source="Lily Tomlin" target="Kathryn Joosten" weight="1.5" />
+      <edge id="68" source="Lily Tomlin" target="Lee Grant" weight="1.0" />
+      <edge id="69" source="Lily Tomlin" target="Robert Altman" weight="2.0" />
+      <edge id="70" source="Cher" target="Jodhi May" weight="4.5" />
+      <edge id="71" source="Cher" target="David Geffen" weight="3.5" />
+      <edge id="72" source="Cher" target="Emma Stone" weight="3.5" />
+      <edge id="73" source="Cher" target="Susannah York" weight="4.0" />
+      <edge id="74" source="Cher" target="Sonny Bono" weight="3.5" />
+      <edge id="75" source="Emmylou Harris" target="Elton John" weight="2.5" />
+      <edge id="76" source="Emmylou Harris" target="Linda Ronstadt" weight="3.0" />
+      <edge id="77" source="Emmylou Harris" target="Dolly Parton" weight="3.0" />
+      <edge id="78" source="Emmylou Harris" target="Boxcar Willie" weight="2.5" />
+      <edge id="79" source="Emmylou Harris" target="Gram Parsons" weight="4.5" />
+      <edge id="80" source="Larry King" target="Donald Trump" weight="2.0" />
+      <edge id="81" source="Larry King" target="Peggy Fleming" weight="1.0" />
+      <edge id="82" source="Larry King" target="Dustin Hoffman" weight="1.0" />
+      <edge id="83" source="Larry King" target="Russell Brand" weight="1.0" />
+      <edge id="84" source="Larry King" target="Vladimir Putin" weight="1.0" />
+      <edge id="85" source="Bernie Taupin" target="John Lennon" weight="1.0" />
+      <edge id="86" source="Bernie Taupin" target="Leon Russell" weight="1.0" />
+      <edge id="87" source="Bernie Taupin" target="Kid Rock" weight="2.0" />
+      <edge id="88" source="Bernie Taupin" target="Willie Nelson" weight="2.5" />
+      <edge id="89" source="Bernie Taupin" target="Elton John" weight="13.5" />
     </edges>
   </graph>
 </gexf>
