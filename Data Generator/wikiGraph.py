@@ -71,7 +71,7 @@ def positionAllNodes(graph, centerYear):
         for title in yearDict[year]:
             graph.nodes[title]['viz'] = {'size': sizeForNode(graph, title)}
             graph.nodes[title]['viz']['position'] = {'x': X_INTERVAL_WIDTH*(year//5 - centerYear//5), 'y': i*Y_SPACING}
-            graph.nodes[title]['viz']['color'] = colorForYear(year)
+            graph.nodes[title]['viz']['color'] = DEFAULT_COLOR
             i = i + 1
 
 def sizeForNode(graph, title):
