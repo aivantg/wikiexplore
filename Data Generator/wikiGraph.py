@@ -100,7 +100,7 @@ def addTimelineNodes(graph, centerYear):
     for i in range(-4, 4):
         year = (centerYear + 25*i) - centerYear%25
         graph.add_node(year)
-        print("Adding node for year ", year)
+        #print("Adding node for year ", year)
         graph.nodes[year]['viz'] = {'size': BASE_NODE_SIZE}
         graph.nodes[year]['viz']['position'] = {'x': X_INTERVAL_WIDTH*(year//5 - centerYear//5), 'y': -200}
         graph.nodes[year]['viz']['color'] = {'r' : 256, 'g' : 256, 'b' : 256}
