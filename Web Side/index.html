@@ -1,0 +1,165 @@
+<!-- START SIGMA IMPORTS -->
+<script src="sigma/src/sigma.core.js"></script>
+<script src="sigma/src/conrad.js"></script>
+<script src="sigma/src/utils/sigma.utils.js"></script>
+<script src="sigma/src/utils/sigma.polyfills.js"></script>
+<script src="sigma/src/sigma.settings.js"></script>
+<script src="sigma/src/classes/sigma.classes.dispatcher.js"></script>
+<script src="sigma/src/classes/sigma.classes.configurable.js"></script>
+<script src="sigma/src/classes/sigma.classes.graph.js"></script>
+<script src="sigma/src/classes/sigma.classes.camera.js"></script>
+<script src="sigma/src/classes/sigma.classes.quad.js"></script>
+<script src="sigma/src/classes/sigma.classes.edgequad.js"></script>
+<script src="sigma/src/captors/sigma.captors.mouse.js"></script>
+<script src="sigma/src/captors/sigma.captors.touch.js"></script>
+<script src="sigma/src/renderers/sigma.renderers.canvas.js"></script>
+<script src="sigma/src/renderers/sigma.renderers.webgl.js"></script>
+<script src="sigma/src/renderers/sigma.renderers.svg.js"></script>
+<script src="sigma/src/renderers/sigma.renderers.def.js"></script>
+<script src="sigma/src/renderers/webgl/sigma.webgl.nodes.def.js"></script>
+<script src="sigma/src/renderers/webgl/sigma.webgl.nodes.fast.js"></script>
+<script src="sigma/src/renderers/webgl/sigma.webgl.edges.def.js"></script>
+<script src="sigma/src/renderers/webgl/sigma.webgl.edges.fast.js"></script>
+<script src="sigma/src/renderers/webgl/sigma.webgl.edges.arrow.js"></script>
+<script src="sigma/src/renderers/canvas/sigma.canvas.labels.def.js"></script>
+<script src="sigma/src/renderers/canvas/sigma.canvas.hovers.def.js"></script>
+<script src="sigma/src/renderers/canvas/sigma.canvas.nodes.def.js"></script>
+<script src="sigma/src/renderers/canvas/sigma.canvas.edges.def.js"></script>
+<script src="sigma/src/renderers/canvas/sigma.canvas.edges.curve.js"></script>
+<script src="sigma/src/renderers/canvas/sigma.canvas.edges.arrow.js"></script>
+<script src="sigma/src/renderers/canvas/sigma.canvas.edges.curvedArrow.js"></script>
+<script src="sigma/src/renderers/canvas/sigma.canvas.edgehovers.def.js"></script>
+<script src="sigma/src/renderers/canvas/sigma.canvas.edgehovers.curve.js"></script>
+<script src="sigma/src/renderers/canvas/sigma.canvas.edgehovers.arrow.js"></script>
+<script src="sigma/src/renderers/canvas/sigma.canvas.edgehovers.curvedArrow.js"></script>
+<script src="sigma/src/renderers/canvas/sigma.canvas.extremities.def.js"></script>
+<script src="sigma/src/renderers/svg/sigma.svg.utils.js"></script>
+<script src="sigma/src/renderers/svg/sigma.svg.nodes.def.js"></script>
+<script src="sigma/src/renderers/svg/sigma.svg.edges.def.js"></script>
+<script src="sigma/src/renderers/svg/sigma.svg.edges.curve.js"></script>
+<script src="sigma/src/renderers/svg/sigma.svg.labels.def.js"></script>
+<script src="sigma/src/renderers/svg/sigma.svg.hovers.def.js"></script>
+<script src="sigma/src/middlewares/sigma.middlewares.rescale.js"></script>
+<script src="sigma/src/middlewares/sigma.middlewares.copy.js"></script>
+<script src="sigma/src/misc/sigma.misc.animation.js"></script>
+<script src="sigma/src/misc/sigma.misc.bindEvents.js"></script>
+<script src="sigma/src/misc/sigma.misc.bindDOMEvents.js"></script>
+<script src="sigma/src/misc/sigma.misc.drawHovers.js"></script>
+<!-- END SIGMA IMPORTS -->
+<script src="sigma/plugins/sigma.parsers.gexf/gexf-parser.js"></script>
+<script src="sigma/plugins/sigma.parsers.gexf/sigma.parsers.gexf.js"></script>
+<script src="sigma/plugins/sigma.plugins.animate/sigma.plugins.animate.js"></script>
+
+<div id="container">
+  <style>
+    #graph-container {
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+  </style>
+  <div id="form_div">
+    <form id="frm1">
+      Initial Node: <input id="label_input" type="text" name="fname"><br>
+      <input type="button" onclick="startSigma()" value="Submit">
+    </form>
+  </div>
+  <div id="graph-container"></div>
+</div>
+<script>
+// Add a method to the graph model that returns an
+  // object with every neighbors of a node inside:
+  sigma.classes.graph.addMethod('neighbors', function(nodeId) {
+    var k,
+        neighbors = {},
+        index = this.allNeighborsIndex[nodeId] || {};
+
+    for (k in index)
+      neighbors[k] = this.nodesIndex[k];
+
+    return neighbors;
+  });
+
+  function startSigma() {
+    initLabel = document.getElementById('label_input').value
+    document.getElementById("form_div").innerHTML = ""
+    document.getElementById("graph-container").style.position="absolute"
+    sigma.parsers.gexf(
+      'graph.gexf',
+      {
+        container: 'graph-container'
+      },
+      function(s) { // This function runs when the graph finish loading
+        // We first need to save the original colors of our
+        // nodes and edges, like this:
+        startingNode = s.graph.nodes()[0]
+        s.graph.nodes().forEach(function(n) {
+          n.originalColor = n.color;
+          n.color = "#FFFFFF00"
+          n.forceShowLabel = true
+          n.hidden= true
+          if(n.label == initLabel) {
+            startingNode = n
+          }
+
+        });
+        s.graph.edges().forEach(function(e) {
+          e.originalColor = e.color;
+          e.color = "#FFFFFF00"
+        });
+
+        startingNode.hidden = false
+        startingNode.color = startingNode.originalColor
+
+        s.refresh()
+        // When a node is clicked, we check for each node
+        // if it is a neighbor of the clicked one. If not,
+        // we set its color as grey, and else, it takes its
+        // original color.
+        // We do the same for the edges, and we only keep
+        // edges that have both extremities colored.
+        s.bind('clickNode', function(e) {
+          var nodeId = e.data.node.id,
+              toAdd = s.graph.neighbors(nodeId);
+          toAdd[nodeId] = e.data.node;
+          ids = []
+          s.graph.nodes().forEach(function(n) {
+            if (toAdd[n.id]){
+              ids.push(n.id)
+              n.hidden = false
+            }
+          });
+
+          sigma.plugins.animate(s,
+            {
+              color: 'originalColor'
+            },
+            {
+              easing: 'cubicInOut',
+              nodes: ids,
+              duration: 3000,
+              onComplete: function() {
+                // do stuff here after animation is complete
+              }
+            }
+          );
+
+          s.graph.edges().forEach(function(e) {
+            if (toAdd[e.source] && toAdd[e.target])
+              e.color = e.originalColor;
+          });
+
+          // Since the data has been modified, we need to
+          // call the refresh method to make the colors
+          // update effective.
+          //s.refresh();
+        });
+      }
+    );
+  }
+
+
+
+
+</script>
