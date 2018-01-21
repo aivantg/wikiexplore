@@ -21,7 +21,7 @@ def addNodesToDepth(graph, title, depth):
 
 #def twoStepConnections(graph, start, end):
 
-startTitle = "Antonie Pannekoek"
+startTitle = "Carol Shea-Porter"
 start = time.time()
 G = nx.DiGraph()
 addNodesToDepth(G, startTitle, 2)
@@ -31,6 +31,26 @@ print("Number of edges in graph:", G.number_of_edges())
 print("Time to generate graph", time.time() - start)
 #addNodeWithLinks(G, startPage.title, startPage.links)
 
+people_finder.save_humans_json()
+
+#nx.write_gexf(G, "graph.gexf")
+
+import matplotlib.pyplot as plt
+values = [0.25 for node in G.nodes()]
+
+
+black_edges = [edge for edge in G.edges()]
+
+# Need to create a layout when doing
+# separate calls to draw nodes and edges
+pos = nx.spring_layout(G)
+nx.draw_networkx_nodes(G, pos, cmap=plt.get_cmap('jet'),
+                       node_color = values, node_size = 5)
+#nx.draw_networkx_labels(G, pos, fontsize=4)
+nx.draw_networkx_edges(G, pos, edgelist=black_edges, arrows=True, width=0.2)
+plt.show()
+
+
 #Write the graph
-nx.write_multiline_adjlist(G, "graphAdjList")
+#nx.write_multiline_adjlist(G, "graphAdjList")
 #nx.write_multiline_adjlist(G, "/dev/stdout")
