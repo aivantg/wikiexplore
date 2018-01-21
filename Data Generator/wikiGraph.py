@@ -2,6 +2,7 @@ import people_finder
 import networkx as nx
 import time
 import math
+import random
 
 #Adds a node to the graph with given title, edges from node to links
 def addNodeWithLinks(graph, title, links):
@@ -11,11 +12,16 @@ def addNodeWithLinks(graph, title, links):
 
 #Branch out from a given person to construct a graph of given depth
 def addNodesToDepth(graph, title, depth):
-    #print("Adding node for ", title)
+    graph.add_node(title)
+    graph.nodes[title]['viz'] = {'size': 20} #can scale by inbound nodes
+    graph.nodes[title]['viz']['position'] = {'x': random.randint(-100, 100), 'y': random.randint(-100, 100)}
+    graph.nodes[title]['viz']['color'] = {'r' : 0, 'g' : 256, 'b' : 0}
     if depth <= 0:
         return
-    referenced_ppl = people_finder.get_people_referenced(title)
-    for person in list(referenced_ppl.keys()):
+    attributes = people_finder.get_people_referenced(title)
+    graph.nodes[title]['dob'] = attributes['dob']
+    links = attributes["referenced"]
+    for person in links:
         graph.add_edge(title, person)
         if graph.out_degree[person] == 0:
             addNodesToDepth(graph, person, depth - 1)
@@ -50,32 +56,8 @@ print("Number of nodes in graph:", G.number_of_nodes())
 print("Number of edges in graph:", G.number_of_edges())
 print("Time to generate graph", time.time() - start)
 
-endTitle = "Antonie Pannekoek"
-print("Num 2-step paths between", startTitle, "and", endTitle, "is: ", numTwoStepPaths(G, startTitle, endTitle))
-
 for link in G.neighbors(startTitle):
     G.edges[startTitle,link]['weight'] = calcEdgeWeight(G, startTitle,link)
 
 people_finder.save_humans_json()
-
-#nx.write_gexf(G, "graph.gexf")
-
-import matplotlib.pyplot as plt
-values = [0.25 for node in G.nodes()]
-
-
-black_edges = [edge for edge in G.edges()]
-
-# Need to create a layout when doing
-# separate calls to draw nodes and edges
-pos = nx.spring_layout(G)
-nx.draw_networkx_nodes(G, pos, cmap=plt.get_cmap('jet'),
-                       node_color = values, node_size = 5)
-nx.draw_networkx_labels(G, pos, fontsize=4)
-nx.draw_networkx_edges(G, pos, edgelist=black_edges, arrows=True, width=0.2)
-plt.show()
-
-
-#Write the graph
-nx.write_multiline_adjlist(G, "graphAdjList")
-#nx.write_multiline_adjlist(G, "/dev/stdout")
+nx.write_gexf(G, "../graph.gexf")

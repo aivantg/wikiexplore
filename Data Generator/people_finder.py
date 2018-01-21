@@ -27,7 +27,7 @@ def get_people_referenced(title):
 
     attributes = {}
     attributes["referenced"] = referenced
-    attributes["dob"] = get_date(page.contents)
+    attributes["dob"] = get_date(page.content)
     humans[title] = attributes
     return attributes
 
