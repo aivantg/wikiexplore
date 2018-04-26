@@ -150,6 +150,7 @@ with open("../Web Side/graph.gexf", "r") as myFile:
 data = data.replace(" r=\"", "[tempvar]")
 data = data.replace(" b=\"", " r=\"")
 data = data.replace("[tempvar]", " b=\"")
+data = data.replace(" a=\"None\"", " a=\"50\"")
 
 with open("../Web Side/graph.gexf", "w") as myFile:
     myFile.write(data)
